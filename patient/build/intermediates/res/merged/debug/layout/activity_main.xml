@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/main_content_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_2bbbe6">
+
+            <!--<RelativeLayout-->
+            <!--android:id="@+id/main_content_rl"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:minHeight="?attr/actionBarSize">-->
+            <RelativeLayout
+                android:id="@+id/main_content_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize">
+
+                <ImageView
+                    android:id="@+id/main_content_user_icon_iv"
+                    android:layout_width="@dimen/margin_size_36_dp"
+                    android:layout_height="@dimen/margin_size_36_dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:src="@drawable/main_headportrait_xxlarge"/>
+
+                <TextView
+                    android:id="@+id/main_content_top_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20_sp"/>
+
+                <LinearLayout
+                    android:id="@+id/main_content_search_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_size_36_dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/margin_size_120_dp"
+                    android:background="@drawable/shape_white"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_10_dp"
+                        android:clickable="false"
+                        android:src="@drawable/actionbar_search_small"/>
+
+                    <EditText
+                        android:id="@+id/main_content_search_et"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/margin_size_6_dp"
+                        android:background="@null"
+                        android:clickable="false"
+                        android:hint="搜索医生、科室"
+                        android:textColorHint="@color/gray_888888"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/main_content_search_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:src="@drawable/scan_select_style"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/main_content_health_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:src="@drawable/add_select_style"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <com.raspberry.library.view.NoScrollViewPager
+            android:id="@+id/main_conmtent_vp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@color/green_d2d2d2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_48_dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/main_content_consult_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bar_select_style"
+                android:gravity="center">
+
+                <cn.bingoogolapple.badgeview.BGABadgeLinearLayout
+                    android:id="@+id/main_content_consult_unread_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    app:badge_gravity="rightTop">
+
+                    <ImageView
+                        android:id="@+id/main_content_consult_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:src="@drawable/tabbar_consultation_nor"/>
+
+                </cn.bingoogolapple.badgeview.BGABadgeLinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_content_room_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bar_select_style"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/main_content_room_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:src="@drawable/tabbar_seekdoctor_sel"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/main_content_order_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_bar_select_style"
+                android:gravity="center">
+
+                <cn.bingoogolapple.badgeview.BGABadgeLinearLayout
+                    android:id="@+id/main_content_order_unread_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    app:badge_gravity="rightTop">
+
+                    <ImageView
+                        android:id="@+id/main_content_order_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:src="@drawable/tabbar_healthreport_nor"/>
+
+                </cn.bingoogolapple.badgeview.BGABadgeLinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--  左侧菜单 -->
+    <include layout="@layout/activity_main_left"/>
+
+</android.support.v4.widget.DrawerLayout>

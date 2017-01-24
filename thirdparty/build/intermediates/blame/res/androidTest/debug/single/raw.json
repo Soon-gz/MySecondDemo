@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\audio_end_tip.wav",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\raw\\audio_end_tip.wav"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\avchat_peer_busy.mp3",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\NimLibrary\\unspecified\\res\\raw\\avchat_peer_busy.mp3"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\msg.wav",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\NimLibrary\\unspecified\\res\\raw\\msg.wav"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\avchat_peer_reject.mp3",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\NimLibrary\\unspecified\\res\\raw\\avchat_peer_reject.mp3"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\beep.ogg",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\avchat_no_response.mp3",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\NimLibrary\\unspecified\\res\\raw\\avchat_no_response.mp3"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\avchat_connecting.mp3",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\NimLibrary\\unspecified\\res\\raw\\avchat_connecting.mp3"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\avchat_ring.mp3",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\NimLibrary\\unspecified\\res\\raw\\avchat_ring.mp3"
+    }
+]

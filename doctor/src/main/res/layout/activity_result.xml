@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:id="@+id/layoutAll"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <include layout="@layout/top_title_rv_layout"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/captrue_personal_msg_headphoto_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_size_14_dp"
+            android:layout_width="@dimen/margin_size_70_dp"
+            android:layout_height="@dimen/margin_size_70_dp"
+            app:civ_border_overlay="true"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/captrue_personal_msg_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16_sp"
+            android:layout_marginTop="@dimen/margin_size_14_dp"
+            android:layout_marginBottom="@dimen/margin_size_14_dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/captrue_personal_msg_headphoto_iv"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:id="@+id/captrue_personal_sex_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14_sp"
+            android:text="性别" />
+
+        <TextView
+            android:id="@+id/captrue_personal_msg_sex_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:textSize="@dimen/text_size_14_sp"
+            android:text="保密"/>
+    </LinearLayout>
+    <View style="@style/line"/>
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:id="@+id/captrue_personal_age_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14_sp"
+            android:text="年龄" />
+
+        <TextView
+            android:id="@+id/captrue_personal_msg_age_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:textSize="@dimen/text_size_14_sp"
+            android:text="保密"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/qr_result_addto_tv"
+        android:layout_margin="@dimen/margin_size_20_dp"
+        android:background="@drawable/btn_select_style"
+        android:padding="@dimen/margin_size_12_dp"
+        android:textSize="@dimen/text_size_14_sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="添加至我的患者"/>
+</LinearLayout>

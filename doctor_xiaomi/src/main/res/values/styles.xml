@@ -1,0 +1,112 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AlertNoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item><!--除去title-->
+        <item name="android:windowContentOverlay">@null</item>
+         <!--<item name="android:backgroundDimEnabled">false</item>-->
+        <!--  <item name="android:windowBackground">@null</item> --><!--除去背景色-->
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="doctor_main_item">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/text_size_14_sp</item>
+        <item name="android:layout_marginTop">@dimen/margin_size_4_dp</item>
+        <item name="android:layout_marginBottom">@dimen/margin_size_12_dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="doctor_main_more_item">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/margin_size_4_dp</item>
+        <item name="android:layout_margin">@dimen/margin_size_2_dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="doctor_main_text_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_14_sp</item>
+        <item name="android:textColor">@color/color_black_333333</item>
+    </style>
+
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">@color/color_grey_d2d2d2</item>
+    </style>
+
+    <style name="settime_image">
+        <item name="android:layout_width">@dimen/margin_size_20_dp</item>
+        <item name="android:layout_height">@dimen/margin_size_20_dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin_size_10_dp</item>
+        <item name="android:src">@drawable/main_sittime_time</item>
+    </style>
+    <style name="settime_mius">
+        <item name="android:layout_width">@dimen/margin_size_24_dp</item>
+        <item name="android:layout_height">@dimen/margin_size_24_dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/main_sittime_minus</item>
+    </style>
+    <style name="settime_plus">
+        <item name="android:layout_width">@dimen/margin_size_24_dp</item>
+        <item name="android:layout_height">@dimen/margin_size_24_dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/main_sittime_plus</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">@dimen/margin_size_30_dp</item>
+    </style>
+    <style name="settime_time2time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin_size_16_dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_16_sp</item>
+    </style>
+    <style name="settime_temps">
+        <item name="android:layout_width">@dimen/margin_size_30_dp</item>
+        <item name="android:layout_height">@dimen/margin_size_30_dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_margin">@dimen/margin_size_4_dp</item>
+        <item name="android:background">@color/lightblue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_size_16_sp</item>
+    </style>
+
+    <style name="right_sure_forward">
+        <item name="android:layout_width">@dimen/margin_size_16_dp</item>
+        <item name="android:layout_height">@dimen/margin_size_16_dp</item>
+        <item name="android:background">@drawable/main_common_more</item>
+        <item name="android:layout_marginRight">@dimen/margin_size_10_dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+</resources>

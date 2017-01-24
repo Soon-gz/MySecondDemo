@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context="com.shkjs.doctor.activity.MyPatientDetailActivity">
+
+    <include layout="@layout/top_title_rv_layout" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/my_patient_detail_swiperl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/patient_detail_framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <include layout="@layout/my_patient_detail_recycler" />
+
+                <include
+                    layout="@layout/my_patient_table"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_48_dp">
+
+                <TextView
+                    android:id="@+id/patient_detail_table_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/color_blue_0888ff"
+                    android:gravity="center"
+                    android:text="问诊表"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/patient_detail_heathdc_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/gray7"
+                    android:gravity="center"
+                    android:text="健康档案"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

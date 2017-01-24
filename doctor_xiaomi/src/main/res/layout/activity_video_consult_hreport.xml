@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_video_consult_hreport"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.VideoConsultHReport">
+
+    <LinearLayout
+        android:background="@drawable/shape_dialog_white"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/margin_size_250_dp"
+        android:layout_height="@dimen/margin_size_400_dp">
+        <RelativeLayout
+            android:layout_margin="@dimen/margin_size_10_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/doctor_popup_circle_iv"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/avatar_def" />
+            <LinearLayout
+                android:id="@+id/doctor_popup_name_age_ll"
+                android:layout_toRightOf="@+id/doctor_popup_circle_iv"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/doctor_popup_name_tv"
+                    android:textSize="@dimen/text_size_15"
+                    android:textColor="@color/action_bar_black_title_1f1f1f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="姓名"/>
+                <TextView
+                    android:id="@+id/doctor_popup_is_vip"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="vip"
+                    android:visibility="gone"
+                    android:textSize="@dimen/text_size_12"
+                    android:textColor="@color/GreyWhite"
+                    android:background="@drawable/shape_circle_red"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_toRightOf="@+id/doctor_popup_circle_iv"
+                android:layout_below="@+id/doctor_popup_name_age_ll"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/doctor_popup_sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_13"
+                    android:textColor="@color/action_bar_black_title_1f1f1f"
+                    android:text="女"/>
+                <TextView
+                    android:id="@+id/doctor_popup_age"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size_13"
+                    android:textColor="@color/action_bar_black_title_1f1f1f"
+                    android:text="22"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:background="@color/gray7" />
+        <FrameLayout
+            android:id="@+id/doctor_popup_recyclerview_frame"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <LinearLayout
+                android:padding="@dimen/margin_size_2_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/item_patient_detail_name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_14_sp" />
+
+                    <TextView
+                        android:id="@+id/item_patient_detail_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/margin_size_10_dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_12_sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_4_dp"
+                        android:text="详情描述："
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_12_sp" />
+
+                    <TextView
+                        android:id="@+id/item_patient_detail_symptom_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_size_4_dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_12_sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/health_report_voice_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.shkjs.doctor.view.AudioButton
+                        android:id="@+id/health_report_voice_btn"
+                        android:layout_width="@dimen/margin_size_140_dp"
+                        android:layout_height="@dimen/margin_size_20_dp"
+                        android:background="@drawable/shape_report_audio_style"
+                        app:button="@drawable/main_healthreport_voice_small">
+
+                    </com.shkjs.doctor.view.AudioButton>
+
+                    <TextView
+                        android:id="@+id/item_patient_detail_voice_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_10_dp"
+                        android:layout_marginRight="@dimen/margin_size_10_dp"
+                        android:text="1&apos;21&quot;"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_10_sp" />
+
+                </LinearLayout>
+
+                <com.raspberry.library.view.MultiImageView
+                    android:id="@+id/item_patient_detail_pictures_multiimageview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_30_dp"
+                    android:layout_marginTop="@dimen/margin_size_8_dp">
+
+                </com.raspberry.library.view.MultiImageView>
+            </LinearLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/video_consult_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </android.support.v7.widget.RecyclerView>
+                <LinearLayout
+                    android:id="@+id/picture_table_recycelrview_ll"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/no_data"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="当前患者没有上传病历报告和体检报告"/>
+                </LinearLayout>
+            </FrameLayout>
+
+        </FrameLayout>
+        <RadioGroup
+            android:id="@+id/doctor_popup_radiogroup"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_35_dp">
+            <RadioButton
+                android:id="@+id/doctor_popup_radiogbtn_wz"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:checked="true"
+                android:textColor="@color/white"
+                android:button="@null"
+                android:background="@drawable/shape_left_circle_bg"
+                android:text="问诊表"/>
+            <RadioButton
+                android:id="@+id/doctor_popup_radiogbtn_jk"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:button="@null"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@drawable/shape_right_circle_gray"
+                android:text="健康档案"/>
+        </RadioGroup>
+    </LinearLayout>
+
+</RelativeLayout>

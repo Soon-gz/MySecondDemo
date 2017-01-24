@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_50_transparent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/popup_time_click_to_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.raspberry.library.view.CycleWheelView
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size_20_dp"
+            android:layout_weight="1">
+
+        </com.raspberry.library.view.CycleWheelView>
+
+        <com.raspberry.library.view.CycleWheelView
+            android:id="@+id/month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size_20_dp"
+            android:layout_weight="1">
+
+        </com.raspberry.library.view.CycleWheelView>
+
+        <com.raspberry.library.view.CycleWheelView
+            android:id="@+id/day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size_20_dp"
+            android:layout_weight="1">
+
+        </com.raspberry.library.view.CycleWheelView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bar_select_style"
+            android:text="@string/cancel"
+            android:textColor="@color/gray_888888"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/green_d2d2d2"/>
+
+        <Button
+            android:id="@+id/sure_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_bar_select_style"
+            android:text="@string/sure"
+            android:textColor="@color/blue_2bbbe6"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

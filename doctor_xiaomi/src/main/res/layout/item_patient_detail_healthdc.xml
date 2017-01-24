@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="@dimen/margin_size_4_dp"
+    android:layout_marginBottom="@dimen/margin_size_4_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/item_patient_detail_platform_rl"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/margin_size_4_dp"
+        android:layout_marginLeft="@dimen/margin_size_4_dp"
+        android:background="@color/palegreen_85bd84"
+        android:layout_height="@dimen/margin_size_24_dp">
+        <TextView
+            android:id="@+id/item_patient_detail_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_10_dp"
+            android:text="2016-09-26  8:10"
+            android:textColor="@color/GreyWhite"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_size_6_dp"
+            android:textSize="@dimen/text_size_12_sp"/>
+        <TextView
+            android:id="@+id/item_patient_detail_platform_tv"
+            android:layout_width="@dimen/margin_size_60_dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12_sp"
+            android:gravity="center"
+            android:text="平台报告"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginLeft="@dimen/margin_size_4_dp"
+        android:layout_marginRight="@dimen/margin_size_4_dp"
+        android:background="@color/gray_f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_patient_detail_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_4_dp"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:layout_marginLeft="@dimen/margin_size_4_dp"
+                    android:text="详情描述："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12_sp"/>
+                <TextView
+                    android:id="@+id/item_patient_detail_symptom_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/health_report_voice_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_size_4_dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <com.shkjs.doctor.view.AudioButton
+                    android:id="@+id/health_report_voice_btn"
+                    android:layout_width="@dimen/margin_size_140_dp"
+                    android:layout_height="@dimen/margin_size_20_dp"
+                    android:background="@drawable/shape_report_audio_style"
+                    app:button="@drawable/main_healthreport_voice_small"
+                    >
+
+                </com.shkjs.doctor.view.AudioButton>
+
+                <TextView
+                    android:id="@+id/item_patient_detail_voice_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:text="1&apos;21&quot;"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_10_sp"/>
+
+            </LinearLayout>
+
+            <com.raspberry.library.view.MultiImageView
+                android:id="@+id/item_patient_detail_pictures_multiimageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_30_dp"
+                android:layout_marginTop="@dimen/margin_size_8_dp">
+
+            </com.raspberry.library.view.MultiImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

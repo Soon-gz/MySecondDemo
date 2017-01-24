@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\release\\menu\\menu_album.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\menu\\menu_album.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\release\\menu\\contacts_search_menu.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\menu\\contacts_search_menu.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\res\\merged\\release\\menu\\menu_contextual_action_bar.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.darsh.multipleimageselect\\multipleimageselect\\1.0.4\\res\\menu\\menu_contextual_action_bar.xml"
+    }
+]

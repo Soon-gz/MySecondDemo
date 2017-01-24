@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layoutAll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_150_dp">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_70_dp"
+            android:layout_height="@dimen/margin_size_70_dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo_200x200" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_16_dp"
+            android:layout_height="@dimen/margin_size_16_dp"
+            android:layout_marginLeft="@dimen/margin_size_36_dp"
+            android:src="@drawable/main_login_cellphone" />
+
+        <EditText
+            android:id="@+id/register_username_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_size_30_dp"
+            android:hint="@string/username_hint"
+            android:inputType="number"
+            android:background="@null"
+            android:text=""
+            android:textSize="@dimen/text_size_16_sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_16_dp"
+            android:layout_height="@dimen/margin_size_16_dp"
+            android:layout_marginLeft="@dimen/margin_size_36_dp"
+            android:src="@drawable/main_login_verificationcode" />
+
+        <EditText
+            android:id="@+id/register_code_et"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:inputType="number"
+            android:layout_marginLeft="@dimen/margin_size_30_dp"
+            android:hint="@string/usercode_hint"
+            android:textSize="@dimen/text_size_16_sp" />
+        <View
+            android:layout_width="0.6dp"
+            android:layout_height="@dimen/margin_size_28_dp"
+            android:background="@color/color_grey_ababab"/>
+        <TextView
+            android:id="@+id/register_getcode_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_blue_0888ff"
+            android:textSize="@dimen/text_size_16_sp"
+            android:layout_marginRight="@dimen/margin_size_20_dp"
+            android:layout_marginLeft="@dimen/margin_size_6_dp"
+            android:text="@string/getcode_text"/>
+    </LinearLayout>
+    <View
+        style="@style/line"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_16_dp"
+            android:layout_height="@dimen/margin_size_16_dp"
+            android:layout_marginLeft="@dimen/margin_size_36_dp"
+            android:src="@drawable/main_login_password" />
+
+        <EditText
+            android:id="@+id/register_userpwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/margin_size_30_dp"
+            android:hint="@string/userpwd_hint"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="@dimen/text_size_16_sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp" />
+
+    <TextView
+        android:id="@+id/register_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_42_dp"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_24_dp"
+        android:background="@drawable/btn_select_style"
+        android:gravity="center"
+        android:text="@string/register_btn_text"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_18_sp" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <CheckBox
+           android:id="@+id/login_checkbox"
+           android:layout_width="@dimen/margin_size_22_dp"
+           android:padding="@dimen/margin_size_10_dp"
+           android:gravity="center"
+           android:layout_height="@dimen/margin_size_22_dp"
+           android:layout_marginLeft="@dimen/margin_size_22_dp"
+           android:checked="true"
+           android:button="@drawable/checkbox_select_style"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_13_sp"
+            android:text="@string/read"/>
+        <TextView
+            android:id="@+id/doctor_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue_2bbbe6"
+            android:textSize="@dimen/text_size_13_sp"
+            android:text="@string/agreement"/>
+    </LinearLayout>
+
+</LinearLayout>

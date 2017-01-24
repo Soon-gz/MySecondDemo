@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tabbar_seekdoctor_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\tabbar_seekdoctor_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_doctoradvice.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_doctoradvice.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_medicalphoto.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_medicalphoto.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_payment_balance.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_payment_balance.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_place.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_place.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_payment_familygroup.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_payment_familygroup.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_consultation_delete_bg.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_consultation_delete_bg.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_payment_alipay.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_payment_alipay.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\startpage.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\startpage.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_free.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_free.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_xiaohuaneike.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_xiaohuaneike.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_more.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_more.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_btn_endrecording.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_btn_endrecording.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\next_5.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\next_5.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tabbar_consultation_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\tabbar_consultation_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\doctor_bg.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\doctor_bg.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_vip.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_vip.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_common_close.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_common_close.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_seekdoctor_mydoctor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_seekdoctor_mydoctor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_add_medicalreport.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_add_medicalreport.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_btn_startrecording.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_btn_startrecording.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_message.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_message.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tabbar_consultation_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\tabbar_consultation_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_btn_inrecording.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_btn_inrecording.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_icon_record.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_icon_record.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_account_familygroup.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_account_familygroup.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\nothing.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\nothing.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\next_arrow.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\next_arrow.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_code.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_code.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_add_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_add_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_bg.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_bg.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_seekdoctor_recommended.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_seekdoctor_recommended.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tabbar_healthreport_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\tabbar_healthreport_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\free.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\free.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_add_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_add_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_back_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_back_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\welcome.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\welcome.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_payment_checkbox_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_payment_checkbox_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_authority.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_authority.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_message_headportrait.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_message_headportrait.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_consultation_groupconsultation.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_consultation_groupconsultation.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personnalcener_account_dropdown_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personnalcener_account_dropdown_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_search_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_search_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_setting.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_setting.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_headportrait_medium.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_headportrait_medium.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\extension.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\extension.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_consultation_refund_bg.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_consultation_refund_bg.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_order.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_order.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\guidepage_1.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\guidepage_1.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\next_4.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\next_4.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_videogroupconsultation.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_videogroupconsultation.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tabbar_seekdoctor_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\tabbar_seekdoctor_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\next_1.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\next_1.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\no_orders.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\no_orders.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_refund_question.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_refund_question.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_about.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_about.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_master.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_master.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_payment_balance_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_payment_balance_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_videoconsultation.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_videoconsultation.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_addphoto.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_addphoto.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_headportrait_small.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_headportrait_small.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_addphoto_delete.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_addphoto_delete.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_headportrait_xlarge.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_headportrait_xlarge.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\no_data.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\no_data.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_voice_small.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_voice_small.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_erbihouke.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_erbihouke.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_money.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_money.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\guidepage_3.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\guidepage_3.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_headportrait_large.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_headportrait_large.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\guidepage_2.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\guidepage_2.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\no_search_results.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\no_search_results.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_concern.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_concern.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_add_casereport.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_add_casereport.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\next_2.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\next_2.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_cancel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_cancel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_introduction.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_introduction.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_huxineike.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_huxineike.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_refund_close.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_refund_close.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_search_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_search_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_waike.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_waike.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_payment_checkbox_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_payment_checkbox_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tabbar_healthreport_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\tabbar_healthreport_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_refund.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_refund.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_certification.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_certification.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_common_failure.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_common_failure.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personnalcener_account_dropdown_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personnalcener_account_dropdown_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\next_3.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\next_3.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_doctors.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_doctors.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_doctordetails_notconcern.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_doctordetails_notconcern.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\connection_timeout.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\connection_timeout.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_search_small.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_search_small.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_payment.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_payment.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_service.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_service.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_help.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_help.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\actionbar_back_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\actionbar_back_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_headportrait_xxlarge.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_headportrait_xxlarge.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_recharge.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_recharge.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_common_success.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_common_success.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_icon_voice.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_icon_voice.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_profile.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_profile.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_personalcenter_account.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_personalcenter_account.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_xinneike.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_xinneike.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_seekdoctor_mydoctor_white.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_seekdoctor_mydoctor_white.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_shenjingneike.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_shenjingneike.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\department_guke.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\department_guke.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_common_more.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_common_more.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\no_message.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\no_message.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\network_suck.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\network_suck.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_setting_checkbox_on.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_setting_checkbox_on.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_diseaseinformation.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_diseaseinformation.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\main_healthreport_upload_delete_bg.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\main_healthreport_upload_delete_bg.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_delete.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_delete.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_order_pictureconsulting.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_order_pictureconsulting.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\personalcenter_setting_checkbox_off.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\src\\main\\res\\drawable-xxxhdpi\\personalcenter_setting_checkbox_off.png"
+    }
+]

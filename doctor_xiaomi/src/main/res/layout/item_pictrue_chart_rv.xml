@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.raspberry.library.view.SwipeItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_picture_sil"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_size_70_dp"
+    >
+
+    <TextView
+        android:id="@+id/item_picture_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/red"
+        android:gravity="center"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingRight="@dimen/margin_size_14_dp"
+        android:text="@string/cancel"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_size_10_dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/item_pictrue_consult_head_iv"
+            android:layout_width="@dimen/margin_size_50_dp"
+            android:layout_height="@dimen/margin_size_50_dp"
+            android:layout_marginRight="@dimen/margin_size_10_dp"
+            app:civ_border_overlay="true"
+            app:civ_fill_color="@color/black" />
+
+        <TextView
+            android:id="@+id/item_pictrue_consult_tipnum_tc"
+            android:layout_width="@dimen/margin_size_18_dp"
+            android:layout_height="@dimen/margin_size_18_dp"
+            android:layout_marginLeft="@dimen/margin_size_40_dp"
+            android:background="@drawable/shape_circle_red"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_12_sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/item_pictrue_consult_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_pictrue_consult_name_tv"
+            android:layout_marginBottom="@dimen/margin_size_4_dp"
+            android:layout_marginRight="@dimen/margin_size_4_dp"
+            android:layout_marginTop="@dimen/margin_size_4_dp"
+            android:layout_toLeftOf="@+id/item_pictrue_consult_fl"
+            android:layout_toRightOf="@+id/item_pictrue_consult_head_iv"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textSize="@dimen/text_size_14_sp" />
+
+        <TextView
+            android:id="@+id/item_pictrue_consult_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_size_12_dp"
+            android:text="08-24" />
+
+        <FrameLayout
+            android:id="@+id/item_pictrue_consult_fl"
+            android:layout_width="@dimen/margin_size_46_dp"
+            android:layout_height="@dimen/margin_size_28_dp"
+            android:layout_alignBottom="@+id/item_pictrue_consult_head_iv"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/margin_size_6_dp">
+
+            <TextView
+                android:id="@+id/item_pictrue_consult_sure_tv"
+                android:layout_width="@dimen/margin_size_46_dp"
+                android:layout_height="@dimen/margin_size_28_dp"
+                android:background="@drawable/shape_item_pictrue_sure"
+                android:gravity="center"
+                android:text="已完成"
+                android:textColor="@color/color_gray_cbd0d8"
+                android:textSize="@dimen/text_size_13_sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/item_pictrue_consult_cancel_tv"
+                android:layout_width="@dimen/margin_size_46_dp"
+                android:layout_height="@dimen/margin_size_28_dp"
+                android:background="@drawable/shape_item_pictrue_cancel"
+                android:gravity="center"
+                android:text="未完成"
+                android:textColor="@color/color_red_ccfa3c55"
+                android:textSize="@dimen/text_size_13_sp"
+                android:visibility="visible" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/item_pictrue_consult_name_tv"
+            style="@style/doctor_main_text_content"
+            android:layout_above="@+id/item_pictrue_consult_fl"
+            android:layout_toEndOf="@+id/item_pictrue_consult_head_iv"
+            android:textSize="@dimen/text_size_16_sp" />
+
+    </RelativeLayout>
+</com.raspberry.library.view.SwipeItemLayout>

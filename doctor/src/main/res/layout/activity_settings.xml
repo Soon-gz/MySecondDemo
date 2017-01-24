@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context="com.shkjs.doctor.activity.SettingsActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:padding="@dimen/margin_size_10_dp"
+        android:layout_marginTop="@dimen/margin_size_8_dp"
+        android:layout_marginBottom="@dimen/margin_size_8_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView style="@style/doctor_main_text_content"
+            android:layout_centerVertical="true"
+            android:text="新消息提醒"/>
+        <com.raspberry.library.util.ToggleButton
+            android:id="@+id/settings_newmsg_toggle_btn"
+            android:layout_width="48dp"
+            android:layout_height="26dp"
+            toggle:onColor="@color/color_blue_0888ff"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            toggle:isDefaultOn="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/settings_changepsd_rv"
+        android:background="@color/white"
+        android:padding="@dimen/margin_size_10_dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView style="@style/doctor_main_text_content"
+            android:text="修改密码"/>
+       <ImageView
+           android:layout_width="@dimen/margin_size_16_dp"
+           android:layout_height="@dimen/margin_size_16_dp"
+           android:layout_alignParentRight="true"
+           android:src="@drawable/main_common_more"
+           />
+    </RelativeLayout>
+    <View style="@style/line"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:id="@+id/settings_outlog_rv"
+        android:background="@color/white"
+        android:padding="@dimen/margin_size_10_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView style="@style/doctor_main_text_content"
+            android:layout_centerVertical="true"
+            android:text="退出登录"/>
+        <ImageView
+            android:layout_width="@dimen/margin_size_16_dp"
+            android:layout_height="@dimen/margin_size_16_dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/main_common_more"
+            />
+    </RelativeLayout>
+</LinearLayout>

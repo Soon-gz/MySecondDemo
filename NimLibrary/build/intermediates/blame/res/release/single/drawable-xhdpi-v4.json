@@ -1,0 +1,674 @@
+[
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\network_grade_1.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\network_grade_1.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_refresh_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_refresh_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_login_checkbox_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_login_checkbox_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_keyboard.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_keyboard.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_moon_page_selected.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_moon_page_selected.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\no_message.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\no_message.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_emotion_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_emotion_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_g_ic_failed_small.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_g_ic_failed_small.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_contact_checkbox_checked_green.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_contact_checkbox_checked_green.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\videoconsultation_hangup.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\videoconsultation_hangup.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_flashlight_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_flashlight_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_actionbar_search_dark_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_actionbar_search_dark_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_hangup.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_hangup.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_music_icon_play.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_music_icon_play.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_new_message_notify.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_new_message_notify.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_common_processing.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_common_processing.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_video_play_icon_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_video_play_icon_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_voice_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_voice_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_video_capture_start_btn.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_video_capture_start_btn.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_unread_news_icon_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_unread_news_icon_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_login_checkbox_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_login_checkbox_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\im_upload_businesscard_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\im_upload_businesscard_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_ic_trans_fail.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_ic_trans_fail.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_pictureconsulting_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_pictureconsulting_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_login_verificationcode.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_login_verificationcode.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_image_default.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_image_default.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_preview_unselected.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_preview_unselected.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\actionbar_back_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\actionbar_back_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_actionbar_dark_logo_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_actionbar_dark_logo_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_flashlight.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_flashlight.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_scan_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_scan_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_headportrait_large.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_headportrait_large.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_mask.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_mask.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_arrow_back.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.darsh.multipleimageselect\\multipleimageselect\\1.0.4\\res\\drawable-xhdpi-v4\\ic_arrow_back.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\actionbar_back_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\actionbar_back_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\actionbar_scan_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\actionbar_scan_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_record_video.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_record_video.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_common_success.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_common_success.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\qr_code_bg.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\qr_code_bg.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_photo.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_photo.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_login_password.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_login_password.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_cameras_hover.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_cameras_hover.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_photo_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_photo_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_audio_animation_list_right_3.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_right_3.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_line.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_line.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\actionbar_finish_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\actionbar_finish_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_emotion.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_emotion.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_consultation_groupconsultation.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_consultation_groupconsultation.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_scan_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_scan_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_cameras.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_cameras.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_actionbar_white_back_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_actionbar_white_back_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_voice_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_voice_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\im_upload_picture_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\im_upload_picture_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\videoconsultation_mute_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\videoconsultation_mute_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\actionbar_finish_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\actionbar_finish_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_certification.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_certification.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_groupconsultation.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_groupconsultation.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\videoconsultation_switch_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\videoconsultation_switch_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_audio_animation_list_left_1.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_left_1.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_moon_page_unselected.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_moon_page_unselected.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_preview_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_preview_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_keyboard_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_keyboard_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_photo_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_photo_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_member_add_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_team_member_add_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_icon_edit_delete.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_icon_edit_delete.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\videoconsultation_switch_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\videoconsultation_switch_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_code_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_code_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_historicalorder_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_historicalorder_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_image_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_image_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_preview_disable.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_preview_disable.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_audio_animation_list_right_2.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_right_2.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_contact_checkbox_unchecked.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_contact_checkbox_unchecked.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_member_delete_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_team_member_delete_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_code_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_code_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_video_capture_stop_btn.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_video_capture_stop_btn.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_videoconsultation_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_videoconsultation_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_record_start.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_record_start.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_actionbar_dark_back_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_actionbar_dark_back_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_orignal_checked.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_orignal_checked.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_audio_animation_list_right_1.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_right_1.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\scan_flashlight_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\scan_flashlight_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_location_bk.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_location_bk.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\videoconsultation_mute_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\videoconsultation_mute_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_answer.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_answer.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_video_play_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_video_play_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_member_delete_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_team_member_delete_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\im_upload_picture_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\im_upload_picture_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_owner_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_team_owner_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_mute_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_mute_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_audio_animation_list_left_2.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_left_2.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_groupconsultation_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_groupconsultation_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\groupconsultation_chat_btn.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\groupconsultation_chat_btn.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_contact_select_dot_avatar.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_contact_select_dot_avatar.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_plus_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_plus_pressed.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\actionbar_scan_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\actionbar_scan_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_preview_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_preview_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_switch_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_switch_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_message_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_message_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\crop__ic_done.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.soundcloud.android.crop\\lib_crop\\1.0.0\\res\\drawable-xhdpi-v4\\crop__ic_done.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_admin_icon.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_team_admin_icon.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_message_headportrait.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_message_headportrait.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_videoconsultation_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_videoconsultation_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\ic_done_white.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.darsh.multipleimageselect\\multipleimageselect\\1.0.4\\res\\drawable-xhdpi-v4\\ic_done_white.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\crop__ic_cancel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.soundcloud.android.crop\\lib_crop\\1.0.0\\res\\drawable-xhdpi-v4\\crop__ic_cancel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_main_tab_new_message_notify.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_main_tab_new_message_notify.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_login_cellphone.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_login_cellphone.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_historicalorder_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_historicalorder_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_audio_animation_list_left_3.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_audio_animation_list_left_3.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_sittime.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_sittime.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\crop__divider.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.soundcloud.android.crop\\lib_crop\\1.0.0\\res\\drawable-xhdpi-v4\\crop__divider.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_switch_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_switch_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_message_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_message_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_avatar_group.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_avatar_group.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_message_input_plus.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_message_input_plus.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_refresh_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_refresh_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_image_selected.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_image_selected.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_alpha.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\im_upload_businesscard_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\im_upload_businesscard_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_groupconsultation_sel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_groupconsultation_sel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_videochat_mute_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\src\\main\\res\\drawable-xhdpi\\main_videochat_mute_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_picker_orignal_normal.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_picker_orignal_normal.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\upload_demo_pic.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\upload_demo_pic.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\main_home_pictureconsulting_nor.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\library\\unspecified\\res\\drawable-xhdpi-v4\\main_home_pictureconsulting_nor.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\crop__tile.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.soundcloud.android.crop\\lib_crop\\1.0.0\\res\\drawable-xhdpi-v4\\crop__tile.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4\\nim_team_member_add_pressed.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\SHKJS\\uikit\\unspecified\\res\\drawable-xhdpi-v4\\nim_team_member_add_pressed.png"
+    }
+]

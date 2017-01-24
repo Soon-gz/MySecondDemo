@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_2bbbe6"
+        android:minHeight="?attr/actionBarSize"
+        android:navigationIcon="@drawable/toolbar_back_select_style"
+        app:navigationIcon="@drawable/toolbar_back_select_style">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_44_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_20_sp"/>
+
+                <EditText
+                    android:id="@+id/search_doctor_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/margin_size_4_dp"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:background="@drawable/shape_white"
+                    android:hint="@string/search_doctor_hint"
+                    android:lines="1"
+                    android:minHeight="@dimen/margin_size_40_dp"
+                    android:paddingLeft="@dimen/margin_size_10_dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </FrameLayout>
+
+            <ImageButton
+                android:id="@+id/toolbar_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginLeft="@dimen/margin_size_16_dp"
+                android:layout_marginRight="@dimen/margin_size_16_dp"
+                android:background="@drawable/scan_select_style"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            layout="@layout/no_message_layout"
+            android:visibility="gone"/>
+
+        <include layout="@layout/recycleview_layout"/>
+
+    </FrameLayout>
+
+</LinearLayout>

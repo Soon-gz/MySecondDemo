@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <TextView
+        android:id="@+id/message_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/margin_size_14_dp"
+        android:textColor="@color/black_231815"
+        android:textSize="@dimen/text_size_14_sp"/>
+
+</LinearLayout>

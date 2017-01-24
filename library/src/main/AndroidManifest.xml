@@ -1,0 +1,25 @@
+<manifest package="com.raspberry.library"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:supportsRtl="true">
+
+        <activity
+            android:name=".activity.ImagePagerActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".qrcode.QRCode2ScanActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".multiselect.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

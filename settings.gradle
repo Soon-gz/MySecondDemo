@@ -1,0 +1,7 @@
+include ':doctor'
+include ':patient'
+include ':NimLibrary'
+include ':uikit'
+include ':library'
+include ':thirdparty'
+include ':okhttp'

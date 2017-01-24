@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ad_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.raspberry.library.view.FlyBanner
+        android:id="@+id/search_doctor_ad_banner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_160_dp"
+        app:points_container_background="@color/transparent"
+        app:points_position="CENTER"
+        app:points_visibility="true"/>
+
+</RelativeLayout>

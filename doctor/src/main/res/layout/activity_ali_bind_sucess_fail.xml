@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.shkjs.doctor.activity.AliBindSucessFailActivity">
+
+    <include layout="@layout/top_title_rv_layout" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/binding_success_fail_iv"
+        android:layout_marginTop="@dimen/margin_size_20_dp"
+        android:layout_width="@dimen/margin_size_80_dp"
+        android:layout_height="@dimen/margin_size_80_dp"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_overlay="true"
+        app:civ_fill_color="@color/black" />
+    <TextView
+        android:id="@+id/binding_success_fail_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_16_sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/margin_size_16_dp"
+        android:text="@string/alipay_success"/>
+    <TextView
+        android:id="@+id/binding_successfail_msg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_13_sp"
+        android:layout_marginTop="@dimen/margin_size_6_dp"
+        android:text="@string/alipay_success_msg"/>
+    <TextView
+        android:id="@+id/binding_back_tv"
+        android:textColor="@color/color_blue_0888ff"
+        android:text="@string/back"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/margin_size_20_dp"
+        android:layout_marginTop="@dimen/margin_size_20_dp"
+        android:layout_marginRight="@dimen/margin_size_20_dp"
+        android:padding="@dimen/margin_size_10_dp"
+        android:background="@drawable/shape_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/binding_back_retry_tv"
+        android:textColor="@color/white"
+        android:text="@string/back"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_size_20_dp"
+        android:padding="@dimen/margin_size_10_dp"
+        android:background="@drawable/shape_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

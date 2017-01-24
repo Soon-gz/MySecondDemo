@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_60_dp"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_weight="1"
+            android:text="@string/new_message_remind"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_16"/>
+
+        <CheckBox
+            android:id="@+id/setting_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:button="@drawable/setting_checkbox_style"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/setting_pay_password_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_60_dp"
+            android:background="@drawable/selector_bar_select_style"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/setting_pay_password_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_weight="1"
+                android:text="@string/setting_pay_password"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:src="@drawable/main_common_more"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/gray"/>
+
+        <LinearLayout
+            android:id="@+id/setting_modify_password_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_60_dp"
+            android:background="@drawable/selector_bar_select_style"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_weight="1"
+                android:text="@string/modify_password"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:src="@drawable/main_common_more"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/gray"/>
+
+        <LinearLayout
+            android:id="@+id/setting_logout_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_60_dp"
+            android:background="@drawable/selector_bar_select_style"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_weight="1"
+                android:text="@string/logout"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_16"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:src="@drawable/main_common_more"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

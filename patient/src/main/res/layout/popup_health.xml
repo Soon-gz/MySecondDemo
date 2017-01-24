@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black_50_transparent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/popup_photo_click_to_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/actionbar_add_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-10dp"
+            android:layout_marginTop="15px"
+            android:background="@drawable/shape_white"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/health_physical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bar_select_top_style"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_size_10_dp">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_size_20_dp"
+                    android:layout_height="@dimen/margin_size_20_dp"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:src="@drawable/actionbar_add_medicalreport"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:gravity="center"
+                    android:text="@string/upload_health_physical"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/health_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bar_select_bottom_style"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin_size_10_dp">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_size_20_dp"
+                    android:layout_height="@dimen/margin_size_20_dp"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:src="@drawable/actionbar_add_casereport"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:gravity="center"
+                    android:text="@string/upload_health_history"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<com.raspberry.library.view.BubbleRelativeLayout-->
+    <!--android:id="@+id/bubbleView"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:background="@android:color/transparent"-->
+    <!--android:gravity="center"-->
+    <!--app:halfBaseOfLeg="@dimen/margin_size_0_dp"-->
+    <!--app:padding="@dimen/margin_size_0_dp"-->
+    <!--app:shadowColor="#00000000"-->
+    <!--app:strokeWidth="1">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/shape_white"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/health_physical"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/selector_bar_select_top_style"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="@dimen/margin_size_10_dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/margin_size_20_dp"-->
+    <!--android:layout_height="@dimen/margin_size_20_dp"-->
+    <!--android:layout_marginLeft="@dimen/margin_size_10_dp"-->
+    <!--android:src="@drawable/actionbar_add_medicalreport"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/margin_size_10_dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/upload_health_physical"-->
+    <!--android:textColor="@color/black_231815"-->
+    <!--android:textSize="@dimen/text_size_14_sp"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:id="@+id/health_history"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@drawable/selector_bar_select_bottom_style"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="@dimen/margin_size_10_dp">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="@dimen/margin_size_20_dp"-->
+    <!--android:layout_height="@dimen/margin_size_20_dp"-->
+    <!--android:layout_marginLeft="@dimen/margin_size_10_dp"-->
+    <!--android:src="@drawable/actionbar_add_casereport"/>-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="@dimen/margin_size_10_dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/upload_health_history"-->
+    <!--android:textColor="@color/black_231815"-->
+    <!--android:textSize="@dimen/text_size_14_sp"/>-->
+
+    <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <!--</com.raspberry.library.view.BubbleRelativeLayout>-->
+
+</RelativeLayout>

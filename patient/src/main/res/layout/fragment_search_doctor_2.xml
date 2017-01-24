@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/ad_layout"/>
+
+            <include layout="@layout/deparment_layout_1"/>
+
+            <include layout="@layout/mine_doctor_layout"/>
+
+            <com.shkjs.patient.view.RecyclerView
+                android:id="@+id/fragment_search_doctor_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.shkjs.patient.view.RecyclerView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

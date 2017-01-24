@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/main_mypatients_bg">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mypatient_detail_headimg_iv"
+        android:layout_width="@dimen/margin_size_70_dp"
+        android:layout_height="@dimen/margin_size_70_dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_size_20_dp"
+        android:src="@drawable/default_head_rect"
+        app:civ_border_overlay="true" />
+
+    <LinearLayout
+        android:id="@+id/mypatient_detail_name_vip_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mypatient_detail_headimg_iv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_size_8_dp">
+
+        <TextView
+            android:id="@+id/item_patient_detail_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_6_dp"
+            android:text="猫小咪"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_14_sp" />
+
+        <ImageView
+            android:id="@+id/main_mypatients_vip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/main_mypatients_vip"
+            android:paddingLeft="@dimen/margin_size_10_dp"
+            android:paddingRight="@dimen/margin_size_10_dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_size_20_dp"
+        android:layout_marginTop="@dimen/margin_size_24_dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="性别："
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+
+            <TextView
+                android:id="@+id/item_patient_detail_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_8_dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="年龄："
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+
+            <TextView
+                android:id="@+id/item_patient_detail_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22岁"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_8_dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="身高："
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+
+            <TextView
+                android:id="@+id/item_patient_detail_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="165cm"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_8_dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="体重："
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+
+            <TextView
+                android:id="@+id/item_patient_detail_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45kg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_size_20_dp"
+            android:layout_marginTop="@dimen/margin_size_8_dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="血型："
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+
+            <TextView
+                android:id="@+id/item_patient_detail_blood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45kg"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.shkjs.doctor.activity.HistoryOrderDetailActivity">
+
+    <include layout="@layout/top_title_rv_layout" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_50_dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_size_14_dp"
+                    android:text="订单状态"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <View
+                    style="@style/line"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/margin_size_14_dp"
+                    android:background="@color/gray" />
+
+                <TextView
+                    android:id="@+id/history_detail_status_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/margin_size_14_dp"
+                    android:text="未完成"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <View
+                    style="@style/line"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:background="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_30_dp"
+                android:paddingLeft="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/text_size_14_sp"
+                android:text="订单信息" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_40_dp">
+
+                <TextView
+                    android:id="@+id/history_detail_number_text_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_4_dp"
+                    android:text="订单编号:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+                <View style="@style/line"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_alignParentBottom="true"/>
+                <TextView
+                    android:id="@+id/history_detail_number_edittext_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:gravity="center_vertical"
+                    android:text="2016101313471203"
+                    android:textSize="@dimen/text_size_14_sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_55_dp">
+
+                <TextView
+                    android:id="@+id/history_detail_time_text_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_size_14_dp"
+                    android:text="订单时间:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <TextView
+                    android:id="@+id/history_detail_time_edittext_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/margin_size_14_dp"
+                    android:text="2016-10-13 13:50"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <View
+                    style="@style/line"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/margin_size_14_dp" />
+
+                <View
+                    style="@style/line"
+                    android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@color/gray"
+                android:layout_height="@dimen/margin_size_30_dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_size_14_dp"
+                android:textSize="@dimen/text_size_14_sp"
+                android:text="订单详情"
+                android:id="@+id/textView8" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_60_dp"
+                android:padding="@dimen/margin_size_10_dp">
+
+                <ImageView
+                    android:id="@+id/history_detail_photo_iv"
+                    android:layout_width="@dimen/margin_size_40_dp"
+                    android:layout_height="@dimen/margin_size_40_dp"
+                    android:layout_marginLeft="@dimen/margin_size_4_dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/history_detail_title_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:layout_toRightOf="@+id/history_detail_photo_iv"
+                    android:text="视频会诊"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="@dimen/margin_size_4_dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="订单金额：" />
+
+                    <TextView
+                        android:id="@+id/history_detail_money_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0.00"
+                        android:textColor="@color/red"
+                        android:textSize="@dimen/text_size_14_sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <View
+                style="@style/line"
+                android:layout_marginLeft="@dimen/margin_size_14_dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/margin_size_10_dp">
+
+                <TextView
+                    android:id="@+id/history_detail_name_ts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_size_4_dp"
+                    android:text="预约病患"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <TextView
+                    android:id="@+id/history_detail_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="@dimen/margin_size_4_dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <TextView
+                    android:id="@+id/history_detail_time_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/history_detail_name_ts"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:paddingLeft="@dimen/margin_size_4_dp"
+                    android:text="预约时间"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <TextView
+                    android:id="@+id/history_detail_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_size_4_dp"
+                    android:text=""
+                    android:textSize="@dimen/text_size_14_sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+
+            <View
+                style="@style/line"
+                android:layout_marginLeft="@dimen/margin_size_14_dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_95_dp">
+
+                <TextView
+                    android:id="@+id/history_detail_allmoney_ts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/margin_size_14_dp"
+                    android:paddingTop="@dimen/margin_size_10_dp"
+                    android:text="订单金额"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <LinearLayout
+                    android:id="@+id/history_detail_allmoney_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:layout_marginTop="@dimen/margin_size_10_dp">
+
+                    <TextView
+                        android:id="@+id/history_detail_allmoney_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_2_dp"
+                        android:text="0.00"
+                        android:textSize="@dimen/text_size_14_sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/history_detail_litlemoney_ts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/history_detail_allmoney_ts"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:paddingLeft="@dimen/margin_size_14_dp"
+                    android:text="平台扣款"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <LinearLayout
+                    android:id="@+id/history_detail_litlemoney_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/history_detail_allmoney_ll"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:layout_marginTop="@dimen/margin_size_4_dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-¥"
+                        android:textSize="@dimen/text_size_14_sp" />
+
+                    <TextView
+                        android:id="@+id/history_detail_litlemoney_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_2_dp"
+                        android:text="0.00"
+                        android:textSize="@dimen/text_size_14_sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/history_detail_incomemoney_ts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/history_detail_litlemoney_ts"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:paddingLeft="@dimen/margin_size_14_dp"
+                    android:text="实际收入"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp" />
+
+                <LinearLayout
+                    android:id="@+id/history_detail_incomemoney_ll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/history_detail_litlemoney_ll"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:layout_marginTop="@dimen/margin_size_4_dp">
+
+
+                    <TextView
+                        android:id="@+id/history_detail_incomemoney_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_2_dp"
+                        android:text="0.00"
+                        android:textSize="@dimen/text_size_14_sp" />
+                </LinearLayout>
+
+                <View
+                    style="@style/line"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/margin_size_14_dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/history_detail_cancel_ll"
+                android:padding="@dimen/margin_size_4_dp"
+                android:background="@color/gray"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_40_dp">
+                <ImageView
+                    android:id="@+id/history_detail_cancel_iv"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_size_12_dp"
+                    android:layout_width="@dimen/margin_size_18_dp"
+                    android:layout_height="@dimen/margin_size_18_dp"
+                    android:src="@drawable/historicalorder_cancel"
+                    />
+                <TextView
+                    android:id="@+id/history_detail_cancel_tv"
+                    android:layout_toRightOf="@+id/history_detail_cancel_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:text="取消订单"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

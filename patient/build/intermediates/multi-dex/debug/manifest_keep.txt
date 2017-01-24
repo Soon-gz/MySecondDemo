@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:367
+-keep class net.qiujuer.genius.kit.command.CommandService { <init>(...); }
+

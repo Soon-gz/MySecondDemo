@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_4_dp"
+        android:layout_marginTop="@dimen/margin_size_4_dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_10_dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/balance_item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_4_dp"
+                android:layout_marginTop="@dimen/margin_size_4_dp"
+                android:layout_weight="1"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_18_sp"/>
+
+            <TextView
+                android:id="@+id/balance_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_4_dp"
+                android:layout_marginTop="@dimen/margin_size_4_dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/balance_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+</LinearLayout>

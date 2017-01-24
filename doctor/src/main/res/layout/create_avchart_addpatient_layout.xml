@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_size_10_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_size_4_dp">
+
+        <EditText
+            android:id="@+id/create_avchart_addpatient_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_black_44p"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:hint="请输入患者手机号码"
+            android:paddingLeft="@dimen/margin_size_6_dp"
+            android:textSize="@dimen/text_size_13_sp" />
+
+        <ImageView
+            android:id="@+id/create_avchart_addpatient_searchbtn"
+            android:layout_width="@dimen/margin_size_24_dp"
+            android:layout_height="@dimen/margin_size_24_dp"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:background="@drawable/groupconsultation_search_selector" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/create_avchart_addpatient_fl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/create_avchart_addpatient_scanqrcode"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_40_dp"
+                android:layout_marginTop="@dimen/margin_size_10_dp"
+                android:background="@drawable/shape_squre"
+                android:padding="@dimen/margin_size_4_dp">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_size_26_dp"
+                    android:layout_height="@dimen/margin_size_26_dp"
+                    android:layout_marginLeft="@dimen/margin_size_20_dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/groupconsultation_scan" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="扫一扫"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/create_avchart_addpatient_mypatient"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_40_dp"
+                android:layout_marginTop="@dimen/margin_size_10_dp"
+                android:background="@drawable/shape_squre"
+                android:padding="@dimen/margin_size_4_dp">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_size_26_dp"
+                    android:layout_height="@dimen/margin_size_26_dp"
+                    android:layout_marginLeft="@dimen/margin_size_20_dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/groupconsultation_patient" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="我的患者"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/create_avchart_addpatient_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.RecyclerView>
+    </FrameLayout>
+</LinearLayout>

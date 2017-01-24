@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">医星汇医生端</string>
+    <string name="copyright">Copyright ©1997-2016 公司版权所有</string>
+
+    <string name="username_and_password_hint">请输入手机号和密码</string>
+    <string name="username_hint">请输入手机号</string>
+    <string name="username_right_hint">请输入正确的手机号</string>
+    <string name="userpwd_hint">请输入密码</string>
+    <string name="user_newpwd_hint">请输入新密码</string>
+    <string name="username_and_usercode_hint">请输入手机号和验证码</string>
+    <string name="usercode_hint">请输入验证码</string>
+
+    <string name="login_fail">登录失败</string>
+    <string name="login_btn_text">登录</string>
+    <string name="login_help_text">忘记密码</string>
+    <string name="login_register_text">用户注册</string>
+    <string name="getback_pwd_fail">找回密码失败</string>
+
+    <string name="register_btn_text">注册</string>
+    <string name="register_fail">注册失败，请重试</string>
+    <string name="register_success">注册成功</string>
+
+    <string name="getcode_text">获取验证码</string>
+    <string name="submit_text">提交</string>
+    <string name="next_step_text">下一步</string>
+    <string name="up_step_text">上一步</string>
+    <string name="finish_step_text">完成</string>
+
+    <string name="toast_mob_submit_success_hint">提交验证码成功</string>
+    <string name="toast_mob_get_success_hint">获取验证码成功</string>
+    <string name="toast_mob_error_hint">验证码错误或已过期</string>
+    <string name="toast_permission_hint">权限被拒</string>
+    <string name="toast_main_back_hint">再按一次返回键退出程序</string>
+
+    <string name="user_personal_text">个人报告</string>
+    <string name="user_platform_text">平台报告</string>
+
+    <string name="title_consult_text">咨询消息</string>
+    <string name="title_search_doctor_text">找医生</string>
+    <string name="title_health_archives_text">健康档案</string>
+    <string name="mine_doctor_text">我的医生</string>
+    <string name="recommend_doctor_text">推荐医生</string>
+
+    <string name="faile">失败</string>
+    <string name="success">成功</string>
+    <string name="quit">退出</string>
+    <string name="roomname_not_empty">房间号不能为空</string>
+    <string name="vcard">名片</string>
+    <string name="guide_start">开始使用</string>
+    <string name="video_order">视频预约</string>
+    <string name="picture_consult">图文咨询</string>
+    <string name="no_message">您还没有新消息哦~</string>
+
+    <string name="introduct_hint_msg">请填写个人简介,以便于患者更了解您</string>
+    <string name="good_hint_msg">请简要描述您所擅长的疾病领域</string>
+
+    <string name="alipay_success">绑定成功</string>
+    <string name="alipay_fail">绑定失败</string>
+    <string name="alipay_success_msg">每月15日是系统结算日，请您注意查看余额变化！</string>
+    <string name="alipay_fail_msg">请核对您输入的支付宝账号是否正确或已被绑定</string>
+    <string name="back">返回</string>
+    <string name="alipay_title">绑定支付宝账户</string>
+    <string name="alipay_retry">重试</string>
+    <string name="create_avchart_title">创建会诊</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="create_avchart_input_time">请在下方选择会诊时间</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="qrscanadd">扫一扫添加</string>
+    <string name="phoneadd">手机号添加</string>
+    <string name="phonenumber">手机号</string>
+    <string name="addsure">确认添加</string>
+    <string name="read">已阅读并同意</string>
+    <string name="agreement">《医星汇用户服务协议》</string>
+    <string name="resetpsd">重置密码</string>
+    <string name="search_doctor">输入已注册医星汇平台电话</string>
+    <string name="search_doctor_warning">*请确保您输入的号码为医星汇平台注册号码，否则将搜索失败。</string>
+    <string name="search_subject">请输入您想要查找的科室</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="update_apk">有新版本啦！</string>
+
+</resources>

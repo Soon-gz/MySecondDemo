@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/dialog_msg_group_title"
+            android:textSize="@dimen/text_size_20_sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:layout_marginBottom="@dimen/margin_size_4_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="标题"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/black_20p"/>
+        <TextView
+            android:id="@+id/dialog_msg_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:paddingLeft="@dimen/margin_size_10_dp"
+            android:paddingRight="@dimen/margin_size_10_dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#000"
+            android:text="是否进入视频咨询？"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dialog_cancel_group"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="7dp"
+            android:textSize="18sp"
+            android:textColor="#2bbbe6"
+            android:background="@drawable/shape_cancel"
+            android:layout_height="45dp"
+            android:text="拒绝"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="15dp"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:background="@drawable/shape_sure"
+            android:layout_height="45dp"
+            android:text="接受"
+            android:id="@+id/dialog_sure_group" />
+    </LinearLayout>
+</LinearLayout>

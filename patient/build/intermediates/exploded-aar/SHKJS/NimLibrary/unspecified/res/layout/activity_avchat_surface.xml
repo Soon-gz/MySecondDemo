@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/avchat_large_surface_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/quit_avchat_room_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/quit"/>
+
+            <Button
+                android:id="@+id/switch_cameras_avchat_room_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/switch_camera"/>
+
+            <Button
+                android:id="@+id/switch_speaker_avchat_room_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/switch_speaker"/>
+
+            <Button
+                android:id="@+id/close_speak_avchat_room_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/close_speak"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/avchat_user_icon_iv"
+            android:layout_width="@dimen/avatar_max_size"
+            android:layout_height="@dimen/avatar_max_size"
+            android:layout_margin="@dimen/bubble_layout_margin_vertical"
+            android:background="@color/color_red_ccfa3c55"/>
+
+        <RelativeLayout
+            android:id="@+id/avchat_little_surface_rl"
+            android:layout_width="@dimen/view_size_68"
+            android:layout_height="@dimen/view_size_120"
+            android:background="@color/color_red_ccfa3c55" android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

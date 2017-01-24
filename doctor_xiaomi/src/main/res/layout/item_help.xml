@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/margin_size_4_dp"
+    android:layout_marginTop="@dimen/margin_size_4_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_help_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_size_4_dp"
+            android:text="10.如何查看患者的问诊表？"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16_sp" />
+
+        <TextView
+            android:id="@+id/item_help_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:layout_marginTop="@dimen/margin_size_4_dp"
+            android:lineSpacingExtra="@dimen/margin_size_4_dp"
+            android:textColor="@color/gray_888888"
+            android:paddingLeft="@dimen/margin_size_20_dp"
+            android:paddingRight="@dimen/margin_size_10_dp"
+            android:text="点击患者头像即可查看。" />
+    </LinearLayout>
+</LinearLayout>

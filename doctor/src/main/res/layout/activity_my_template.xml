@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.MyTemplateActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+    <RelativeLayout
+        android:id="@+id/mytemplates_wenzhen_rv"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:layout_height="@dimen/margin_size_43_dp">
+        <TextView
+            android:layout_toRightOf="@+id/mywallet_apply_iv"
+            android:layout_marginLeft="@dimen/margin_size_10_dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="问诊表模板"/>
+        <ImageView style="@style/right_sure_forward" />
+    </RelativeLayout>
+
+    <View style="@style/line"/>
+    <RelativeLayout
+        android:id="@+id/mytemplates_bingli_rv"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp">
+        <TextView
+            android:layout_toRightOf="@+id/mywallet_apply_iv"
+            android:layout_marginLeft="@dimen/margin_size_10_dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="病历表模板"/>
+        <ImageView
+            style="@style/right_sure_forward"
+            />
+    </RelativeLayout>
+</LinearLayout>

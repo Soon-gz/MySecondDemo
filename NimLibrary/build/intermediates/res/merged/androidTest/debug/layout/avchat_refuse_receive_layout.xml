@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <TextView
+        android:id="@+id/refuse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/main_videochat_hangup"
+        android:gravity="center"
+        android:text="@string/avchat_refuse"
+        android:textColor="@color/black_231815"
+        android:textSize="17sp"
+    />
+
+    <TextView
+        android:id="@+id/receive"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:drawablePadding="10dp"
+        android:drawableTop="@drawable/main_videochat_answer"
+        android:gravity="center"
+        android:text="@string/avchat_receive"
+        android:textColor="@color/black_231815"
+        android:textSize="@dimen/text_size_17"
+    />
+
+</LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    android:orientation="vertical">
+
+    <com.raspberry.library.view.SwipeItemLayout
+        android:id="@+id/message_sl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selector_bar_white_style">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/refund_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/red_e84618"
+                android:gravity="center"
+                android:minWidth="@dimen/margin_size_60_dp"
+                android:paddingLeft="@dimen/margin_size_10_dp"
+                android:paddingRight="@dimen/margin_size_10_dp"
+                android:text="退款"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_size_10_dp"
+            android:paddingTop="@dimen/margin_size_10_dp">
+
+
+            <ImageView
+                android:id="@+id/consult_message_doctor_icon_iv"
+                android:layout_width="@dimen/margin_size_40_dp"
+                android:layout_height="@dimen/margin_size_40_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:clickable="false"
+                android:src="@drawable/main_consultation_groupconsultation"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_10_dp"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/consult_message_type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:text="@string/video_consultation"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_16_sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_size_10_dp"
+                    android:layout_marginTop="@dimen/margin_size_10_dp"
+                    android:clickable="false"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/consult_message_week_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/consult_message_specific_time_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_10_dp"
+                        android:clickable="false"
+                        android:textColor="@color/red_e84618"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/consult_message_date_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/consult_message_join_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:background="@drawable/btn_select_style"
+                android:lines="1"
+                android:paddingBottom="@dimen/margin_size_10_dp"
+                android:paddingLeft="@dimen/margin_size_20_dp"
+                android:paddingRight="@dimen/margin_size_20_dp"
+                android:paddingTop="@dimen/margin_size_10_dp"
+                android:text="进入"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+    </com.raspberry.library.view.SwipeItemLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:src="@color/green_d2d2d2"/>
+
+    <ImageView
+        android:id="@+id/consult_message_divider_iv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_10_dp"
+        android:clickable="false"
+        android:src="@color/green_d2d2d2"
+        android:visibility="gone"/>
+
+</LinearLayout>

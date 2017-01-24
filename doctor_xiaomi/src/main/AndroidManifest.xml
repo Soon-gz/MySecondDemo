@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shkjs.doctor">
+
+    <!-- 这里进行权限声明 -->
+
+
+    <!-- 二维码扫描相机自动对焦 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 读取联系人 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+
+    <!-- 访问网络连接 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 写文件 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读文件 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 获取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 读取电话状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 显示系统窗口 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 权限声明 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- 多媒体相关 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- SDK权限申明, 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
+    <!-- 和下面的uses-permission一起加入到你的AndroidManifest文件中。 -->
+    <permission
+        android:name="com.shkjs.doctor.permission.RECEIVE_MSG"
+        android:protectionLevel="signature" />
+
+    <!-- 接受SDK消息广播权限， 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
+    <uses-permission android:name="com.shkjs.doctor.permission.RECEIVE_MSG" />
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <!-- 欢迎界面 -->
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.GetBackPwdActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MessageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VideoConsultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PictrueConsultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HistoryOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.soundcloud.android.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 个推透传Receiver -->
+        <receiver
+            android:name=".receiver.PushReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.${GETUI_APP_ID}" />
+            </intent-filter>
+        </receiver>
+        <!-- 搜索医生广播 -->
+        <receiver
+            android:name=".receiver.SearchDocReceiv"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.shkjs.doctor.activity.SearchDoctorActivity" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 自定义广播，医生详情 -->
+        <receiver
+            android:name=".receiver.DoctorHealthReport"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.shkjs.doctor.activity.VideoConsultHReport" />
+            </intent-filter>
+        </receiver>
+        <!-- 网易消息提醒广播 -->
+        <receiver
+            android:name=".receiver.NimMessageReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name="com.shkjs.doctor.ACTION.RECEIVE_MSG" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+             网易云信APP key, 可以在这里设置，也可以在 SDKOptions 中提供。
+            如果 SDKOptions 中提供了，取 SDKOptions 中的值。
+        -->
+        <meta-data
+            android:name="com.netease.nim.appKey"
+            android:value="26417b129089f75fb824feb9fe71aca7" />
+
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.CustomerServiceActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VisitTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyWalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyTemplateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyPatientsActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PersonalMessageActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IntroductGoodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UploadAuthenDataActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.QRscanDoctorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChangePWActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyPatientDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.InquiryTemplateActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.IncomeDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BindingAlipayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.BindingAlipayNextActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.HistoryOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MedicalActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".activity.CreateAVActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AliBindSucessFailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyFriendsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddFrientsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SearchDoctorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ContactsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VideoGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.VideoConsultHReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/AlertNoActionBar" />
+        <activity
+            android:name=".activity.AuthenSuccessActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingFeeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PicturePatientTableActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyPatientsDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.MonthClosingActivity" />
+        <activity android:name=".activity.DoctorAgreementActivity"></activity>
+    </application>
+
+</manifest>

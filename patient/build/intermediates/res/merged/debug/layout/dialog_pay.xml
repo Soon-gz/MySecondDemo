@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_size_40_dp"
+    android:layout_marginRight="@dimen/margin_size_40_dp"
+    android:background="@drawable/shape_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_top_corners"
+            android:gravity="center"
+            android:padding="@dimen/margin_size_10_dp"
+            android:text="请输入支付密码"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_18_sp"/>
+
+        <ImageView
+            android:id="@+id/cancel_iv"
+            android:layout_width="@dimen/margin_size_20_dp"
+            android:layout_height="@dimen/margin_size_20_dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_size_20_dp"
+            android:src="@drawable/main_common_close"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin_size_10_dp"
+        android:text="支付金额"
+        android:textColor="@color/black_231815"
+        android:textSize="@dimen/text_size_14_sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_10_dp"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/old_price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_6_dp"
+            android:background="@drawable/pay_textview_line"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_10_sp"/>
+
+        <TextView
+            android:id="@+id/price_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/red_e84618"
+            android:textSize="@dimen/text_size_24_sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_10_dp"
+        android:layout_marginRight="@dimen/margin_size_10_dp"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:id="@+id/balance_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_20_dp"
+            android:layout_height="@dimen/margin_size_20_dp"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:src="@drawable/personalcenter_order_payment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_10_dp"
+            android:text="当前余额:"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+        <TextView
+            android:id="@+id/balance_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_10_dp"
+            android:layout_weight="1"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_20_dp"
+            android:layout_height="@dimen/margin_size_20_dp"
+            android:src="@drawable/main_common_more"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_10_dp"
+        android:layout_marginRight="@dimen/margin_size_10_dp"
+        android:src="@color/green_d2d2d2"/>
+
+    <com.raspberry.library.view.PayPwdEditText
+        android:id="@+id/password_ppet"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="@dimen/margin_size_10_dp">
+
+    </com.raspberry.library.view.PayPwdEditText>
+
+</LinearLayout>

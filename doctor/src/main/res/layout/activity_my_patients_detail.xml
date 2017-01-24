@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.MyPatientsDetailActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/my_patient_detail_swiperl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/my_patient_detail_recycler" />
+            <LinearLayout
+                android:id="@+id/picture_table_recycelrview_ll"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin_size_200_dp"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/no_data"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="当前患者没有上传病历报告和体检报告"/>
+            </LinearLayout>
+        </FrameLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

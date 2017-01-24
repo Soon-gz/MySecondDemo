@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_register"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_76_dp"
+            android:layout_height="@dimen/margin_size_76_dp"
+            android:layout_marginBottom="@dimen/margin_size_40_dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_18_dp"
+                android:layout_height="@dimen/margin_size_18_dp"
+                android:layout_marginLeft="@dimen/margin_size_24_dp"
+                android:background="@drawable/main_login_cellphone"/>
+
+            <EditText
+                android:id="@+id/register_username_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_46_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:background="@null"
+                android:hint="@string/username_hint"
+                android:inputType="phone"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:src="@color/green_d2d2d2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_18_dp"
+                android:layout_height="@dimen/margin_size_18_dp"
+                android:layout_marginLeft="@dimen/margin_size_24_dp"
+                android:background="@drawable/main_login_verificationcode"/>
+
+            <EditText
+                android:id="@+id/register_code_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_46_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/usercode_hint"
+                android:inputType="number"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="@dimen/margin_size_30_dp"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:layout_marginRight="@dimen/margin_size_10_dp"
+                android:src="@color/green_d2d2d2"/>
+
+            <TextView
+                android:id="@+id/register_getcode_tv"
+                android:layout_width="@dimen/margin_size_100_dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_bar_select_style"
+                android:gravity="center"
+                android:text="@string/getcode_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:src="@color/green_d2d2d2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_18_dp"
+                android:layout_height="@dimen/margin_size_18_dp"
+                android:layout_marginLeft="@dimen/margin_size_24_dp"
+                android:background="@drawable/main_login_password"/>
+
+            <EditText
+                android:id="@+id/register_userpwd_et"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_46_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:background="@null"
+                android:hint="@string/userpwd_hint"
+                android:inputType="textPassword"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:src="@color/green_d2d2d2"/>
+
+        <Button
+            android:id="@+id/register_submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_44_dp"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:layout_marginTop="@dimen/margin_size_24_dp"
+            android:background="@drawable/btn_select_style"
+            android:text="@string/register_btn_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/register_cb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/checkbox_select_style"
+                android:drawablePadding="@dimen/margin_size_10_dp"
+                android:text="已阅读并同意"
+                android:textColor="@color/gray_888888"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:text="已阅读并同意"
+                android:textSize="@dimen/text_size_12_sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/register_agreement_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_size_4_dp"
+                android:text="《医星汇用户服务协议》"
+                android:textColor="@color/blue_2bbbe6"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

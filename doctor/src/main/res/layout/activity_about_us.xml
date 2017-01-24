@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layoutAll"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/gray"
+              android:orientation="vertical"
+              tools:context="com.shkjs.doctor.activity.AboutUsActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/margin_size_100_dp"
+            android:layout_height="@dimen/margin_size_100_dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_size_60_dp"
+            android:src="@drawable/logo_200x200"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_size_12_dp"
+            android:text="医星汇"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16_sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aboutus_android_doctor_download_iv"
+                android:layout_width="@dimen/margin_size_100_dp"
+                android:layout_height="@dimen/margin_size_100_dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/qrcode"/>
+
+            <TextView
+                android:id="@+id/aboutus_ios_download_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutus_android_doctor_download_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_size_8_dp"
+                android:text="医生端下载"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutus_ios_download_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_size_8_dp"
+                android:text="推荐给好友扫一扫"
+                android:textSize="@dimen/text_size_12_sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aboutus_android_patient_download_iv"
+                android:layout_width="@dimen/margin_size_100_dp"
+                android:layout_height="@dimen/margin_size_100_dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/qrcode"/>
+
+            <TextView
+                android:id="@+id/aboutus_android_download_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/aboutus_android_patient_download_iv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_size_8_dp"
+                android:text="用户端下载"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutus_android_download_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_size_8_dp"
+                android:text="推荐给好友扫一扫"
+                android:textSize="@dimen/text_size_12_sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lines="1"
+                android:singleLine="true"
+                android:text="版本号:"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+            <TextView
+                android:id="@+id/edition_code_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/jishu_zhichi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/margin_size_8_dp"
+            android:gravity="center"
+            android:text="技术支持：成都树莓科技有限公司"
+            android:textSize="@dimen/text_size_13_sp"/>
+    </LinearLayout>
+
+</LinearLayout>

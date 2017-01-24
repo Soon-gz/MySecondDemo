@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_size_10_dp"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingRight="@dimen/margin_size_14_dp"
+        android:paddingTop="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:id="@+id/patient_name"
+            android:layout_width="@dimen/margin_size_100_dp"
+            android:layout_height="wrap_content"
+            android:text="用户姓名:"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+        <EditText
+            android:id="@+id/user_name_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="请准确输入用户姓名"
+            android:maxEms="12"
+            android:maxLength="12"
+            android:textColor="@color/gray_888888"
+            android:textSize="@dimen/text_size_12_sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_size_10_dp"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingRight="@dimen/margin_size_14_dp"
+        android:paddingTop="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别:"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+        <TextView
+            android:id="@+id/user_sex_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:hint="请选择用户性别"
+            android:textColor="@color/gray_888888"
+            android:textSize="@dimen/text_size_12_sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_size_10_dp"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingRight="@dimen/margin_size_14_dp"
+        android:paddingTop="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:id="@+id/patient_age"
+            android:layout_width="@dimen/margin_size_100_dp"
+            android:layout_height="wrap_content"
+            android:text="年龄:"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+        <EditText
+            android:id="@+id/user_age_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="right"
+            android:hint="请输入用户的年龄"
+            android:inputType="number"
+            android:maxEms="3"
+            android:maxLength="3"
+            android:textColor="@color/gray_888888"
+            android:textSize="@dimen/text_size_12_sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingRight="@dimen/margin_size_14_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="语音描述:"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.shkjs.patient.view.AudioButton
+                android:id="@+id/recording_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_10_dp"
+                android:layout_marginTop="@dimen/margin_size_10_dp"
+                android:background="@drawable/btn_select_style"
+                app:button="@drawable/main_healthreport_upload_icon_record"
+                app:text="录音"/>
+
+            <ProgressBar
+                android:id="@+id/audio_progress_bar"
+                style="?android:progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_4_dp"
+                android:layout_marginBottom="@dimen/margin_size_10_dp"
+                android:progressDrawable="@drawable/progress_background"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_12_dp"
+                android:layout_marginTop="@dimen/margin_size_12_dp"
+                android:text="详情描述"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_12_dp"
+                android:layout_marginLeft="@dimen/margin_size_8_dp"
+                android:layout_marginTop="@dimen/margin_size_12_dp"
+                android:text="(注：下方可上传图片资料)"
+                android:textColor="@color/red_e84618"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_80_dp"
+            android:layout_margin="@dimen/margin_size_10_dp"
+            android:background="@drawable/shape_black_44p"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_size_8_dp">
+
+            <EditText
+                android:id="@+id/describe_et"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:gravity="top"
+                android:hint="此处输入文字说明（如：病情情况、持续时间、是否有家庭遗传病史、是否有药物过敏情况等）"
+                android:lineSpacingMultiplier="1.5"
+                android:maxEms="100"
+                android:maxLength="100"
+                android:textColor="@color/gray_888888"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+            <TextView
+                android:id="@+id/describe_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_2_dp"
+                android:layout_marginRight="@dimen/margin_size_2_dp"
+                android:gravity="right"
+                android:text="0/100"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_size_10_dp"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingRight="@dimen/margin_size_14_dp"
+        android:paddingTop="@dimen/margin_size_10_dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加图片（最多20张）"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+            <LinearLayout
+                android:id="@+id/progress_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/progress_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_size_2_dp"
+                    android:text="正在压缩..."
+                    android:textColor="@color/blue_2bbbe6"
+                    android:textSize="@dimen/text_size_10_sp"/>
+
+                <ProgressBar
+                    android:id="@+id/progress_bar"
+                    style="?android:progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_size_4_dp"
+                    android:progressDrawable="@drawable/progress_background"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/multi_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_10_dp">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choose_btn_blue_style"
+        android:text="@string/sure"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16_sp"/>
+
+</LinearLayout>

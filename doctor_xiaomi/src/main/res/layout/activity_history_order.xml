@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.HistoryOrderActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/history_order_unfinished_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_14_sp"
+                android:textColor="@color/red"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_10_dp"
+                android:text="未完成"/>
+            <View
+                android:id="@+id/history_order_left_line"
+                android:layout_width="@dimen/margin_size_90_dp"
+                android:layout_height="0.5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/red"/>
+        </LinearLayout>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="28dp"
+            android:background="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/history_order_finished_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_14_sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_10_dp"
+                android:text="已结束" />
+            <View
+                android:id="@+id/history_order_right_line"
+                android:layout_width="@dimen/margin_size_90_dp"
+                android:layout_height="0.5dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/red"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="@dimen/margin_size_4_dp"
+        android:id="@+id/history_order_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

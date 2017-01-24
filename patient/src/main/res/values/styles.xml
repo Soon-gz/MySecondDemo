@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/gray_888888</item><!--  修改默认textview字体颜色 -->
+        <item name="actionMenuTextColor">@color/text_select</item><!--  修改默认Toolbar menu字体颜色 -->
+        <item name="android:textColorHint">@color/gray_888888</item>
+    </style>
+
+    <style name="recharge_radiobtn_style">
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/margin_size_10_dp</item>
+        <item name="android:background">@drawable/recharge_radiobtn_select</item>
+        <item name="android:textColor">@color/recharge_radiobtn_select</item>
+    </style>
+
+    <style name="doctor_item_btn_style">
+        <item name="android:background">@drawable/doctor_item_btn_style</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_12_sp</item>
+    </style>
+
+    <style name="patient_dialog" parent="Theme.AppCompat.Dialog">
+        <!-- 背景颜色及透明程度  -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--  是否有标题  -->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--  是否浮现在activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否模糊  -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="patient_dialog_activity" parent="patient_dialog">
+        <item name="android:windowCloseOnTouchOutside">true</item><!-- activity点击空白部分消失 -->
+    </style>
+
+</resources>

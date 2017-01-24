@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/doctor_detail_ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_size_100_dp"
+    android:layout_marginLeft="@dimen/margin_size_50_dp"
+    android:layout_marginRight="@dimen/margin_size_50_dp"
+    android:layout_marginTop="@dimen/margin_size_100_dp"
+    android:background="@drawable/doctors_detail_dialog_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/doctor_detail_top_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/doctor_icon_iv"
+            android:layout_width="@dimen/margin_size_50_dp"
+            android:layout_height="@dimen/margin_size_50_dp"
+            android:layout_margin="@dimen/margin_size_10_dp"
+            android:src="@drawable/main_headportrait_xlarge"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_10_dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_16_dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/doctor_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_16_sp"/>
+
+                <TextView
+                    android:id="@+id/doctor_platform_level_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_6_dp"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_10_sp"/>
+
+                <ImageView
+                    android:id="@+id/doctor_tag_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:src="@color/transparent"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_10_dp"
+                android:layout_marginTop="@dimen/margin_size_10_dp"
+                android:gravity="bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/doctor_department_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_10_dp"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/red_e84618"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/margin_size_6_dp"
+                    android:layout_marginRight="@dimen/margin_size_6_dp"
+                    android:src="@color/green_d2d2d2"/>
+
+                <TextView
+                    android:id="@+id/doctor_level_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/blue_2bbbe6"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/doctor_hospital_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_16_dp"
+                android:lines="1"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_10_dp"
+        android:src="@color/green_d2d2d2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_0_dp"
+            android:layout_weight="1"
+            android:minHeight="@dimen/margin_size_160_dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/doctor_excel_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_size_10_dp"
+                    android:layout_weight="1"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="@dimen/margin_size_10_dp"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+                <TextView
+                    android:id="@+id/doctor_introduce_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_size_10_dp"
+                    android:layout_weight="1"
+                    android:lineSpacingMultiplier="1.5"
+                    android:padding="@dimen/margin_size_10_dp"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/doctors_tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tabBackground="@drawable/doctor_detail_tab_background"
+            app:tabGravity="center"
+            app:tabIndicatorColor="#00ffffff"
+            app:tabIndicatorHeight="@dimen/margin_size_0_dp"
+            app:tabMaxWidth="@dimen/margin_size_200_dp"
+            app:tabMinWidth="@dimen/margin_size_160_dp"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/white">
+
+        </android.support.design.widget.TabLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

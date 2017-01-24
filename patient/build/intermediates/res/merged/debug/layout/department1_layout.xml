@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_size_6_dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/department_ll_1"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/department_ll_2"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/department_ll_3"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/department_ll_4"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/department_ll_5"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_stroke"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/white"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/department_ll_6"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/department_ll_7"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/department_ll_8"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/department_ll_9"
+            android:layout_width="@dimen/margin_size_0_dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_blue_2bbbe6_solid"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/deparment_iv_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_headportrait_xlarge"/>
+
+            <TextView
+                android:id="@+id/department_tv_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/department_text"
+                android:textColor="@color/blue_2bbbe6"
+                android:layout_margin="@dimen/margin_size_8_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

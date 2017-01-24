@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/main_content_click_to_dismiss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_20p"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/popup_anima"
+            android:layout_width="@dimen/margin_size_280_dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shap_main_qrcode_message"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/doctor_popup_circle_iv"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/avatar_def" />
+                <LinearLayout
+                    android:id="@+id/doctor_popup_name_age_ll"
+                    android:layout_toRightOf="@+id/doctor_popup_circle_iv"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/doctor_popup_name_tv"
+                        android:textSize="@dimen/text_size_15"
+                        android:textColor="@color/action_bar_black_title_1f1f1f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="姓名"/>
+                    <TextView
+                        android:id="@+id/doctor_popup_is_vip"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:text="vip"
+                        android:textSize="@dimen/text_size_12"
+                        android:textColor="@color/GreyWhite"
+                        android:background="@drawable/shape_circle_red"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_toRightOf="@+id/doctor_popup_circle_iv"
+                    android:layout_below="@+id/doctor_popup_name_age_ll"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/doctor_popup_sex"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_13"
+                        android:textColor="@color/action_bar_black_title_1f1f1f"
+                        android:text="女"/>
+                    <TextView
+                        android:id="@+id/doctor_popup_age"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_13"
+                        android:textColor="@color/action_bar_black_title_1f1f1f"
+                        android:text="22"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@color/gray7" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="图片"/>
+                <com.raspberry.library.view.MultiImageView
+                    android:id="@+id/doctor_popup_mult_images"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </com.raspberry.library.view.MultiImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

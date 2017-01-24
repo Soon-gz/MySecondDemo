@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/security_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:gravity="right"
+                    android:minWidth="@dimen/margin_size_50_dp"
+                    android:text="问题一"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_50_dp"
+                    android:background="@drawable/shape_background"
+                    android:paddingBottom="@dimen/margin_size_4_dp"
+                    android:paddingTop="@dimen/margin_size_4_dp">
+
+                    <Spinner
+                        android:id="@+id/question_one_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown">
+
+                    </Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:gravity="right"
+                    android:minWidth="@dimen/margin_size_50_dp"
+                    android:text="答案"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <EditText
+                    android:id="@+id/answer_one_tv"
+                    android:layout_width="@dimen/margin_size_0_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_background"
+                    android:lines="1"
+                    android:paddingBottom="@dimen/margin_size_8_dp"
+                    android:paddingLeft="@dimen/margin_size_8_dp"
+                    android:paddingTop="@dimen/margin_size_8_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:gravity="right"
+                    android:minWidth="@dimen/margin_size_50_dp"
+                    android:text="问题二"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_50_dp"
+                    android:background="@drawable/shape_background"
+                    android:paddingBottom="@dimen/margin_size_4_dp"
+                    android:paddingTop="@dimen/margin_size_4_dp">
+
+                    <Spinner
+                        android:id="@+id/question_two_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown">
+
+                    </Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:gravity="right"
+                    android:minWidth="@dimen/margin_size_50_dp"
+                    android:text="答案"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <EditText
+                    android:id="@+id/answer_two_tv"
+                    android:layout_width="@dimen/margin_size_0_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_size_8_dp"
+                    android:background="@drawable/shape_background"
+                    android:lines="1"
+                    android:paddingBottom="@dimen/margin_size_8_dp"
+                    android:paddingTop="@dimen/margin_size_8_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:gravity="right"
+                    android:minWidth="@dimen/margin_size_50_dp"
+                    android:text="问题三"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_50_dp"
+                    android:background="@drawable/shape_background"
+                    android:paddingBottom="@dimen/margin_size_4_dp"
+                    android:paddingTop="@dimen/margin_size_4_dp">
+
+                    <Spinner
+                        android:id="@+id/question_three_spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:spinnerMode="dropdown">
+
+                    </Spinner>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_14_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:gravity="right"
+                    android:minWidth="@dimen/margin_size_50_dp"
+                    android:text="答案"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <EditText
+                    android:id="@+id/answer_three_tv"
+                    android:layout_width="@dimen/margin_size_0_dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_14_dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="@dimen/margin_size_8_dp"
+                    android:background="@drawable/shape_background"
+                    android:lines="1"
+                    android:paddingBottom="@dimen/margin_size_8_dp"
+                    android:paddingTop="@dimen/margin_size_8_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:layout_marginTop="@dimen/margin_size_20_dp"
+                android:background="@drawable/btn_select_style"
+                android:enabled="false"
+                android:text="@string/sure"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/password_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@color/green_d2d2d2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_size_60_dp"
+                    android:background="@drawable/selector_bar_select_style"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_14_dp"
+                        android:minWidth="@dimen/margin_size_80_dp"
+                        android:text="密码"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_16_sp"/>
+
+                    <EditText
+                        android:id="@+id/modify_pwd_newpwd_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_10_dp"
+                        android:layout_marginRight="@dimen/margin_size_10_dp"
+                        android:background="@null"
+                        android:hint="@string/new_password"
+                        android:inputType="numberPassword"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_16_sp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@color/green_d2d2d2"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/margin_size_60_dp"
+                    android:background="@drawable/selector_bar_select_style"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_14_dp"
+                        android:minWidth="@dimen/margin_size_80_dp"
+                        android:text="再次输入"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_16_sp"/>
+
+                    <EditText
+                        android:id="@+id/modify_pwd_newpwd_again_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_size_10_dp"
+                        android:layout_marginRight="@dimen/margin_size_10_dp"
+                        android:background="@null"
+                        android:hint="@string/again_input_password"
+                        android:inputType="numberPassword"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_size_16_sp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@color/green_d2d2d2"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/modify_pwd_submit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:layout_marginTop="@dimen/margin_size_30_dp"
+                android:background="@drawable/btn_select_style"
+                android:text="@string/sure"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

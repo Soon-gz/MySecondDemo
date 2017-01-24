@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_160_dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/search_doctor_ad_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_150_dp"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:layout_marginRight="@dimen/margin_size_10_dp"/>
+
+            <LinearLayout
+                android:id="@+id/search_doctor_ad_linearlayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_size_6_dp"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include layout="@layout/department_layout"
+                 android:visibility="invisible"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_36_dp"
+            android:background="@color/gray_f2f2f2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/search_doctor_list_type_imageview"
+                android:layout_width="@dimen/margin_size_20_dp"
+                android:layout_height="@dimen/margin_size_20_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:src="@drawable/main_seekdoctor_recommended"/>
+
+            <TextView
+                android:id="@+id/search_doctor_list_type_textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_size_20_dp"
+                android:gravity="left|center_vertical"
+                android:text="@string/mine_doctor_text"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/search_doctor_doctor_refreshlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/search_doctor_doctor_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+</FrameLayout>

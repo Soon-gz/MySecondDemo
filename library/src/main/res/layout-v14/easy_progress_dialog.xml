@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:padding="@dimen/margin_size_10_dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+
+        <!--<ProgressBar-->
+        <!--android:id="@+id/easy_progress_bar"-->
+        <!--style="@style/mProgress_circle"-->
+        <!--android:layout_width="@dimen/margin_size_60_dp"-->
+        <!--android:layout_height="@dimen/margin_size_60_dp"-->
+        <!--android:layout_centerHorizontal="true"/>-->
+
+        <com.pitt.loadingview.library.LoadingView
+            android:id="@+id/easy_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:color="@color/blue_2bbbe6"
+            app:progress_style="material"
+            app:ring_radius="15dp"
+            app:ring_style="round"
+            app:ring_width="3dp"/>
+
+        <TextView
+            android:id="@+id/easy_progress_dialog_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/easy_progress_bar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="14dip"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

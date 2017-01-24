@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NimLibrary/NimLibrary.iml" filepath="$PROJECT_DIR$/NimLibrary/NimLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SHKJS.iml" filepath="$PROJECT_DIR$/SHKJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/doctor/doctor.iml" filepath="$PROJECT_DIR$/doctor/doctor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttp/okhttp.iml" filepath="$PROJECT_DIR$/okhttp/okhttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patient/patient.iml" filepath="$PROJECT_DIR$/patient/patient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thirdparty/thirdparty.iml" filepath="$PROJECT_DIR$/thirdparty/thirdparty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uikit/uikit.iml" filepath="$PROJECT_DIR$/uikit/uikit.iml" />
+    </modules>
+  </component>
+</project>

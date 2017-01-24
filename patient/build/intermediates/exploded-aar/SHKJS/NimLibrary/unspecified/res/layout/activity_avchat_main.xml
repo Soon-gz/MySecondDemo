@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 拨打界面 -->
+    <include
+        android:id="@+id/activity_avchat_call"
+        layout="@layout/activity_avchat_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!-- 接听界面 -->
+    <include
+        android:id="@+id/activity_avchat_answer"
+        layout="@layout/activity_avchat_answer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <!-- 通话界面 -->
+    <include
+        android:id="@+id/activity_avchat_surface"
+        layout="@layout/activity_avchat_surface"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</FrameLayout>

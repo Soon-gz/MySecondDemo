@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_size_20_dp"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/dialog_sure_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/main_common_success"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dialog_sure_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000"
+        android:layout_marginLeft="@dimen/margin_size_20_dp"
+        android:layout_marginRight="@dimen/margin_size_20_dp"
+        android:text="是否进入视频咨询？"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/margin_size_10_dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="@dimen/margin_size_200_dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:background="@drawable/shape_sure"
+            android:layout_height="@dimen/margin_size_40_dp"
+            android:text="确认"
+            android:id="@+id/dialog_sure" />
+    </RelativeLayout>
+</LinearLayout>

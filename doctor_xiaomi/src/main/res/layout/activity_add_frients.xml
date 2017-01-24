@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.AddFrientsActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_size_8_dp"
+        android:textSize="@dimen/text_size_12_sp"
+        android:lineSpacingExtra="@dimen/margin_size_4_dp"
+        android:text="*请确保您的好友已注册键医网APP,否则还好有请求将不成功"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginBottom="@dimen/margin_size_2_dp"
+        android:layout_height="@dimen/margin_size_43_dp">
+        <TextView
+            android:id="@+id/add_friends_phone_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14_sp"
+            android:layout_marginLeft="@dimen/margin_size_10_dp"
+            android:layout_marginRight="@dimen/margin_size_4_dp"
+            android:text="@string/phonenumber"/>
+        <EditText
+            android:id="@+id/add_friends_phone_edittext_tv"
+            android:layout_marginLeft="@dimen/margin_size_30_dp"
+            android:layout_toRightOf="@+id/add_friends_phone_text_tv"
+            android:paddingTop="@dimen/margin_size_4_dp"
+            android:paddingBottom="@dimen/margin_size_4_dp"
+            android:paddingRight="@dimen/margin_size_4_dp"
+            android:paddingLeft="@dimen/margin_size_10_dp"
+            android:background="@null"
+            android:inputType="number"
+            android:hint="@string/username_hint"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:textSize="@dimen/text_size_13_sp"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/add_frients_final_tv"
+        android:textColor="@color/white"
+        android:text="@string/addsure"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_size_20_dp"
+        android:padding="@dimen/margin_size_10_dp"
+        android:background="@drawable/shape_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

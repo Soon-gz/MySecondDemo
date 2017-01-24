@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_fafafa"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:layout_marginBottom="@dimen/margin_size_10_dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/health_report_type_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:background="@color/green_85db84"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/health_report_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_6_dp"
+                android:layout_weight="1"
+                android:text="2016/09/26  8:10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+            <TextView
+                android:id="@+id/health_report_type_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_6_dp"
+                android:text="平台报告"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/health_report_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_weight="1"
+            android:text="猫小咪"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_16_sp"/>
+
+        <TextView
+            android:id="@+id/health_report_symptom_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:text="症状：腹痛、腹泻"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_12_sp"/>
+
+        <LinearLayout
+            android:id="@+id/health_report_voice_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_size_4_dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.shkjs.patient.view.AudioButton
+                android:id="@+id/health_report_voice_btn"
+                android:layout_width="@dimen/margin_size_140_dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:background="@drawable/shape_report_audio_style"
+                app:button="@drawable/main_healthreport_voice_small"/>
+
+            <TextView
+                android:id="@+id/health_report_voice_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:layout_marginRight="@dimen/margin_size_10_dp"
+                android:text="1&apos;21&quot;"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+        <com.raspberry.library.view.MultiImageView
+            android:id="@+id/health_report_pictures_multiimageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_40_dp"
+            android:layout_marginTop="@dimen/margin_size_10_dp">
+
+        </com.raspberry.library.view.MultiImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/health_report_delete_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:text="删除"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/health_report_disease_information_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:background="@color/gray_e6e6e6"
+            android:visibility="visible">
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

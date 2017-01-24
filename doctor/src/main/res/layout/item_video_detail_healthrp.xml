@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/margin_size_2_dp"
+    android:layout_marginBottom="@dimen/margin_size_2_dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:padding="@dimen/margin_size_10_dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/item_patient_detail_name_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="猫小咪"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+                <TextView
+                    android:id="@+id/item_patient_detail_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:text="2016-09-26  8:10"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:text="症状："
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12_sp"/>
+                <TextView
+                    android:id="@+id/item_patient_detail_symptom_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_size_4_dp"
+                    android:text="腹痛、腹泻"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_12_sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/health_report_voice_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_size_4_dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <com.shkjs.doctor.view.AudioButton
+                    android:id="@+id/health_report_voice_btn"
+                    android:layout_width="@dimen/margin_size_140_dp"
+                    android:layout_height="@dimen/margin_size_20_dp"
+                    android:background="@drawable/shape_report_audio_style"
+                    app:button="@drawable/main_healthreport_voice_small"
+                    >
+
+                </com.shkjs.doctor.view.AudioButton>
+
+                <TextView
+                    android:id="@+id/item_patient_detail_voice_time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_10_dp"
+                    android:layout_marginRight="@dimen/margin_size_10_dp"
+                    android:text="1&apos;21&quot;"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_10_sp"/>
+
+            </LinearLayout>
+
+            <com.raspberry.library.view.MultiImageView
+                android:id="@+id/item_patient_detail_pictures_multiimageview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_30_dp"
+                android:layout_marginTop="@dimen/margin_size_8_dp">
+
+            </com.raspberry.library.view.MultiImageView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

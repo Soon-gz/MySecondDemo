@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.AuthenSuccessActivity">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:background="@color/color_blue_0888ff">
+        <TextView
+            android:id="@+id/toptitle_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="认证"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_20_sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/certification_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/main_common_success"/>
+        <TextView
+            android:id="@+id/certification_success_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:textSize="@dimen/text_size_16_sp"
+            android:textColor="@color/color_blue_0888ff"
+            android:layout_below="@+id/certification_success"
+            android:layout_centerHorizontal="true"
+            android:text="提交认证资料成功！"/>
+        <TextView
+            android:layout_below="@+id/certification_success_msg"
+            android:layout_width="288dp"
+            android:layout_marginTop="@dimen/margin_size_24_dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="@dimen/text_size_14_sp"
+            android:layout_height="wrap_content"
+            android:text="我们将根据您提供的资料进行审核，并在3~5个工作日与您取得联系来核对相关信息，请留意电话"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/certification_success_btn"
+        android:textColor="@color/white"
+        android:text="开始使用"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_size_20_dp"
+        android:padding="@dimen/margin_size_10_dp"
+        android:background="@drawable/btn_select_style"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        />
+
+</LinearLayout>

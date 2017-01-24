@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/no_message_layout_relative"
+    android:layout_marginTop="@dimen/margin_size_40_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/no_message_layout_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/no_message"
+        />
+    <TextView
+        android:id="@+id/no_message_layout_textview"
+        android:layout_below="@+id/no_message_layout_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:text="@string/no_consult_message"
+        android:textSize="@dimen/text_size_16_sp"/>
+</RelativeLayout>
+

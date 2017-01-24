@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_size_10_dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20_sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size_20_dp"
+            android:background="@drawable/shape_cancel"
+            android:minWidth="@dimen/margin_size_100_dp"
+            android:text="@string/cancel"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size_20_sp"/>
+
+        <Button
+            android:id="@+id/dialog_sure_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_size_20_dp"
+            android:background="@drawable/shape_sure"
+            android:minWidth="@dimen/margin_size_100_dp"
+            android:text="@string/sure"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20_sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

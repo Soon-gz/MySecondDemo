@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        android:background="@color/color_blue_0888ff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/login_btn_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_20_sp" />
+
+        <TextView
+            android:id="@+id/text_ringht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:textSize="16sp"
+            android:text="联系客服"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_150_dp">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_70_dp"
+            android:layout_height="@dimen/margin_size_70_dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo_200x200" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_16_dp"
+            android:layout_height="@dimen/margin_size_16_dp"
+            android:layout_marginLeft="@dimen/margin_size_36_dp"
+            android:src="@drawable/main_login_cellphone" />
+
+        <EditText
+            android:id="@+id/login_username_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_size_30_dp"
+            android:hint="@string/username_hint"
+            android:inputType="number"
+            android:background="@null"
+            android:text=""
+            android:textSize="@dimen/text_size_16_sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_43_dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_16_dp"
+            android:layout_height="@dimen/margin_size_16_dp"
+            android:layout_marginLeft="@dimen/margin_size_36_dp"
+            android:src="@drawable/main_login_password" />
+
+        <EditText
+            android:id="@+id/login_userpwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/margin_size_30_dp"
+            android:hint="@string/userpwd_hint"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="@dimen/text_size_16_sp" />
+    </LinearLayout>
+
+    <View
+        style="@style/line"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp" />
+
+    <TextView
+        android:id="@+id/login_submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_42_dp"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_24_dp"
+        android:background="@drawable/btn_select_style"
+        android:gravity="center"
+        android:text="@string/login_btn_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16_sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="@dimen/margin_size_14_dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/login_help_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/color_blue_0888ff"
+                android:textSize="@dimen/text_size_16_sp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:text="@string/login_help_text" />
+
+            <View
+                android:layout_width="0.6dp"
+                android:layout_height="@dimen/margin_size_18_dp"
+                android:background="@color/color_blue_0888ff"/>
+
+            <TextView
+                android:id="@+id/login_register_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_16_sp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:textColor="@color/color_blue_0888ff"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/margin_size_10_dp"
+                android:text="@string/login_register_text" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

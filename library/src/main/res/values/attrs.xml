@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ToggleButton">
+        <attr name="border_Width" format="dimension">
+        </attr>
+        <attr name="offBorderColor" format="reference|color">
+        </attr>
+        <attr name="offColor" format="reference|color">
+        </attr>
+        <attr name="onColor" format="reference|color">
+        </attr>
+        <attr name="spotColor" format="reference|color">
+        </attr>
+        <attr name="animate" format="reference|boolean">
+        </attr>
+        <attr name="isDefaultOn" format="reference|boolean">
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BGASwipeItemLayout">
+        <attr name="bga_sil_swipeDirection" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="bga_sil_bottomMode" format="enum">
+            <enum name="pullOut" value="0"/>
+            <enum name="layDown" value="1"/>
+        </attr>
+        <attr name="bga_sil_springDistance" format="dimension"/>
+        <attr name="bga_sil_swipeAble" format="boolean"/>
+    </declare-styleable>
+    
+    <declare-styleable name="FlyBanner">
+        <attr name="points_visibility" format="boolean"/>
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr>
+        <attr name="points_container_background" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="bubble">
+        <attr name="shadowColor" format="color"/>
+        <attr name="padding" format="dimension"/>
+        <attr name="strokeWidth" format="float"/>
+        <attr name="cornerRadius" format="float"/>
+        <attr name="halfBaseOfLeg" format="dimension"/>
+    </declare-styleable>
+
+</resources>

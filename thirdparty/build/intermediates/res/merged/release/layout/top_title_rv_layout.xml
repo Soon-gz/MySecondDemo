@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/color_blue_0888ff">
+
+    <TextView
+        android:id="@+id/toptitle_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="系统消息"
+        android:textColor="#fff"
+        android:textSize="@dimen/text_size_20_sp" />
+
+    <TextView
+        android:id="@+id/text_ringht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:padding="@dimen/margin_size_6_dp"
+        android:textSize="16sp"
+        android:textColor="#fff" />
+    <ImageView
+        android:id="@+id/imageview_right_2"
+        android:layout_width="@dimen/margin_size_24_dp"
+        android:layout_height="@dimen/margin_size_24_dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageview_right"
+        android:layout_marginRight="@dimen/margin_size_14_dp" />
+    <ImageView
+        android:id="@+id/imageview_right"
+        android:layout_width="@dimen/margin_size_24_dp"
+        android:layout_height="@dimen/margin_size_24_dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_size_10_dp" />
+
+    <ImageView
+        android:id="@+id/back_iv"
+        android:layout_width="@dimen/margin_size_40_dp"
+        android:padding="@dimen/margin_size_10_dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/toolbar_back_select_style"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

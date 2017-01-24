@@ -1,0 +1,766 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical"
+    tools:context="com.shkjs.doctor.fragment.VisitTimeFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/message_fragment_srl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/visit_time_fg_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/visit_time_fg_morning_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_size_50_dp"
+                        android:background="@color/white"
+                        android:padding="@dimen/margin_size_14_dp">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="上午（08:00--12:00）"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_16_sp" />
+
+                        <ImageView
+                            android:id="@+id/visit_time_fg_mr_iv"
+                            android:layout_width="@dimen/margin_size_10_dp"
+                            android:layout_height="@dimen/margin_size_10_dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_size_10_dp"
+                            android:src="@drawable/main_sittime_dropdown" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/visit_time_fg_mr_iv">
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="可约"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                android:id="@+id/visit_timefg_an_cancel_tv"
+                                style="@style/doctor_main_text_content"
+                                android:layout_marginLeft="@dimen/margin_size_2_dp"
+                                android:layout_marginRight="@dimen/margin_size_2_dp"
+                                android:text="0"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="人 已约"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                android:id="@+id/visit_timefg_an_sure_tv"
+                                style="@style/doctor_main_text_content"
+                                android:layout_marginLeft="@dimen/margin_size_2_dp"
+                                android:layout_marginRight="@dimen/margin_size_2_dp"
+                                android:text="0"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="人"
+                                android:textSize="@dimen/text_size_12_sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/line" />
+
+                    <!-- 上午时间段选择 -->
+                    <LinearLayout
+                        android:id="@+id/visit_morning_time_8_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/margin_size_14_dp"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_morning_time_iv_8"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                android:id="@+id/visit_morning_time_numbertv_8"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_morning_time_addiv_8" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_subtv_8"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_morning_time_numbertv_8" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_morning_time_iv_8"
+                                android:text="8:00--9:00" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_addiv_8"
+                                style="@style/settime_plus" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_morning_time_iv_9"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_morning_time_iv_9"
+                                android:text="9:00--10:00" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_addiv_9"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_morning_time_numbertv_9"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_morning_time_addiv_9" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_subtv_9"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_morning_time_numbertv_9" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_morning_time_iv_10"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_morning_time_iv_10"
+                                android:text="10:00--11:00" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_addiv_10"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_morning_time_numbertv_10"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_morning_time_addiv_10" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_subtv_10"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_morning_time_numbertv_10" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_morning_time_iv_11"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_morning_time_iv_11"
+                                android:text="11:00--12:00" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_addiv_11"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_morning_time_numbertv_11"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_morning_time_addiv_11" />
+
+                            <Button
+                                android:id="@+id/visit_morning_time_subtv_11"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_morning_time_numbertv_11" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/visit_time_fg_afternoon_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_size_50_dp"
+                        android:background="@color/white"
+                        android:padding="@dimen/margin_size_14_dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="下午（12:00--18:00）"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_16_sp" />
+
+                        <ImageView
+                            android:id="@+id/visit_time_fg_ar_iv"
+                            android:layout_width="@dimen/margin_size_10_dp"
+                            android:layout_height="@dimen/margin_size_10_dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_size_10_dp"
+                            android:src="@drawable/main_sittime_dropdown" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/visit_time_fg_ar_iv">
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="可约"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                android:id="@+id/visit_timefg_mn_cancel_tv"
+                                style="@style/doctor_main_text_content"
+                                android:layout_marginLeft="@dimen/margin_size_2_dp"
+                                android:layout_marginRight="@dimen/margin_size_2_dp"
+                                android:text="0"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="人 已约"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                android:id="@+id/visit_timefg_mn_sure_tv"
+                                style="@style/doctor_main_text_content"
+                                android:layout_marginLeft="@dimen/margin_size_2_dp"
+                                android:layout_marginRight="@dimen/margin_size_2_dp"
+                                android:text="0"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="人"
+                                android:textSize="@dimen/text_size_12_sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/line" />
+
+                    <!-- 中午时间段选择 -->
+                    <LinearLayout
+                        android:id="@+id/visit_afternoon_time_12_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/margin_size_14_dp"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_afternoon_time_iv_12"
+                                style="@style/settime_image" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_addiv_12"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_afternoon_time_numbertv_12"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_addiv_12" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_subtv_12"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_numbertv_12" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_afternoon_time_iv_12"
+                                android:text="12:00--13:00" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_afternoon_time_iv_13"
+                                style="@style/settime_image" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_addiv_13"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_afternoon_time_numbertv_13"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_addiv_13" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_subtv_13"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_numbertv_13" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_afternoon_time_iv_13"
+                                android:text="13:00--14:00" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_afternoon_time_iv_14"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_afternoon_time_iv_14"
+                                android:text="14:00--15:00" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_addiv_14"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_afternoon_time_numbertv_14"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_addiv_14" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_subtv_14"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_numbertv_14" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_afternoon_time_iv_15"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_afternoon_time_iv_15"
+                                android:text="15:00--16:00" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_addiv_15"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_afternoon_time_numbertv_15"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_addiv_15" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_subtv_15"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_numbertv_15" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_afternoon_time_iv_16"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_afternoon_time_iv_16"
+                                android:text="16:00--17:00" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_addiv_16"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_afternoon_time_numbertv_16"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_addiv_16" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_subtv_16"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_numbertv_16" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_afternoon_time_iv_17"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_afternoon_time_iv_17"
+                                android:text="17:00--18:00" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_addiv_17"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_afternoon_time_numbertv_17"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_addiv_17" />
+
+                            <Button
+                                android:id="@+id/visit_afternoon_time_subtv_17"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_afternoon_time_numbertv_17" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/visit_time_fg_evening_rl"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/margin_size_50_dp"
+                        android:background="@color/white"
+                        android:padding="@dimen/margin_size_14_dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="晚上（18:00--24:00）"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_16_sp" />
+
+                        <ImageView
+                            android:id="@+id/visit_time_fg_er_iv"
+                            android:layout_width="@dimen/margin_size_10_dp"
+                            android:layout_height="@dimen/margin_size_10_dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/margin_size_10_dp"
+                            android:src="@drawable/main_sittime_dropdown" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/visit_time_fg_er_iv">
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="可约"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                android:id="@+id/visit_timefg_en_cancel_tv"
+                                style="@style/doctor_main_text_content"
+                                android:layout_marginLeft="@dimen/margin_size_2_dp"
+                                android:layout_marginRight="@dimen/margin_size_2_dp"
+                                android:text="0"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="人 已约"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                android:id="@+id/visit_timefg_en_sure_tv"
+                                style="@style/doctor_main_text_content"
+                                android:layout_marginLeft="@dimen/margin_size_2_dp"
+                                android:layout_marginRight="@dimen/margin_size_2_dp"
+                                android:text="0"
+                                android:textSize="@dimen/text_size_12_sp" />
+
+                            <TextView
+                                style="@style/doctor_main_text_content"
+                                android:text="人"
+                                android:textSize="@dimen/text_size_12_sp" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View style="@style/line" />
+
+                    <!-- 晚上时间段选择 -->
+                    <LinearLayout
+                        android:id="@+id/visit_evening_time_18_24"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="@dimen/margin_size_14_dp"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_evening_time_iv_18"
+                                style="@style/settime_image" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_addiv_18"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_evening_time_numbertv_18"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_evening_time_addiv_18" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_subtv_18"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_evening_time_numbertv_18" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_evening_time_iv_18"
+                                android:text="18:00--19:00" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_evening_time_iv_19"
+                                style="@style/settime_image" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_addiv_19"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_evening_time_numbertv_19"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_evening_time_addiv_19" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_subtv_19"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_evening_time_numbertv_19" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_evening_time_iv_19"
+                                android:text="19:00--20:00" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_evening_time_iv_20"
+                                android:text="20:00--21:00" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_addiv_20"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_evening_time_numbertv_20"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_evening_time_addiv_20" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_subtv_20"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_evening_time_numbertv_20" />
+
+                            <ImageView
+                                android:id="@+id/visit_evening_time_iv_20"
+                                style="@style/settime_image" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_evening_time_iv_21"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_evening_time_iv_21"
+                                android:text="21:00--22:00" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_addiv_21"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_evening_time_numbertv_21"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_evening_time_addiv_21" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_subtv_21"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_evening_time_numbertv_21" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_evening_time_iv_22"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_evening_time_iv_22"
+                                android:text="22:00--23:00" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_addiv_22"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_evening_time_numbertv_22"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_evening_time_addiv_22" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_subtv_22"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_evening_time_numbertv_22" />
+                        </RelativeLayout>
+
+                        <View style="@style/line" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/margin_size_50_dp">
+
+                            <ImageView
+                                android:id="@+id/visit_evening_time_iv_23"
+                                style="@style/settime_image" />
+
+                            <TextView
+                                style="@style/settime_time2time"
+                                android:layout_toRightOf="@+id/visit_evening_time_iv_23"
+                                android:text="23:00--24:00" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_addiv_23"
+                                style="@style/settime_plus" />
+
+                            <TextView
+                                android:id="@+id/visit_evening_time_numbertv_23"
+                                style="@style/settime_temps"
+                                android:layout_toLeftOf="@+id/visit_evening_time_addiv_23" />
+
+                            <Button
+                                android:id="@+id/visit_evening_time_subtv_23"
+                                style="@style/settime_mius"
+                                android:layout_toLeftOf="@+id/visit_evening_time_numbertv_23" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_size_48_dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/visit_time_fg_settingmb_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_size_48_dp"
+                    android:layout_weight="1"
+                    android:background="@color/color_blue_0888ff"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_size_14_dp"
+                    android:text="设为模板"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/visit_time_fg_daorumb_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/margin_size_48_dp"
+                    android:layout_weight="1"
+                    android:background="@color/green_0cc493"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_size_14_dp"
+                    android:text="导入模板"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

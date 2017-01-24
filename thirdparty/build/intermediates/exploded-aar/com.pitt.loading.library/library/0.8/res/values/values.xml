@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView"><attr format="color" name="color"/><attr format="enum" name="ring_style">
+            <enum name="square" value="0"/>
+            <enum name="round" value="1"/>
+        </attr><attr format="enum" name="progress_style">
+            <enum name="material" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr><attr format="dimension" name="ring_width"/><attr format="dimension" name="ring_radius"/></declare-styleable>
+    <dimen name="default_height">30dp</dimen>
+    <dimen name="default_width">30dp</dimen>
+    <string name="app_name">Library</string>
+</resources>

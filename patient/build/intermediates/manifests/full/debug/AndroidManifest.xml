@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shkjs.patient"
+    android:versionCode="20170113"
+    android:versionName="1.1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="24" />
+
+    <!-- 这里进行权限声明 -->
+
+
+    <!-- 访问网络连接 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 写文件 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读文件 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 获取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 读取电话状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 振动 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 显示系统窗口 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- 权限声明 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <!-- 多媒体相关 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- SDK权限申明, 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
+    <!-- 和下面的uses-permission一起加入到你的AndroidManifest文件中。 -->
+    <permission
+        android:name="com.shkjs.patient.permission.RECEIVE_MSG"
+        android:protectionLevel="signature" />
+
+    <!-- 接受SDK消息广播权限， 第三方APP接入时，请将com.netease.nim.demo替换为自己的包名 -->
+    <uses-permission android:name="com.shkjs.patient.permission.RECEIVE_MSG" />
+
+    <!-- 自定义广播权限 -->
+    <permission
+        android:name="com.shkjs.patient.broadcastreceiver.permission"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.shkjs.patient.broadcastreceiver.permission" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" /> <!-- 手机状态 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- 自定义权限 -->
+    <uses-permission android:name="getui.permission.GetuiService.com.shkjs.patient" />
+
+    <permission
+        android:name="getui.permission.GetuiService.com.shkjs.patient"
+        android:protectionLevel="normal" />
+
+    <application
+        android:name="com.shkjs.patient.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+
+        <!-- 欢迎界面 -->
+        <activity
+            android:name="com.shkjs.patient.activity.WelcomeActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="com.shkjs.patient"
+                    android:pathPrefix="/openwith"
+                    android:scheme="patient" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shkjs.patient.activity.GuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.shkjs.patient.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.shkjs.patient.activity.RetrievePwdActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.shkjs.patient.activity.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.shkjs.patient.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.MineAccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.MineDoctorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.MineOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.SearchDoctorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.SystemMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.UserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.CallCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.ModifyPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.DoctorDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.ModifyUserSynopsis"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.DepartmentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.HospitalActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.OrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.RefundOrderDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.PayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.RefundActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.RechargeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.BalanceDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.AddMemberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.HomeGroupActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.HomeGroupCheckActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.SettingPayPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.QRCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.ResultActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.UploadHealthReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.HealthReportDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.OrderTimeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.WriteAskQuestionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.RetrievePayPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.SettingSecurityQuestionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.ModifyUserPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.ModifyPayPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.DoctorDetailDialogActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/patient_dialog" />
+        <activity
+            android:name="com.shkjs.patient.activity.DoctorsDetailDialogActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/patient_dialog" />
+        <activity
+            android:name="com.shkjs.patient.activity.MessageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.UserAgreementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.OrderNoticeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.patient.activity.SubmitPictureOrderActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 个推透传Receiver -->
+        <receiver
+            android:name="com.shkjs.patient.receiver.PushReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.2TNo6dcHoQ7TnH8glnvxr3" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 自定义广播 -->
+        <receiver
+            android:name="com.shkjs.patient.receiver.PatientReceiver"
+            android:exported="false"
+            android:permission="com.shkjs.patient.broadcastreceiver.permission" >
+            <intent-filter>
+                <action android:name="com.shkjs.patient.doctor_detail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.shkjs.patient.doctors_detail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.shkjs.patient.order_picture" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 网易消息提醒广播 -->
+        <receiver
+            android:name="com.shkjs.patient.receiver.NimMessageReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.shkjs.patient.ACTION.RECEIVE_MSG" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+             网易云信APP key, 可以在这里设置，也可以在 SDKOptions 中提供。
+            如果 SDKOptions 中提供了，取 SDKOptions 中的值。
+        -->
+        <meta-data
+            android:name="com.netease.nim.appKey"
+            android:value="26417b129089f75fb824feb9fe71aca7" />
+        <!-- android:value="2780b9241976433d99bec857811a154c"/> -->
+        <!-- android:value="c8ce7f3c3b6143d518bffae5fb22617a"/> -->
+
+
+        <!-- 支付宝支付 -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" /> <!-- <uses-library -->
+        <!-- android:name="com.google.android.maps" -->
+        <!-- android:required="false"/> -->
+        <activity
+            android:name="com.shkjs.nim.chat.activity.AVChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.nim.chat.activity.AVChatCallActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.shkjs.nim.chat.activity.AVChatRoomActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- 声明云信后台服务 -->
+        <service
+            android:name="com.netease.nimlib.service.NimService"
+            android:process=":core" /> <!-- 运行后台辅助服务 -->
+        <service
+            android:name="com.netease.nimlib.service.NimService$Aux"
+            android:process=":core" /> <!-- 云信SDK的监视系统启动和网络变化的广播接收器，用户开机自启动以及网络变化时候重新登录 -->
+        <receiver
+            android:name="com.netease.nimlib.service.NimReceiver"
+            android:exported="false"
+            android:process=":core" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver> <!-- 云信进程间通信receiver -->
+        <receiver android:name="com.netease.nimlib.service.ResponseReceiver" /> <!-- 申明本地电话状态（通话状态）的广播接收器，第三方APP集成时音视频模块时，如果需要网络通话与本地电话互斥，请加上此接收器 -->
+        <receiver android:name="com.netease.nimlib.receiver.IncomingCallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver> <!-- cosine -->
+        <service
+            android:name="com.netease.cosine.core.CosineService"
+            android:process=":cosine" />
+
+        <receiver
+            android:name="com.netease.cosine.target.CosineReceiver"
+            android:exported="true"
+            android:process=":cosine" /> <!-- cosine target SDK integrated -->
+        <meta-data
+            android:name="com.netease.cosine.target"
+            android:value="" />
+        <meta-data
+            android:name="com.netease.cosine.target.receiver"
+            android:value="com.netease.nimlib.service.NimReceiver" />
+
+        <activity
+            android:name="com.raspberry.library.activity.ImagePagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.raspberry.library.qrcode.QRCode2ScanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.raspberry.library.multiselect.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="net.qiujuer.genius.kit.command.CommandService"
+            android:enabled="true"
+            android:exported="false"
+            android:process="net.qiujuer.genius.kit.command.CommandService" >
+            <intent-filter>
+                <action android:name="net.qiujuer.genius.kit.command.ICommandInterface" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.mylhyl.acp.AcpActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.Transparent" />
+        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.shkjs.patient.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.AlbumSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> <!-- 会话窗口 -->
+        <!--
+             UI组件中包含了语音选文字功能，该界面是全屏显示，为了视觉上的美观，该界面主题ActionBar使用Overlay模式。
+             如果开发者不需要该功能或效果，使用普通主题即可。 同时，还需要将message_activity.xml这个layout中的根节点的paddingTop去掉。
+        -->
+        <activity
+            android:name="com.netease.nim.uikit.session.activity.P2PMessageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.session.activity.TeamMessageActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 群聊 -->
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.NormalTeamInfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.team.activity.TeamPropertySettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 联系人选择器 -->
+        <activity
+            android:name="com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/contact_selector"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- 照片选择 -->
+        <activity
+            android:name="com.netease.nim.uikit.common.media.picker.activity.PickImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.netease.nim.uikit.common.media.picker.activity.CropImageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/input_panel_take"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 视频 -->
+        <activity
+            android:name="com.netease.nim.uikit.session.activity.CaptureVideoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.netease.nim.uikit.session.activity.WatchVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/video_play"
+            android:theme="@style/DarkTheme" /> <!-- 查看大图 -->
+        <activity
+            android:name="com.netease.nim.uikit.session.activity.WatchMessagePictureActivity"
+            android:configChanges="keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 批量测试消息 -->
+        <activity
+            android:name="com.netease.nim.uikit.common.util.test.MassMessageActivity"
+            android:configChanges="keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- 个推SDK配置开始 -->
+        <!-- 配置的第三方参数属性 -->
+        <meta-data
+            android:name="PUSH_APPID"
+            android:value="2TNo6dcHoQ7TnH8glnvxr3" />
+        <meta-data
+            android:name="PUSH_APPKEY"
+            android:value="ZX5OtFVNe18DpUcfsYH8W3" />
+        <meta-data
+            android:name="PUSH_APPSECRET"
+            android:value="0W5mHqave67u3X3zKdfpG4" /> <!-- 配置SDK核心服务 -->
+        <service
+            android:name="com.igexin.sdk.PushService"
+            android:exported="true"
+            android:label="NotificationCenter"
+            android:process=":pushservice" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.service.message" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.igexin.sdk.PushServiceUser"
+            android:exported="true"
+            android:label="NotificationCenterUser" />
+
+        <receiver android:name="com.igexin.sdk.PushReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="com.igexin.sdk.action.refreshls" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igexin.sdk.PushManagerReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.igexin.sdk.action.pushmanager" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.igexin.sdk.PushActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.igexin.sdk.GActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:process=":pushservice"
+            android:taskAffinity="com.igexin.sdk.PushActivityTask"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.igexin.download.DownloadService"
+            android:process=":pushservice" />
+
+        <receiver android:name="com.igexin.download.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver> <!-- android:authorities="downloads.第三方包名" -->
+        <provider
+            android:name="com.igexin.download.DownloadProvider"
+            android:authorities="downloads.com.shkjs.patient"
+            android:process=":pushservice" />
+    </application>
+
+</manifest>

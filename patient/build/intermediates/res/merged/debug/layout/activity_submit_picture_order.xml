@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_14_dp"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:text="服务流程"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next_1"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_size_6_dp"
+                        android:layout_marginTop="@dimen/margin_size_6_dp"
+                        android:src="@drawable/next_arrow"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_6_dp"
+                    android:text="在线提交订单并支付"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next_2"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_size_6_dp"
+                        android:layout_marginTop="@dimen/margin_size_6_dp"
+                        android:src="@drawable/next_arrow"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_6_dp"
+                    android:text="在咨询消息中通过图文形式咨询医生"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next_3"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_size_6_dp"
+                        android:layout_marginTop="@dimen/margin_size_6_dp"
+                        android:src="@drawable/next_arrow"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_6_dp"
+                    android:text="医生详细询问病情"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/next_4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_size_6_dp"
+                    android:text="医生为您制定详细诊疗建议报告保存至您的健康档案"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_12_sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_14_dp"
+                android:layout_marginTop="@dimen/margin_size_14_dp"
+                android:text="注意事项"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+            <TextView
+                android:id="@+id/text_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.5"
+                android:text="1、在医生未根据您的问诊给出合理的报告之前均可咨询，若医生在您开始咨询后24小时内未回复给您诊疗建议报告，则全额退款。\n2、咨询期间不能取消该订单。\n3、若您点击提交订单，则表示您已知晓以上条款并同意《医星汇用户服务协议》。"
+                android:textColor="@color/gray_888888"
+                android:textSize="@dimen/text_size_12_sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/subimt_tv"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_44_dp"
+        android:background="@drawable/selector_blue_2bbbe6_stroke"
+        android:gravity="center"
+        android:text="提交订单"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_18_sp"/>
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+[
+    {
+        "outputFile": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en\\values-en.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 90,
+                    "endOffset": 141
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 90,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 146,
+                    "endColumn": 62,
+                    "endOffset": 204
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 62,
+                        "endOffset": 204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 209,
+                    "endColumn": 82,
+                    "endOffset": 287
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 209,
+                        "endColumn": 82,
+                        "endOffset": 287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 292,
+                    "endColumn": 72,
+                    "endOffset": 360
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 72,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 365,
+                    "endColumn": 60,
+                    "endOffset": 421
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 60,
+                        "endOffset": 421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 426,
+                    "endColumn": 104,
+                    "endOffset": 526
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 426,
+                        "endColumn": 104,
+                        "endOffset": 526
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 531,
+                    "endColumn": 51,
+                    "endOffset": 578
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 531,
+                        "endColumn": 51,
+                        "endOffset": 578
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 583,
+                    "endColumn": 109,
+                    "endOffset": 688
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 583,
+                        "endColumn": 109,
+                        "endOffset": 688
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 693,
+                    "endColumn": 129,
+                    "endOffset": 818
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 693,
+                        "endColumn": 129,
+                        "endOffset": 818
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 823,
+                    "endColumn": 111,
+                    "endOffset": 930
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 823,
+                        "endColumn": 111,
+                        "endOffset": 930
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 935,
+                    "endColumn": 41,
+                    "endOffset": 972
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 935,
+                        "endColumn": 41,
+                        "endOffset": 972
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 977,
+                    "endColumn": 66,
+                    "endOffset": 1039
+                },
+                "from": {
+                    "file": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\thirdparty\\build\\intermediates\\exploded-aar\\com.jph.takephoto\\takephoto_library\\4.0.2\\res\\values-en\\values-en.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 977,
+                        "endColumn": 66,
+                        "endOffset": 1039
+                    }
+                }
+            }
+        ]
+    }
+]

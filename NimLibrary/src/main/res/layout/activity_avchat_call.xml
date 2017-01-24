@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avchat_call_user_icon_iv"
+        android:layout_width="@dimen/view_size_100"
+        android:layout_height="@dimen/view_size_100"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/action_bar_height"
+        android:background="@color/color_activity_blue_bg"/>
+
+    <TextView
+        android:id="@+id/avchat_call_status_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avchat_call_user_icon_iv"
+        android:layout_marginTop="@dimen/bubble_layout_margin_vertical"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="aaa"
+        android:textColor="@color/contact_search_hit"/>
+
+    <Button
+        android:id="@+id/avchat_call_refuse_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/avatar_size_in_contact"
+        android:text="@string/quit"/>
+
+</RelativeLayout>

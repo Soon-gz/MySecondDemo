@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\chengduzhishu\Android\trunk\SHKJS\NimLibrary\src\main\assets"><file name="pinyin/index.dat" path="D:\chengduzhishu\Android\trunk\SHKJS\NimLibrary\src\main\assets\pinyin\index.dat"/></source><source path="D:\chengduzhishu\Android\trunk\SHKJS\NimLibrary\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\chengduzhishu\Android\trunk\SHKJS\NimLibrary\src\debug\assets"/></dataSet></merger>

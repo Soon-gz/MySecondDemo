@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context="com.shkjs.doctor.activity.IntroductGoodActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/margin_size_6_dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="@dimen/margin_size_170_dp">
+        <EditText
+            android:id="@+id/introduct_good_edittext_et"
+            android:padding="@dimen/margin_size_8_dp"
+            android:textSize="@dimen/text_size_14_sp"
+            android:background="@null"
+            android:lineSpacingExtra="@dimen/margin_size_2_dp"
+            android:maxLength="200"
+            android:maxLines="10"
+            android:textColor="@color/black"
+            android:hint=""
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="@dimen/margin_size_32_dp">
+        <LinearLayout
+            android:id="@+id/introduct_good_text_ll"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/margin_size_10_dp"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/introduct_good_textnum_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/200"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

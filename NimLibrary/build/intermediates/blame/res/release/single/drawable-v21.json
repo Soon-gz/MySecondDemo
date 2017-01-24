@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\crop__selectable_background.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.soundcloud.android.crop\\lib_crop\\1.0.0\\res\\drawable-v21\\crop__selectable_background.xml"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\NimLibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

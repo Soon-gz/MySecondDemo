@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\crop__ic_cancel.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\drawable-mdpi\\crop__ic_cancel.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\crop__ic_done.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\drawable-mdpi\\crop__ic_done.png"
+    },
+    {
+        "merged": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\crop__divider.9.png",
+        "source": "D:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\exploded-aar\\com.soundcloud.android\\android-crop\\1.0.1\\res\\drawable-mdpi\\crop__divider.9.png"
+    }
+]

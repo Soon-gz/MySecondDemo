@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/call_center_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_10_dp"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:lines="1"
+        android:textColor="@color/black_231815"
+        android:textSize="@dimen/text_size_18_sp"/>
+
+    <TextView
+        android:id="@+id/call_center_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_10_dp"
+        android:layout_marginLeft="@dimen/margin_size_28_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:lineSpacingMultiplier="1.5"
+        android:textSize="@dimen/text_size_14_sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+</LinearLayout>

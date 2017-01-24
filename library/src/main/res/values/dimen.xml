@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gudieview_width">6dp</dimen>
+    <dimen name="gudieview_heigh">6dp</dimen>
+
+    <!-- 自定义-->
+
+    <!-- View大小或者缩进大小-->
+    <dimen name="margin_size_0_dp">0dp</dimen>
+    <dimen name="margin_size_2_dp">2dp</dimen>
+    <dimen name="margin_size_4_dp">4dp</dimen>
+    <dimen name="margin_size_6_dp">6dp</dimen>
+    <dimen name="margin_size_8_dp">8dp</dimen>
+    <dimen name="margin_size_10_dp">10dp</dimen>
+    <dimen name="margin_size_12_dp">12dp</dimen>
+    <dimen name="margin_size_14_dp">14dp</dimen>
+    <dimen name="margin_size_16_dp">16dp</dimen>
+    <dimen name="margin_size_18_dp">18dp</dimen>
+    <dimen name="margin_size_20_dp">20dp</dimen>
+    <dimen name="margin_size_22_dp">22dp</dimen>
+    <dimen name="margin_size_24_dp">24dp</dimen>
+    <dimen name="margin_size_28_dp">28dp</dimen>
+    <dimen name="margin_size_30_dp">30dp</dimen>
+    <dimen name="margin_size_32_dp">32dp</dimen>
+    <dimen name="margin_size_36_dp">36dp</dimen>
+    <dimen name="margin_size_38_dp">38dp</dimen>
+    <dimen name="margin_size_40_dp">40dp</dimen>
+    <dimen name="margin_size_42_dp">42dp</dimen>
+    <dimen name="margin_size_43_dp">43dp</dimen>
+    <dimen name="margin_size_44_dp">44dp</dimen>
+    <dimen name="margin_size_46_dp">46dp</dimen>
+    <dimen name="margin_size_48_dp">48dp</dimen>
+    <dimen name="margin_size_50_dp">50dp</dimen>
+    <dimen name="margin_size_60_dp">60dp</dimen>
+    <dimen name="margin_size_70_dp">70dp</dimen>
+    <dimen name="margin_size_76_dp">76dp</dimen>
+    <dimen name="margin_size_80_dp">80dp</dimen>
+    <dimen name="margin_size_90_dp">90dp</dimen>
+    <dimen name="margin_size_100_dp">100dp</dimen>
+    <dimen name="margin_size_120_dp">120dp</dimen>
+    <dimen name="margin_size_130_dp">130dp</dimen>
+    <dimen name="margin_size_140_dp">140dp</dimen>
+    <dimen name="margin_size_150_dp">150dp</dimen>
+    <dimen name="margin_size_160_dp">160dp</dimen>
+    <dimen name="margin_size_180_dp">180dp</dimen>
+    <dimen name="margin_size_200_dp">200dp</dimen>
+    <dimen name="margin_size_220_dp">220dp</dimen>
+    <dimen name="margin_size_230_dp">230dp</dimen>
+    <dimen name="margin_size_240_dp">240dp</dimen>
+    <dimen name="margin_size_260_dp">260dp</dimen>
+    <dimen name="margin_size_280_dp">280dp</dimen>
+    <dimen name="margin_size_300_dp">300dp</dimen>
+    <dimen name="margin_size_320_dp">320dp</dimen>
+    <dimen name="margin_size_350_dp">350dp</dimen>
+    <dimen name="margin_size_400_dp">400dp</dimen>
+    <dimen name="margin_size_500_dp">500dp</dimen>
+    <dimen name="margin_size_600_dp">600dp</dimen>
+
+    <!-- 文字大小-->
+    <dimen name="text_size_8_sp">8sp</dimen>
+    <dimen name="text_size_10_sp">10sp</dimen>
+    <dimen name="text_size_12_sp">12sp</dimen>
+    <dimen name="text_size_14_sp">14sp</dimen>
+    <dimen name="text_size_16_sp">16sp</dimen>
+    <dimen name="text_size_18_sp">18sp</dimen>
+    <dimen name="text_size_20_sp">20sp</dimen>
+    <dimen name="text_size_22_sp">22sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="text_size_30_sp">30sp</dimen>
+    <dimen name="text_size_40_sp">40sp</dimen>
+    <dimen name="text_size_50_sp">50sp</dimen>
+
+    <dimen name="mis_image_size">120dp</dimen>
+    <dimen name="mis_space_size">2dp</dimen>
+    <dimen name="mis_folder_cover_size">72dp</dimen>
+
+</resources>

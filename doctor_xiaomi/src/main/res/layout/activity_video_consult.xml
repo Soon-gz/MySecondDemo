@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layoutAll"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.VideoConsultActivity">
+
+    <!-- 可修改标题-->
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <!-- 下拉刷新，recyclerview展示数据-->
+    <include layout="@layout/swiprefresh_recyclerview_nomsg_layout"/>
+</LinearLayout>

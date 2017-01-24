@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aliceblue">#f0f8ff</color>
+    <color name="antiquewhite">#faebd7</color>
+    <color name="aqua">#00ffff</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="azure">#f0ffff</color>
+    <color name="beige">#f5f5dc</color>
+    <color name="bisque">#ffe4c4</color>
+    <color name="black">#000000</color>
+    <color name="black_20p">#88000000</color>
+    <color name="black_231815">#231815</color>
+    <color name="black_44p">#44000000</color>
+    <color name="black_50_transparent">#80000000</color>
+    <color name="blanchedalmond">#ffebcd</color>
+    <color name="blue">#0000FF</color>
+    <color name="blue_2bbbe6">#2BBBE6</color>
+    <color name="blue_2ca8e5">#2CA8E5</color>
+    <color name="blue_4cb2ff">#4CB2FF</color>
+    <color name="blue_52c5e7">#52C5E7</color>
+    <color name="blue_7fc8ff">#7FC8FF</color>
+    <color name="blue_92ccdd">#92CCDD</color>
+    <color name="blue_b2edff">#B2EDFF</color>
+    <color name="blue_b3c2c7">#B3C2C7</color>
+    <color name="blue_edfaff">#EDFAFF</color>
+    <color name="blueviolet">#8a2be2</color>
+    <color name="brown">#a52a2a</color>
+    <color name="burlywood">#deb887</color>
+    <color name="cadetblue">#5f9ea0</color>
+    <color name="chartreuse">#7fff00</color>
+    <color name="chocolate">#d2691e</color>
+    <color name="color_blue_0888ff">#2bbbe6</color>
+    <color name="color_grey_ababab">#ababab</color>
+    <color name="coral">#ff7f50</color>
+    <color name="cornflowerblue">#6495ed</color>
+    <color name="cornsilk">#fff8dc</color>
+    <color name="crimson">#dc143c</color>
+    <color name="cyan">#00ffff</color>
+    <color name="darkblue">#00008b</color>
+    <color name="darkcyan">#008b8b</color>
+    <color name="darkgoldenrod">#b8860b</color>
+    <color name="darkgray">#a9a9a9</color>
+    <color name="darkgreen">#006400</color>
+    <color name="darkkhaki">#bdb76b</color>
+    <color name="darkmagenta">#8b008b</color>
+    <color name="darkolivegreen">#556b2f</color>
+    <color name="darkorange">#ff8c00</color>
+    <color name="darkorchid">#9932cc</color>
+    <color name="darkred">#8b0000</color>
+    <color name="darksalmon">#e9967a</color>
+    <color name="darkseagreen">#8fbc8f</color>
+    <color name="darkslateblue">#483d8b</color>
+    <color name="darkslategray">#2f4f4f</color>
+    <color name="darkslategrey">#2f4f4f</color>
+    <color name="darkturquoise">#00ced1</color>
+    <color name="darkviolet">#9400d3</color>
+    <color name="deeppink">#ff1493</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="dimgray">#696969</color>
+    <color name="dimgrey">#696969</color>
+    <color name="dodgerblue">#1e90ff</color>
+    <color name="firebrick">#b22222</color>
+    <color name="floralwhite">#fffaf0</color>
+    <color name="forestgreen">#228b22</color>
+    <color name="fuchsia">#ff00ff</color>
+    <color name="gainsboro">#dcdcdc</color>
+    <color name="ghostwhite">#f8f8ff</color>
+    <color name="gold">#ffd700</color>
+    <color name="goldenrod">#daa520</color>
+    <color name="gray">#f2f2f2</color>
+    <color name="gray_888888">#888888</color>
+    <color name="gray_9d9bd1">#9D9BD1</color>
+    <color name="gray_d2d2d2">#d2d2d2</color>
+    <color name="gray_d8d8d8">#D8D8D8</color>
+    <color name="gray_e6e6e6">#E6E6E6</color>
+    <color name="gray_efefef">#EFEFEF</color>
+    <color name="gray_f2f2f2">#F2F2F2</color>
+    <color name="gray_fafafa">#FAFAFA</color>
+    <color name="gray_transparent">#88E8E8E8</color>
+    <color name="green">#00FF00</color>
+    <color name="green_0cc493">#0CC493</color>
+    <color name="green_39cca5">#39CCA5</color>
+    <color name="green_52b51d">#52B51D</color>
+    <color name="green_54cc52">#54CC52</color>
+    <color name="green_85db84">#85DB84</color>
+    <color name="green_d2d2d2">#D2D2D2</color>
+    <color name="greenyellow">#adff2f</color>
+    <color name="grey">#808080</color>
+    <color name="honeydew">#f0fff0</color>
+    <color name="hotpink">#ff69b4</color>
+    <color name="indianred">#cd5c5c</color>
+    <color name="indigo">#4b0082</color>
+    <color name="ivory">#fffff0</color>
+    <color name="khaki">#f0e68c</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavenderblush">#fff0f5</color>
+    <color name="lawngreen">#7cfc00</color>
+    <color name="lemonchiffon">#fffacd</color>
+    <color name="lightblue">#e3f7ff</color>
+    <color name="lightcoral">#f08080</color>
+    <color name="lightcyan">#e0ffff</color>
+    <color name="lightgoldenrodyellow">#fafad2</color>
+    <color name="lightgray">#d3d3d3</color>
+    <color name="lightgreen">#90ee90</color>
+    <color name="lightgrey">#d3d3d3</color>
+    <color name="lightpink">#ffb6c1</color>
+    <color name="lightsalmon">#ffa07a</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="lightskyblue">#87cefa</color>
+    <color name="lightslategray">#778899</color>
+    <color name="lightslategrey">#778899</color>
+    <color name="lightsteelblue">#b0c4de</color>
+    <color name="lightyellow">#ffffe0</color>
+    <color name="lime">#00ff00</color>
+    <color name="limegreen">#32cd32</color>
+    <color name="linen">#faf0e6</color>
+    <color name="magenta">#ff00ff</color>
+    <color name="main_home_mypatients">#9DD6E6</color>
+    <color name="maroon">#800000</color>
+    <color name="mediumaquamarine">#66cdaa</color>
+    <color name="mediumblue">#0000cd</color>
+    <color name="mediumorchid">#ba55d3</color>
+    <color name="mediumpurple">#9370db</color>
+    <color name="mediumseagreen">#3cb371</color>
+    <color name="mediumslateblue">#7b68ee</color>
+    <color name="mediumspringgreen">#00fa9a</color>
+    <color name="mediumturquoise">#48d1cc</color>
+    <color name="mediumvioletred">#c71585</color>
+    <color name="midnightblue">#191970</color>
+    <color name="mintcream">#f5fffa</color>
+    <color name="mis_actionbar_color">#21282C</color>
+    <color name="mistyrose">#ffe4e1</color>
+    <color name="moccasin">#ffe4b5</color>
+    <color name="molv_FF0B9AD3">#FF0B9AD3</color>
+    <color name="multiple_image_select_primaryDark">#2BBBE6</color>
+    <color name="navajowhite">#ffdead</color>
+    <color name="navy">#000080</color>
+    <color name="oldlace">#fdf5e6</color>
+    <color name="olive">#808000</color>
+    <color name="olivedrab">#6b8e23</color>
+    <color name="orange">#ffa500</color>
+    <color name="orangered">#ff4500</color>
+    <color name="orchid">#da70d6</color>
+    <color name="palegoldenrod">#eee8aa</color>
+    <color name="palegreen">#98fb98</color>
+    <color name="paleturquoise">#afeeee</color>
+    <color name="palevioletred">#db7093</color>
+    <color name="papayawhip">#ffefd5</color>
+    <color name="peachpuff">#ffdab9</color>
+    <color name="peru">#cd853f</color>
+    <color name="pink">#ffc0cb</color>
+    <color name="plum">#dda0dd</color>
+    <color name="powderblue">#b0e0e6</color>
+    <color name="purple">#800080</color>
+    <color name="red">#FF0000</color>
+    <color name="red_e84618">#E84618</color>
+    <color name="red_ed6b46">#ED6B46</color>
+    <color name="rosybrown">#bc8f8f</color>
+    <color name="royalblue">#4169e1</color>
+    <color name="saddlebrown">#8b4513</color>
+    <color name="salmon">#fa8072</color>
+    <color name="sandybrown">#f4a460</color>
+    <color name="seaShell">#fff5ee</color>
+    <color name="seagreen">#2e8b57</color>
+    <color name="sienna">#a0522d</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="skyblue">#87ceeb</color>
+    <color name="slateblue">#6a5acd</color>
+    <color name="slategray">#708090</color>
+    <color name="slategrey">#708090</color>
+    <color name="snow">#fffafa</color>
+    <color name="springgreen">#00ff7f</color>
+    <color name="steelblue">#4682b4</color>
+    <color name="tan">#d2b48c</color>
+    <color name="teal">#008080</color>
+    <color name="thistle">#d8bfd8</color>
+    <color name="tomato">#ff6347</color>
+    <color name="translucent">#99E8E8E8</color>
+    <color name="turquoise">#40e0d0</color>
+    <color name="violet">#ee82ee</color>
+    <color name="wheat">#f5deb3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitesmoke">#f5f5f5</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow_f58e27">#F58E27</color>
+    <color name="yellow_f5ab62">#F5AB62</color>
+    <color name="yellow_ffcc00">#FFCC00</color>
+    <declare-styleable name="BGASwipeItemLayout"><attr format="enum" name="bga_sil_swipeDirection">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr><attr format="enum" name="bga_sil_bottomMode">
+            <enum name="pullOut" value="0"/>
+            <enum name="layDown" value="1"/>
+        </attr><attr format="dimension" name="bga_sil_springDistance"/><attr format="boolean" name="bga_sil_swipeAble"/></declare-styleable>
+    <declare-styleable name="FlyBanner"><attr format="boolean" name="points_visibility"/><attr format="enum" name="points_position">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr><attr format="reference|color" name="points_container_background"/></declare-styleable>
+    <declare-styleable name="ToggleButton"><attr format="dimension" name="border_Width">
+        </attr><attr format="reference|color" name="offBorderColor">
+        </attr><attr format="reference|color" name="offColor">
+        </attr><attr format="reference|color" name="onColor">
+        </attr><attr format="reference|color" name="spotColor">
+        </attr><attr format="reference|boolean" name="animate">
+        </attr><attr format="reference|boolean" name="isDefaultOn">
+        </attr></declare-styleable>
+    <declare-styleable name="bubble"><attr format="color" name="shadowColor"/><attr format="dimension" name="padding"/><attr format="float" name="strokeWidth"/><attr format="float" name="cornerRadius"/><attr format="dimension" name="halfBaseOfLeg"/></declare-styleable>
+    <dimen name="gudieview_heigh">6dp</dimen>
+    <dimen name="gudieview_width">6dp</dimen>
+    <dimen name="margin_size_0_dp">0dp</dimen>
+    <dimen name="margin_size_100_dp">100dp</dimen>
+    <dimen name="margin_size_10_dp">10dp</dimen>
+    <dimen name="margin_size_120_dp">120dp</dimen>
+    <dimen name="margin_size_12_dp">12dp</dimen>
+    <dimen name="margin_size_130_dp">130dp</dimen>
+    <dimen name="margin_size_140_dp">140dp</dimen>
+    <dimen name="margin_size_14_dp">14dp</dimen>
+    <dimen name="margin_size_150_dp">150dp</dimen>
+    <dimen name="margin_size_160_dp">160dp</dimen>
+    <dimen name="margin_size_16_dp">16dp</dimen>
+    <dimen name="margin_size_180_dp">180dp</dimen>
+    <dimen name="margin_size_18_dp">18dp</dimen>
+    <dimen name="margin_size_200_dp">200dp</dimen>
+    <dimen name="margin_size_20_dp">20dp</dimen>
+    <dimen name="margin_size_220_dp">220dp</dimen>
+    <dimen name="margin_size_22_dp">22dp</dimen>
+    <dimen name="margin_size_230_dp">230dp</dimen>
+    <dimen name="margin_size_240_dp">240dp</dimen>
+    <dimen name="margin_size_24_dp">24dp</dimen>
+    <dimen name="margin_size_260_dp">260dp</dimen>
+    <dimen name="margin_size_280_dp">280dp</dimen>
+    <dimen name="margin_size_28_dp">28dp</dimen>
+    <dimen name="margin_size_2_dp">2dp</dimen>
+    <dimen name="margin_size_300_dp">300dp</dimen>
+    <dimen name="margin_size_30_dp">30dp</dimen>
+    <dimen name="margin_size_320_dp">320dp</dimen>
+    <dimen name="margin_size_32_dp">32dp</dimen>
+    <dimen name="margin_size_350_dp">350dp</dimen>
+    <dimen name="margin_size_36_dp">36dp</dimen>
+    <dimen name="margin_size_38_dp">38dp</dimen>
+    <dimen name="margin_size_400_dp">400dp</dimen>
+    <dimen name="margin_size_40_dp">40dp</dimen>
+    <dimen name="margin_size_42_dp">42dp</dimen>
+    <dimen name="margin_size_43_dp">43dp</dimen>
+    <dimen name="margin_size_44_dp">44dp</dimen>
+    <dimen name="margin_size_46_dp">46dp</dimen>
+    <dimen name="margin_size_48_dp">48dp</dimen>
+    <dimen name="margin_size_4_dp">4dp</dimen>
+    <dimen name="margin_size_500_dp">500dp</dimen>
+    <dimen name="margin_size_50_dp">50dp</dimen>
+    <dimen name="margin_size_600_dp">600dp</dimen>
+    <dimen name="margin_size_60_dp">60dp</dimen>
+    <dimen name="margin_size_6_dp">6dp</dimen>
+    <dimen name="margin_size_70_dp">70dp</dimen>
+    <dimen name="margin_size_76_dp">76dp</dimen>
+    <dimen name="margin_size_80_dp">80dp</dimen>
+    <dimen name="margin_size_8_dp">8dp</dimen>
+    <dimen name="margin_size_90_dp">90dp</dimen>
+    <dimen name="mis_folder_cover_size">72dp</dimen>
+    <dimen name="mis_image_size">120dp</dimen>
+    <dimen name="mis_space_size">2dp</dimen>
+    <dimen name="text_size_10_sp">10sp</dimen>
+    <dimen name="text_size_12_sp">12sp</dimen>
+    <dimen name="text_size_14_sp">14sp</dimen>
+    <dimen name="text_size_16_sp">16sp</dimen>
+    <dimen name="text_size_18_sp">18sp</dimen>
+    <dimen name="text_size_20_sp">20sp</dimen>
+    <dimen name="text_size_22_sp">22sp</dimen>
+    <dimen name="text_size_24_sp">24sp</dimen>
+    <dimen name="text_size_30_sp">30sp</dimen>
+    <dimen name="text_size_40_sp">40sp</dimen>
+    <dimen name="text_size_50_sp">50sp</dimen>
+    <dimen name="text_size_8_sp">8sp</dimen>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <string name="album">相册</string>
+    <string name="app_name">医星汇</string>
+    <string name="cancel">取消</string>
+    <string name="choose_from_the_album">从相册选择</string>
+    <string name="choose_picture">选择图片</string>
+    <string name="mis_action_button_string">%1$s(%2$d/%3$d)</string>
+    <string name="mis_action_done">Done</string>
+    <string name="mis_error_image_not_exist">Image error</string>
+    <string name="mis_error_no_permission">Has no permission</string>
+    <string name="mis_folder_all">All Images</string>
+    <string name="mis_msg_amount_limit">Select images amount is limit</string>
+    <string name="mis_msg_no_camera">No system camera found</string>
+    <string name="mis_permission_dialog_cancel">CANCEL</string>
+    <string name="mis_permission_dialog_ok">OK</string>
+    <string name="mis_permission_dialog_title">Permission Deny</string>
+    <string name="mis_permission_rationale">Storage read permission is needed to pick files.</string>
+    <string name="mis_permission_rationale_write_storage">Storage write permission is needed to save the image.</string>
+    <string name="mis_photo_unit">Shot</string>
+    <string name="mis_preview">Preview</string>
+    <string name="mis_tip_take_photo">Take photo</string>
+    <string name="no_consult_message">您还没有咨询过医生哦~</string>
+    <string name="photograph">拍照</string>
+    <string name="sure">确定</string>
+    <style name="MIS_NO_ACTIONBAR" parent="Theme.AppCompat.Light.NoActionBar"/>
+    <style name="dialog_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_appear</item>
+        <item name="android:windowExitAnimation">@anim/dialog_disappear</item>
+    </style>
+    <style name="easy_dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowIsFloating">true</item>
+        
+        <item name="android:windowIsTranslucent">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowBackground">@android:color/transparent</item>
+        
+        <item name="android:backgroundDimEnabled">true</item>
+        
+    </style>
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/main_common_processing</item>
+        <item name="android:minWidth">25dp</item>
+        <item name="android:minHeight">25dp</item>
+        <item name="android:maxWidth">60dp</item>
+        <item name="android:maxHeight">60dp</item>
+    </style>
+    <style name="roundDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+</resources>

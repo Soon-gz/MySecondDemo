@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_white">
+
+    <ImageView
+        android:id="@+id/dialog_cancel_iv"
+        android:layout_width="@dimen/margin_size_20_dp"
+        android:layout_height="@dimen/margin_size_20_dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/margin_size_14_dp"
+        android:src="@drawable/main_refund_close"/>
+
+
+    <TextView
+        android:id="@+id/dialog_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_14_dp"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_30_dp"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="如何计算扣除款项？"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_20_sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title_tv">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dialog_content_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_size_10_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:lineSpacingMultiplier="1.5"
+                android:text="1.若医生方取消订单，则不扣除任何款项；\n2.在图文咨询中，若医生超过24小时未回复，则系统自动取消订单且不扣除任何款项；\n3.视频会诊的取消根据参加的医生个数和级别累积扣款;\n4.用户取消扣款详情见下表(以预约的咨询时间为准):"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dialog_content_tv"
+                android:layout_marginBottom="@dimen/margin_size_10_dp"
+                android:layout_marginLeft="@dimen/margin_size_14_dp"
+                android:layout_marginRight="@dimen/margin_size_14_dp"
+                android:background="@drawable/shape_cutdown_style"
+                android:divider="@drawable/shape_divider_h"
+                android:orientation="vertical"
+                android:showDividers="middle">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/shape_divider_w"
+                    android:orientation="horizontal"
+                    android:showDividers="middle">
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="类型"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="12小时以内"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="12小时以外"
+                        android:textSize="@dimen/text_size_12_sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/shape_divider_w"
+                    android:orientation="horizontal"
+                    android:showDividers="middle">
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="普通医生图文咨询"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_1"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_2"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/shape_divider_w"
+                    android:orientation="horizontal"
+                    android:showDividers="middle">
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="普通医生视频咨询"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_3"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_4"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/shape_divider_w"
+                    android:orientation="horizontal"
+                    android:showDividers="middle">
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="权威医生图文咨询"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_5"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_6"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/shape_divider_w"
+                    android:orientation="horizontal"
+                    android:showDividers="middle">
+                    <TextView
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:text="权威医生视频咨询"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_7"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+
+                    <TextView
+                        android:id="@+id/price_tv_8"
+                        android:layout_width="@dimen/margin_size_0_dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="@dimen/margin_size_4_dp"
+                        android:paddingTop="@dimen/margin_size_4_dp"
+                        android:textColor="@color/black_231815"
+                        android:textSize="@dimen/text_size_12_sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_title_tv"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_size_20_dp"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:lineSpacingMultiplier="1.5"
+            android:text="1.若医生方取消订单，则不扣除任何款项；\n2.在图文咨询中，若医生超过12小时未回复，则系统自动取消订单且不扣除任何款项；\n3.在视频咨询及视频会诊中，在预约时间12小时以上取消订单的，扣款金额为￥100.00元；\n4.在视频咨询及视频会诊中，在预约时间12小时以内取消订单的，扣款金额为￥150.00元。"/>
+
+    </ScrollView>
+
+</RelativeLayout>

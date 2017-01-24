@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/avchat_incoming_control"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="25dp"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/avchat_switch_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/empty"
+            android:padding="10dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/video_camera_sel"/>
+    </RelativeLayout>
+   <RelativeLayout
+       android:layout_width="0dp"
+       android:layout_weight="1"
+       android:layout_height="wrap_content">
+       <ImageView
+           android:id="@+id/avchat_video_logout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:contentDescription="@string/empty"
+           android:padding="10dp"
+           android:layout_centerInParent="true"
+           android:background="@drawable/videoconsultation_hangup"/>
+   </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/avchat_close_camera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_f2f7fc"
+        android:contentDescription="@string/empty"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:src="@drawable/avchat_close_camera_bg"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/avchat_video_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/empty"
+            android:padding="10dp"
+            android:background="@drawable/video_menu_sel"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/avchat_video_record"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/color_f2f7fc"
+        android:contentDescription="@string/empty"
+        android:padding="10dp"
+        android:scaleType="centerInside"
+        android:visibility="gone"
+        android:src="@drawable/avchat_video_record_selector"/>
+
+
+</LinearLayout>

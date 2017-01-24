@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <TextView
+        android:id="@+id/password_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_50_dp"
+        android:lines="1"
+        android:text="请输入6位数字作为您的支付密码"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16_sp"/>
+
+    <com.raspberry.library.view.PayPwdEditText
+        android:id="@+id/password_ppet"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_30_dp">
+
+    </com.raspberry.library.view.PayPwdEditText>
+
+</LinearLayout>

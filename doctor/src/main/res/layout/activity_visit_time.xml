@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layoutAll"
+    android:background="@color/gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.VisitTimeActivity">
+
+    <include layout="@layout/top_title_rv_layout" />
+
+    <HorizontalScrollView
+        android:id="@+id/visit_time_date_scollview_sc"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="@dimen/margin_size_48_dp">
+        <LinearLayout
+            android:background="@color/lightblue"
+            android:orientation="horizontal"
+            android:id="@+id/visit_time_date_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_48_dp">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/visit_time_viewpager_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

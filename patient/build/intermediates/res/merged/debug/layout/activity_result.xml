@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_160_dp">
+
+        <ImageView
+            android:id="@+id/captrue_personal_msg_headphoto_iv"
+            android:layout_width="@dimen/margin_size_70_dp"
+            android:layout_height="@dimen/margin_size_70_dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/main_headportrait_xlarge"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/captrue_personal_msg_headphoto_iv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/captrue_personal_msg_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16_sp"/>
+
+            <TextView
+                android:id="@+id/captrue_personal_msg_level_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:textSize="@dimen/text_size_14_sp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        android:layout_marginBottom="@dimen/margin_size_4_dp"
+        android:layout_marginLeft="@dimen/margin_size_10_dp"
+        android:layout_marginRight="@dimen/margin_size_10_dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hospital_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+        <TextView
+            android:id="@+id/captrue_personal_msg_hospital_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        android:layout_marginLeft="@dimen/margin_size_10_dp"
+        android:layout_marginRight="@dimen/margin_size_10_dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_size_10_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/department_text"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+        <TextView
+            android:id="@+id/captrue_personal_msg_department_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:textSize="@dimen/text_size_14_sp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/qr_result_addto_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_size_20_dp"
+        android:background="@drawable/shape_sure"
+        android:gravity="center"
+        android:padding="@dimen/margin_size_12_dp"
+        android:text="添加至我的医生"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_14_sp"/>
+
+</LinearLayout>

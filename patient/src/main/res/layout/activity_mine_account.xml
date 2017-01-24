@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_f2f2f2"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_2ca8e5">
+
+        <RelativeLayout
+            android:id="@+id/mine_account_balance_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_150_dp"
+            android:layout_margin="@dimen/margin_size_14_dp"
+            android:background="@drawable/shape_white">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:layout_marginTop="@dimen/margin_size_10_dp"
+                android:text="@string/balance"/>
+
+            <TextView
+                android:id="@+id/mine_account_balance_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="1"
+                android:singleLine="true"
+                android:textColor="@color/black_231815"
+                android:textSize="@dimen/text_size_40_sp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/mine_account_add_alipay_account_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_40_dp"
+                android:layout_height="@dimen/margin_size_40_dp"
+                android:layout_margin="@dimen/margin_size_10_dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/mine_account_add_alipay_account_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/add_alipay_account"
+                android:textSize="@dimen/text_size_18_sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_10_dp"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@color/gray"/>
+
+        <LinearLayout
+            android:id="@+id/mine_account_add_homegroup_member_ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin_size_40_dp"
+                android:layout_height="@dimen/margin_size_40_dp"
+                android:layout_margin="@dimen/margin_size_10_dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/mine_account_add_homegroup_member_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_size_10_dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="@string/add_homegroup_member"
+                android:textSize="@dimen/text_size_18_sp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_size_10_dp"
+                android:src="@mipmap/ic_launcher"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mine_account_homegroup_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:background="@drawable/selector_bar_white_style"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_40_dp"
+            android:layout_height="@dimen/margin_size_40_dp"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:src="@drawable/main_payment_familygroup"/>
+
+        <TextView
+            android:id="@+id/mine_account_homegroup_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/mine_home_group"
+            android:textColor="@color/black_231815"
+            android:textSize="@dimen/text_size_18_sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:src="@drawable/main_common_more"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mine_account_recharge_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_14_dp"
+        android:layout_marginRight="@dimen/margin_size_14_dp"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:background="@drawable/btn_select_style"
+        android:text="@string/recharge"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_18_sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/mine_account_faq_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_size_10_dp"
+            android:gravity="center"
+            android:text="@string/frequently_asked_questions"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/text_size_18_sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

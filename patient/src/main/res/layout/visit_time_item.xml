@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_10_dp"
+        android:text="时间段:"/>
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_size_10_dp"
+        android:layout_weight="1"
+        android:text="08:00--09:00"/>
+
+    <Button
+        android:id="@+id/order_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_4_dp"
+        android:layout_marginRight="@dimen/margin_size_10_dp"
+        android:layout_marginTop="@dimen/margin_size_4_dp"
+        android:background="@drawable/btn_select_style"
+        android:text="预约"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16_sp"/>
+
+</LinearLayout>

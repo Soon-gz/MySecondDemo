@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion APP_COMPILE_SDK_VERSION
+    buildToolsVersion APP_BUILD_TOOLS_VERSION
+    defaultConfig {
+        applicationId "com.shkjs.patient"
+        minSdkVersion 18
+        targetSdkVersion 24
+        versionCode 20170113
+        versionName "1.1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+
+        //个推参数说明
+        manifestPlaceholders = [
+                GETUI_APP_ID    : PATIENT_GETUI_APP_ID,
+                GETUI_APP_KEY   : PATIENT_GETUI_APP_KEY,
+                GETUI_APP_SECRET: PATIENT_GETUI_APP_SECRET,
+                PACKAGE_NAME    : applicationId
+        ]
+
+        ndk {//模拟器使用时开启x86_64，正式包不支持
+            abiFilters "armeabi", "armeabi-v7a"//, "arm64-v8a", "mips", "mips64", "x86", "x86_64"
+        }
+    }
+    //执行lint检查，有任何的错误或者警告提示，都会终止构建，我们可以将其关掉。
+    lintOptions {
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            keyAlias KEYALIAS
+            keyPassword KEYPASSWORD
+            storePassword STOREPASSWORD
+            storeFile file(STOREFILE)
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.release
+
+            minifyEnabled false
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            //shrinkResources true // instant run 不支持 shrinkResources
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        release {
+            signingConfig signingConfigs.release
+
+            minifyEnabled false
+            //Zipalign优化
+            zipAlignEnabled true
+            // 移除无用的resource文件
+            //            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+repositories {
+    flatDir {
+        dirs '../thirdparty/libs'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    testCompile 'junit:junit:4.12'
+    //其他第三方依赖项
+    compile project(':thirdparty')
+    //个推(最新版) 比较特殊，间接依赖有问题
+    //    compile 'com.getui:sdk:+'
+    compile 'com.getui:sdk:2.9.3.0'
+    compile 'com.android.support:multidex:1.0.1'
+}

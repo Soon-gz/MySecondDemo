@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/margin_size_4_dp"
+    android:layout_marginTop="@dimen/margin_size_4_dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_28_dp">
+        <View
+            android:id="@+id/item_history_line"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/margin_size_2_dp"
+            android:layout_height="@dimen/margin_size_14_dp"
+            android:layout_marginLeft="@dimen/margin_size_12_dp"
+            android:layout_marginRight="@dimen/margin_size_8_dp"
+            android:background="@color/red_e84618"/>
+        <TextView
+            android:id="@+id/item_history_setdingdanid_tv"
+            android:layout_toRightOf="@+id/item_history_line"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_14_sp"
+            android:text="订单编号："/>
+        <TextView
+            android:id="@+id/item_history_dingdanid_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_14_sp"
+            android:layout_toLeftOf="@+id/item_history_status_tv"
+            android:layout_toRightOf="@+id/item_history_setdingdanid_tv"
+            android:textColor="@color/black"
+            android:text="20160925011"/>
+        <TextView
+            android:id="@+id/item_history_status_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_size_12_dp"
+            android:textColor="@color/red_e84618"
+            android:textSize="@dimen/text_size_14_sp"
+            android:text="未完成"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/gray_f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_60_dp">
+        <ImageView
+            android:id="@+id/item_history_image_iv"
+            android:layout_width="@dimen/margin_size_40_dp"
+            android:layout_height="@dimen/margin_size_40_dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/item_history_name_tv"
+            android:layout_toRightOf="@+id/item_history_image_iv"
+            android:layout_marginTop="@dimen/margin_size_10_dp"
+            android:textSize="@dimen/text_size_16_sp"
+            android:layout_marginLeft="@dimen/margin_size_4_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="视频咨询"/>
+        <TextView
+            android:id="@+id/item_history_time_tv"
+            android:layout_marginTop="@dimen/margin_size_4_dp"
+            android:layout_marginLeft="@dimen/margin_size_4_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/item_history_image_iv"
+            android:layout_below="@+id/item_history_name_tv"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_13_sp"
+            android:text="2016-9-25 10:12"/>
+        <TextView
+            android:id="@+id/item_history_money_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_14_sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_size_12_dp"
+
+            android:text="388.00"/>
+    </RelativeLayout>
+
+    <View style="@style/line"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_38_dp">
+        <Button
+            android:id="@+id/item_history_unsure_tv"
+            android:layout_width="@dimen/margin_size_70_dp"
+            android:layout_height="@dimen/margin_size_30_dp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_size_12_dp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_13_sp"
+            android:background="@drawable/btn_select_style"
+            android:text="取消订单" />
+    </RelativeLayout>
+
+</LinearLayout>

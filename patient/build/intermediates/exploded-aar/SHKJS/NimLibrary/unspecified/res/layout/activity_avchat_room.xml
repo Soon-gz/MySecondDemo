@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/avchat_large_view_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fillViewport="true">
+
+            <FrameLayout
+                android:id="@+id/avchat_fl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:visibility="visible"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true">
+
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/avchat_room_message"
+                        android:layout_below="@+id/avchat_little_view_ll"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="220dp"
+                        android:layout_height="300dp">
+
+                    </android.support.v7.widget.RecyclerView>
+                    <ImageView
+                        android:id="@+id/icon_iv"
+                        android:layout_width="@dimen/message_thumb_size"
+                        android:layout_height="@dimen/message_thumb_size"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginTop="14dp" />
+
+                    <LinearLayout
+                        android:id="@+id/avchat_little_view_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_marginRight="14dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_toRightOf="@id/icon_iv"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/message_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="70dp"
+                        android:layout_marginRight="50dp"
+                        android:background="@drawable/groupconsultation_chat_btn"
+                        android:visibility="invisible" />
+
+                    <LinearLayout
+                        android:id="@+id/control_ll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="20dp">
+
+                        <LinearLayout
+                            android:id="@+id/switch_cameras_ll"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:id="@+id/switch_cameras_cb"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/video_chat_switch"
+                                android:checked="false"
+                                android:clickable="false" />
+
+                            <TextView
+                                android:id="@+id/switch_cameras_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:clickable="false"
+                                android:text="切换"
+                                android:textColor="@color/GreyWhite" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/quit_avchat_room_iv"
+                            android:layout_width="0dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="1"
+                            android:src="@drawable/main_videochat_hangup" />
+
+                        <LinearLayout
+                            android:id="@+id/switch_speak_ll"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:id="@+id/switch_speak_cb"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/video_chat_mute"
+                                android:button="@drawable/video_chat_mute"
+                                android:checked="false"
+                                android:clickable="false" />
+                            <TextView
+                                android:id="@+id/switch_speak_tv"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="8dp"
+                                android:clickable="false"
+                                android:text="静音"
+                                android:textColor="@color/GreyWhite" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </FrameLayout>
+        </ScrollView>
+        <RelativeLayout
+            android:id="@+id/input_message_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/nim_message_view_bottom"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/editTextMessage_group"
+                style="@style/edit_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/bottom_component_margin_horizontal"
+                android:layout_toLeftOf="@+id/buttonSendMessage_group"
+                android:autoLink="all"
+                android:background="@drawable/nim_message_input_edittext_box"
+                android:maxHeight="72dip"
+                android:maxLines="4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/buttonSendMessage_group"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:background="@drawable/nim_message_button_bottom_send_selector"
+                android:contentDescription="@string/empty"
+                android:gravity="center"
+                android:text="@string/send"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

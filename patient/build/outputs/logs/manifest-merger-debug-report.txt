@@ -1,0 +1,1217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:2:1-263:12
+	package
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:5:5-51
+	xmlns:android
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:4:5-63
+	android:versionCode
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:10:5-66
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:13:5-67
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:19:5-67
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:13:5-67
+MERGED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:11:5-67
+MERGED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:11:5-67
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:12:5-80
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:23:5-81
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:33:5-81
+MERGED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:14:5-81
+MERGED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:13:5-81
+MERGED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:11:5-81
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:14:5-79
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:32:5-80
+MERGED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:12:5-80
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:16:5-78
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:14:5-79
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:20:5-79
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:14:5-79
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:18:5-74
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:12:5-75
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:22:5-75
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:38:5-75
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.VIBRATE
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:20:5-65
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:24:5-66
+MERGED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:12:5-66
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:22:5-77
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:24:5-78
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:22:22-75
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:25:5-68
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:23:5-69
+MERGED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.CAMERA
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:28:5-64
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:36:5-65
+MERGED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:11:5-65
+MERGED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:28:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:29:5-70
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:37:5-71
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:29:22-68
+permission#com.shkjs.patient.permission.RECEIVE_MSG
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:33:5-35:46
+	android:protectionLevel
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:35:9-44
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:34:9-64
+uses-permission#com.shkjs.patient.permission.RECEIVE_MSG
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:38:5-79
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:38:22-77
+permission#com.shkjs.patient.broadcastreceiver.permission
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:41:5-42:54
+	android:protectionLevel
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:42:17-52
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:41:17-78
+uses-permission#com.shkjs.patient.broadcastreceiver.permission
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:43:5-85
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:43:22-83
+application
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:45:5-261:19
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:25:5-41:19
+MERGED from [com.android.support:appcompat-v7:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:47:5-114:19
+MERGED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:16:5-30:19
+MERGED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:16:5-18:38
+MERGED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:13:5-25:19
+MERGED from [com.mylhyl:acp:1.1.6] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.mylhyl\acp\1.1.6\AndroidManifest.xml:11:5-16:19
+MERGED from [de.hdodenhof:circleimageview:2.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\AndroidManifest.xml:9:5-20
+MERGED from [com.pitt.loading.library:library:0.8] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.pitt.loading.library\library\0.8\AndroidManifest.xml:11:5-15:19
+MERGED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:14:5-26:19
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:13:5-34:19
+MERGED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:9:5-143:19
+MERGED from [com.android.support:design:23.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:33:5-113:19
+	android:label
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:49:9-41
+		REJECTED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:27:9-41
+		REJECTED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:18:9-41
+		REJECTED from [com.pitt.loading.library:library:0.8] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.pitt.loading.library\library\0.8\AndroidManifest.xml:13:9-41
+		REJECTED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:15:9-41
+	android:supportsRtl
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:50:9-35
+	android:allowBackup
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:47:9-35
+	android:icon
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:48:9-43
+	android:theme
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:51:9-52
+	tools:replace
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:52:9-43
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:46:9-50
+activity#com.shkjs.patient.activity.WelcomeActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:55:9-70:20
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:58:13-49
+	android:launchMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:57:13-44
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:56:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:60:17-68
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:62:17-76
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:62:27-74
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:64:13-69:29
+action#android.intent.action.VIEW
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:65:17-68
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:65:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:66:17-75
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:66:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:67:27-75
+data
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:68:17-113
+	android:host
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:68:23-55
+	android:scheme
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:68:87-111
+	android:pathPrefix
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:68:56-86
+activity#com.shkjs.patient.activity.GuideActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:71:9-73:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:73:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:72:13-51
+activity#com.shkjs.patient.activity.LoginActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:74:9-78:66
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:77:13-49
+	android:launchMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:76:13-43
+	android:windowSoftInputMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:78:13-64
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:75:13-51
+activity#com.shkjs.patient.activity.RegisterActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:79:9-82:66
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:81:13-49
+	android:windowSoftInputMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:82:13-64
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:80:13-54
+activity#com.shkjs.patient.activity.RetrievePwdActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:83:9-86:66
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:85:13-49
+	android:windowSoftInputMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:86:13-64
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:84:13-57
+activity#com.shkjs.patient.activity.MainActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:87:9-91:66
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:90:13-49
+	android:launchMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:89:13-44
+	android:windowSoftInputMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:91:13-64
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:88:13-50
+activity#com.shkjs.patient.activity.AboutActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:92:9-94:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:94:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:93:13-51
+activity#com.shkjs.patient.activity.MineAccountActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:95:9-97:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:97:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:96:13-57
+activity#com.shkjs.patient.activity.MineDoctorActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:98:9-100:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:100:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:99:13-56
+activity#com.shkjs.patient.activity.MineOrderActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:101:9-103:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:103:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:102:13-55
+activity#com.shkjs.patient.activity.SearchDoctorActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:104:9-106:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:106:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:105:13-58
+activity#com.shkjs.patient.activity.SettingsActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:107:9-109:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:109:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:108:13-54
+activity#com.shkjs.patient.activity.SystemMessageActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:110:9-112:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:111:13-59
+activity#com.shkjs.patient.activity.UserInfoActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:113:9-115:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:115:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:114:13-54
+activity#com.shkjs.patient.activity.CallCenterActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:116:9-118:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:118:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:117:13-56
+activity#com.shkjs.patient.activity.ModifyPwdActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:119:9-121:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:121:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:120:13-55
+activity#com.shkjs.patient.activity.DoctorDetailActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:122:9-124:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:124:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:123:13-58
+activity#com.shkjs.patient.activity.ModifyUserSynopsis
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:125:9-127:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:126:13-56
+activity#com.shkjs.patient.activity.DepartmentActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:128:9-130:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:129:13-56
+activity#com.shkjs.patient.activity.HospitalActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:131:9-133:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:133:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:132:13-54
+activity#com.shkjs.patient.activity.OrderDetailActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:134:9-136:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:136:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:135:13-57
+activity#com.shkjs.patient.activity.RefundOrderDetailActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:137:9-139:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:139:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:138:13-63
+activity#com.shkjs.patient.activity.PayActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:140:9-142:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:142:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:141:13-49
+activity#com.shkjs.patient.activity.RefundActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:143:9-145:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:145:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:144:13-52
+activity#com.shkjs.patient.activity.RechargeActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:146:9-148:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:148:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:147:13-54
+activity#com.shkjs.patient.activity.BalanceDetailActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:149:9-151:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:151:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:150:13-59
+activity#com.shkjs.patient.activity.AddMemberActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:152:9-154:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:154:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:153:13-55
+activity#com.shkjs.patient.activity.HomeGroupActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:155:9-157:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:157:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:156:13-55
+activity#com.shkjs.patient.activity.HomeGroupCheckActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:158:9-160:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:160:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:159:13-60
+activity#com.shkjs.patient.activity.SettingPayPwdActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:161:9-163:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:162:13-59
+activity#com.shkjs.patient.activity.QRCodeActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:164:9-166:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:165:13-52
+activity#com.shkjs.patient.activity.ResultActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:167:9-170:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:170:13-49
+	android:launchMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:169:13-43
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:168:13-52
+activity#com.shkjs.patient.activity.UploadHealthReportActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:171:9-173:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:173:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:172:13-64
+activity#com.shkjs.patient.activity.HealthReportDetailActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:174:9-176:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:176:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:175:13-64
+activity#com.shkjs.patient.activity.OrderTimeActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:177:9-179:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:179:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:178:13-55
+activity#com.shkjs.patient.activity.WriteAskQuestionsActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:180:9-182:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:181:13-63
+activity#com.shkjs.patient.activity.RetrievePayPwdActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:183:9-185:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:184:13-60
+activity#com.shkjs.patient.activity.SettingSecurityQuestionActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:186:9-188:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:188:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:187:13-69
+activity#com.shkjs.patient.activity.ModifyUserPwdActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:189:9-191:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:191:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:190:13-59
+activity#com.shkjs.patient.activity.ModifyPayPwdActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:192:9-194:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:194:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:193:13-58
+activity#com.shkjs.patient.activity.DoctorDetailDialogActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:195:9-199:52
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:198:13-49
+	android:launchMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:197:13-43
+	android:theme
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:199:13-50
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:196:13-64
+activity#com.shkjs.patient.activity.DoctorsDetailDialogActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:200:9-204:52
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:203:13-49
+	android:launchMode
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:202:13-43
+	android:theme
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:204:13-50
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:201:13-65
+activity#com.shkjs.patient.activity.MessageDetailActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:205:9-207:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:207:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:206:13-59
+activity#com.shkjs.patient.activity.UserAgreementActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:208:9-210:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:210:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:209:13-59
+activity#com.shkjs.patient.activity.OrderNoticeActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:211:9-213:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:213:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:212:13-57
+activity#com.shkjs.patient.activity.SubmitPictureOrderActivity
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:214:9-216:51
+	android:screenOrientation
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:216:13-49
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:215:13-64
+receiver#com.shkjs.patient.receiver.PushReceiver
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:219:9-225:20
+	android:exported
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:221:13-37
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:220:13-50
+intent-filter#com.igexin.sdk.action.${GETUI_APP_ID}
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:222:13-224:29
+action#com.igexin.sdk.action.${GETUI_APP_ID}
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:223:17-79
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:223:25-77
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+receiver#com.shkjs.patient.receiver.PatientReceiver
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:228:9-241:20
+	android:exported
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:230:13-37
+	android:permission
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:231:13-80
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:229:13-53
+intent-filter#com.shkjs.patient.doctor_detail
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:232:13-234:29
+action#com.shkjs.patient.doctor_detail
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:233:17-73
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:233:25-71
+intent-filter#com.shkjs.patient.doctors_detail
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:235:13-237:29
+action#com.shkjs.patient.doctors_detail
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:236:17-74
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:236:25-72
+intent-filter#com.shkjs.patient.order_picture
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:238:13-240:29
+action#com.shkjs.patient.order_picture
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:239:17-73
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:239:25-71
+receiver#com.shkjs.patient.receiver.NimMessageReceiver
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:244:9-251:20
+	android:enabled
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:246:13-35
+	android:exported
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:247:13-37
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:245:13-56
+intent-filter#com.shkjs.patient.ACTION.RECEIVE_MSG
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:248:13-250:29
+	android:priority
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:248:28-51
+action#com.shkjs.patient.ACTION.RECEIVE_MSG
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:249:17-78
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:249:25-76
+meta-data#com.netease.nim.appKey
+ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:255:9-257:63
+	android:value
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:257:13-61
+	android:name
+		ADDED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml:256:13-50
+uses-sdk
+INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-fragment:25.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\AndroidManifest.xml:21:5-23:60
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:8:5-10:41
+MERGED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.orhanobut:logger:1.15] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.orhanobut\logger\1.15\AndroidManifest.xml:6:5-43
+MERGED from [cn.bingoogolapple:bga-badgeview:1.1.3] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\cn.bingoogolapple\bga-badgeview\1.1.3\AndroidManifest.xml:6:5-8:41
+MERGED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.mylhyl:acp:1.1.6] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.mylhyl\acp\1.1.6\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.chrisbanes:PhotoView:1.2.7] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.github.chrisbanes\PhotoView\1.2.7\AndroidManifest.xml:8:5-10:41
+MERGED from [com.pitt.loading.library:library:0.8] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.pitt.loading.library\library\0.8\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.2.1] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.2.1\AndroidManifest.xml:19:5-43
+MERGED from [top.zibin:Luban:1.0.9] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\top.zibin\Luban\1.0.9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.soundcloud.android.crop:lib_crop:1.0.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.soundcloud.android.crop\lib_crop\1.0.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [me.shaohui.advancedluban:library:1.2.8] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\me.shaohui.advancedluban\library\1.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:23.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\design\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.tencent.bugly:crashreport:2.4.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.tencent.bugly\crashreport\2.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.1.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.tencent.bugly\nativecrashreport\3.1.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+		INJECTED from D:\chengduzhishu\Android\trunk\SHKJS\patient\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:15:5-76
+MERGED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:15:5-76
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:16:22-65
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:31:9-35:50
+	android:screenOrientation
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:35:13-47
+	android:exported
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:34:13-37
+	android:configChanges
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:32:13-60
+activity#com.alipay.sdk.auth.AuthActivity
+ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:36:9-40:50
+	android:screenOrientation
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:40:13-47
+	android:exported
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:39:13-37
+	android:configChanges
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:38:13-74
+	android:name
+		ADDED from [SHKJS:thirdparty:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\thirdparty\unspecified\AndroidManifest.xml:37:13-60
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:16:5-76
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:19:5-73
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:19:22-70
+uses-permission#android.permission.GET_TASKS
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:22:5-68
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:25:5-68
+MERGED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:26:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:27:5-74
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:27:22-71
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:28:22-76
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:29:22-77
+activity#com.shkjs.nim.chat.activity.AVChatActivity
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:53:9-56:52
+	android:screenOrientation
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:56:13-49
+	android:launchMode
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:54:13-70
+activity#com.shkjs.nim.chat.activity.AVChatCallActivity
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:57:9-60:52
+	android:screenOrientation
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:60:13-49
+	android:launchMode
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:58:13-74
+activity#com.shkjs.nim.chat.activity.AVChatRoomActivity
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:61:9-64:52
+	android:screenOrientation
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:64:13-49
+	android:launchMode
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:62:13-74
+service#com.netease.nimlib.service.NimService
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:67:9-69:39
+	android:process
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:69:13-36
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:68:13-65
+service#com.netease.nimlib.service.NimService$Aux
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:72:9-74:39
+	android:process
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:74:13-36
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:73:13-69
+receiver#com.netease.nimlib.service.NimReceiver
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:77:9-85:20
+	android:process
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:80:13-36
+	android:exported
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:79:13-37
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:78:13-66
+intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:81:13-84:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:82:25-76
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:83:17-79
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:83:25-76
+receiver#com.netease.nimlib.service.ResponseReceiver
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:88:9-80
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:88:19-77
+receiver#com.netease.nimlib.receiver.IncomingCallReceiver
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:91:9-95:20
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:91:19-82
+intent-filter#android.intent.action.PHONE_STATE
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:92:13-94:29
+action#android.intent.action.PHONE_STATE
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:93:17-76
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:93:25-73
+service#com.netease.cosine.core.CosineService
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:98:9-100:41
+	android:process
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:100:13-38
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:99:13-65
+receiver#com.netease.cosine.target.CosineReceiver
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:102:9-105:41
+	android:process
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:105:13-38
+	android:exported
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:104:13-36
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:103:13-68
+meta-data#com.netease.cosine.target
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:108:9-110:32
+	android:value
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:110:13-29
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:109:13-53
+meta-data#com.netease.cosine.target.receiver
+ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:111:9-113:70
+	android:value
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:113:13-67
+	android:name
+		ADDED from [SHKJS:NimLibrary:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\NimLibrary\unspecified\AndroidManifest.xml:112:13-62
+activity#com.raspberry.library.activity.ImagePagerActivity
+ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:21:13-77
+activity#com.raspberry.library.qrcode.QRCode2ScanActivity
+ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:24:13-76
+activity#com.raspberry.library.multiselect.MultiImageSelectorActivity
+ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:28:13-59
+	android:name
+		ADDED from [SHKJS:library:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\library\unspecified\AndroidManifest.xml:27:13-88
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from [SHKJS:okhttp:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\okhttp\unspecified\AndroidManifest.xml:14:22-81
+service#net.qiujuer.genius.kit.command.CommandService
+ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:16:9-24:19
+	android:enabled
+		ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:18:13-35
+	android:process
+		ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:20:13-76
+	android:exported
+		ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:17:13-73
+intent-filter#net.qiujuer.genius.kit.command.ICommandInterface
+ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:21:13-23:29
+action#net.qiujuer.genius.kit.command.ICommandInterface
+ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:22:17-91
+	android:name
+		ADDED from [net.qiujuer.genius:kit:1.5.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\net.qiujuer.genius\kit\1.5.0\AndroidManifest.xml:22:25-88
+activity#com.mylhyl.acp.AcpActivity
+ADDED from [com.mylhyl:acp:1.1.6] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.mylhyl\acp\1.1.6\AndroidManifest.xml:12:9-15:56
+	android:launchMode
+		ADDED from [com.mylhyl:acp:1.1.6] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.mylhyl\acp\1.1.6\AndroidManifest.xml:14:13-44
+	android:theme
+		ADDED from [com.mylhyl:acp:1.1.6] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.mylhyl\acp\1.1.6\AndroidManifest.xml:15:13-53
+	android:name
+		ADDED from [com.mylhyl:acp:1.1.6] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.mylhyl\acp\1.1.6\AndroidManifest.xml:13:13-54
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:15:9-82
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:15:19-79
+provider#android.support.v4.content.FileProvider
+ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:17:9-25:20
+	android:authorities
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:19:13-64
+	android:grantUriPermissions
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:21:13-47
+	android:exported
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:18:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:22:13-24:54
+	android:resource
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:24:17-51
+	android:name
+		ADDED from [com.jph.takephoto:takephoto_library:4.0.2] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.jph.takephoto\takephoto_library\4.0.2\AndroidManifest.xml:23:17-67
+activity#com.darsh.multipleimageselect.activities.AlbumSelectActivity
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:16:9-24:20
+	android:label
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:19:13-45
+	android:configChanges
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:18:13-59
+	android:theme
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:20:13-60
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:17:13-88
+intent-filter#android.intent.category.DEFAULT
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:21:13-23:29
+activity#com.darsh.multipleimageselect.activities.ImageSelectActivity
+ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:28:13-45
+	android:configChanges
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:27:13-59
+	android:theme
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:29:13-60
+	android:name
+		ADDED from [com.darsh.multipleimageselect:multipleimageselect:1.0.4] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.darsh.multipleimageselect\multipleimageselect\1.0.4\AndroidManifest.xml:26:13-88
+activity#com.netease.nim.uikit.session.activity.P2PMessageActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:16:9-21:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:19:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:21:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:18:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:17:13-85
+activity#com.netease.nim.uikit.session.activity.TeamMessageActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:22:9-27:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:25:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:27:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:24:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:23:13-86
+activity#com.netease.nim.uikit.team.activity.NormalTeamInfoActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:30:9-35:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:33:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:35:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:32:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:31:13-86
+activity#com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:36:9-41:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:39:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:41:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:38:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:37:13-88
+activity#com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:42:9-47:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:45:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:47:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:44:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:43:13-90
+activity#com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:48:9-53:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:51:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:53:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:50:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:49:13-92
+activity#com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:54:9-59:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:57:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:59:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:55:13-94
+activity#com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:60:9-65:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:63:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:65:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:62:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:64:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:61:13-92
+activity#com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:66:9-71:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:69:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:71:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:68:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:70:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:67:13-98
+activity#com.netease.nim.uikit.team.activity.TeamPropertySettingActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:72:9-77:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:75:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:77:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:74:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:76:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:73:13-91
+activity#com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:80:9-86:67
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:83:13-53
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:86:13-64
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:82:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:85:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:81:13-97
+activity#com.netease.nim.uikit.common.media.picker.activity.PickImageActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:89:9-92:59
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:91:13-49
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:92:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:90:13-96
+activity#com.netease.nim.uikit.common.media.picker.activity.CropImageActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:93:9-96:59
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:95:13-49
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:96:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:94:13-96
+activity#com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:97:9-100:59
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:99:13-49
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:100:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:98:13-98
+activity#com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:101:9-104:59
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:103:13-49
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:104:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:102:13-105
+activity#com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:105:9-110:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:108:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:110:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:107:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:109:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:106:13-108
+activity#com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:111:9-117:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:115:13-49
+	android:label
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:114:13-53
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:117:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:113:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:116:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:112:13-109
+activity#com.netease.nim.uikit.session.activity.CaptureVideoActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:120:9-125:70
+	android:screenOrientation
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:123:13-49
+	android:windowSoftInputMode
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:125:13-67
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:122:13-63
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:124:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:121:13-87
+activity#com.netease.nim.uikit.session.activity.WatchVideoActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:126:9-130:48
+	android:label
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:129:13-47
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:128:13-74
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:130:13-45
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:127:13-85
+activity#com.netease.nim.uikit.session.activity.WatchMessagePictureActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:133:9-136:59
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:135:13-51
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:136:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:134:13-94
+activity#com.netease.nim.uikit.common.util.test.MassMessageActivity
+ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:139:9-142:59
+	android:configChanges
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:141:13-51
+	android:theme
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:142:13-56
+	android:name
+		ADDED from [SHKJS:uikit:unspecified] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\SHKJS\uikit\unspecified\AndroidManifest.xml:140:13-86
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:18:22-78
+uses-permission#getui.permission.GetuiService.${PACKAGE_NAME}
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:27:5-85
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:27:22-82
+permission#getui.permission.GetuiService.${PACKAGE_NAME}
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:29:5-31:44
+	android:protectionLevel
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:31:9-41
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:30:9-69
+meta-data#PUSH_APPID
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:37:9-39:47
+	android:value
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:39:13-44
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:38:13-38
+meta-data#PUSH_APPKEY
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:40:9-42:48
+	android:value
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:41:13-39
+meta-data#PUSH_APPSECRET
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:43:9-45:51
+	android:value
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:45:13-48
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:44:13-42
+service#com.igexin.sdk.PushService
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:48:9-56:19
+	android:process
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:52:13-43
+	android:label
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:51:13-47
+	android:exported
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:49:13-54
+intent-filter#com.igexin.sdk.action.service.message
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:53:13-55:29
+action#com.igexin.sdk.action.service.message
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:54:25-77
+service#com.igexin.sdk.PushServiceUser
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:57:9-60:54
+	android:label
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:60:13-51
+	android:exported
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:59:13-36
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:58:13-58
+receiver#com.igexin.sdk.PushReceiver
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:62:9-73:20
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:62:19-61
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.BOOT_COMPLETED+android.intent.action.MEDIA_MOUNTED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+com.igexin.sdk.action.refreshls
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:63:13-72:29
+action#android.intent.action.USER_PRESENT
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:66:17-77
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:66:25-74
+action#com.igexin.sdk.action.refreshls
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:67:17-74
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:67:25-71
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:69:17-78
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:69:25-75
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:70:17-87
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:70:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:71:17-90
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:71:25-87
+receiver#com.igexin.sdk.PushManagerReceiver
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:74:9-80:20
+	android:exported
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:76:13-37
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:75:13-62
+intent-filter#com.igexin.sdk.action.pushmanager
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:77:13-79:29
+action#com.igexin.sdk.action.pushmanager
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:78:17-76
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:78:25-73
+activity#com.igexin.sdk.PushActivity
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:82:9-88:75
+	android:process
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:86:13-43
+	android:excludeFromRecents
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:84:13-46
+	android:exported
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:85:13-37
+	android:theme
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:88:13-72
+	android:taskAffinity
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:87:13-67
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:83:13-55
+activity#com.igexin.sdk.GActivity
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:89:9-95:75
+	android:process
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:93:13-43
+	android:excludeFromRecents
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:91:13-46
+	android:exported
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:92:13-36
+	android:theme
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:95:13-72
+	android:taskAffinity
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:94:13-67
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:90:13-52
+service#com.igexin.download.DownloadService
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:97:9-99:46
+	android:process
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:99:13-43
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:98:13-63
+receiver#com.igexin.download.DownloadReceiver
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:101:9-105:20
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:101:19-70
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:102:13-104:29
+provider#com.igexin.download.DownloadProvider
+ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:108:9-111:46
+	android:authorities
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:110:13-60
+	android:process
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:111:13-43
+	android:name
+		ADDED from [com.getui:sdk:2.9.3.0] D:\chengduzhishu\Android\trunk\SHKJS\patient\build\intermediates\exploded-aar\com.getui\sdk\2.9.3.0\AndroidManifest.xml:109:13-64

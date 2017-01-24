@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">医星汇</string>
+    <string name="copyright">Copyright ©2016-2016 公司版权所有</string>
+    <string name="no_data">没有任何信息~</string>
+    <string name="username_and_password_hint">请输入手机号和密码</string>
+    <string name="username_hint">请输入手机号</string>
+    <string name="username_right_hint">请输入正确的手机号</string>
+    <string name="userpwd_hint">请输入密码</string>
+    <string name="user_newpwd_hint">请输入新密码</string>
+    <string name="username_and_usercode_hint">请输入手机号和验证码</string>
+    <string name="usercode_hint">请输入验证码</string>
+
+    <string name="login_fail">登录失败</string>
+    <string name="login_btn_text">登录</string>
+    <string name="login_help_text">忘记密码</string>
+    <string name="login_register_text">用户注册</string>
+    <string name="resetting_pwd_text">重置密码</string>
+    <string name="resetting_pwd_fail">重置密码失败</string>
+
+    <string name="register_btn_text">注册</string>
+    <string name="register_fail">注册失败，</string>
+    <string name="register_success">注册成功</string>
+
+    <string name="getcode_text">获取验证码</string>
+    <string name="submit_text">提交</string>
+    <string name="next_step_text">下一步</string>
+
+    <string name="toast_mob_submit_success_hint">提交验证码成功</string>
+    <string name="toast_mob_get_success_hint">获取验证码成功</string>
+    <string name="toast_mob_error_hint">验证码错误或已过期</string>
+    <string name="toast_permission_hint">权限被拒</string>
+    <string name="toast_main_back_hint">再按一次返回键退出程序</string>
+
+    <string name="user_personal_text">个人报告</string>
+    <string name="user_platform_text">平台报告</string>
+    <string name="system_message_text">系统消息</string>
+    <string name="mine_order_text">我的订单</string>
+    <string name="mine_account_text">我的账户</string>
+    <string name="order_notice_text">视频预约须知</string>
+    <string name="order_picture_text">图文咨询须知</string>
+
+    <string name="title_consult_text">咨询消息</string>
+    <string name="title_search_doctor_text">找医生</string>
+    <string name="title_health_report_text">健康档案</string>
+    <string name="mine_doctor_text">我的医生</string>
+    <string name="recommend_doctor_text">推荐医生</string>
+
+    <string name="faile">失败</string>
+    <string name="success">成功</string>
+    <string name="quit">退出</string>
+    <string name="roomname_not_empty">房间号不能为空</string>
+    <string name="vcard">名片</string>
+    <string name="guide_start">进入医星汇</string>
+    <string name="video_order">视频</string>
+    <string name="picture_consult">图文</string>
+    <string name="picture_consult_btn">图文咨询</string>
+    <string name="video_consult">视频咨询</string>
+    <string name="video_consult_btn">视频问诊</string>
+
+    <string name="help_text">使用帮助</string>
+    <string name="call_center_text">联系客服</string>
+    <string name="setting_text">设置</string>
+    <string name="about_text">关于</string>
+    <string name="about_us_text">关于我们</string>
+    <string name="get_hospital_fail_text">获取医院失败</string>
+    <string name="get_department_fail_text">获取科室失败</string>
+    <string name="get_doctor_fail_text">获取医生失败</string>
+    <string name="search_doctor_fail_text">搜索失败，请重试</string>
+    <string name="get_ad_fail_text">获取广告失败</string>
+    <string name="search_doctor_hint">搜索医生、科室</string>
+    <string name="search_doctor_result">查询结果</string>
+    <string name="new_message_remind">新消息提醒</string>
+    <string name="modify_password">修改密码</string>
+    <string name="modify_user_password">修改用户密码</string>
+    <string name="modify_pay_password">修改支付密码</string>
+    <string name="modify_password_fail">修改密码失败</string>
+    <string name="logout">退出登录</string>
+    <string name="all_order">全部</string>
+    <string name="wait_pay_order">待付款</string>
+    <string name="complete_order">已完成</string>
+    <string name="no_complete_order">未完成</string>
+    <string name="refund_order">退款</string>
+    <string name="doctor_detail">医生详情</string>
+    <string name="user_icon">头像</string>
+    <string name="user_nick_name">昵称</string>
+    <string name="user_sex">性别</string>
+    <string name="user_age">年龄</string>
+    <string name="user_birthday">生日</string>
+    <string name="user_account">账户</string>
+    <string name="user_synopsis">个人简介</string>
+    <string name="user_info">个人资料</string>
+    <string name="user_agreement">用户协议</string>
+    <string name="edit_user_info">编辑个人资料</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="complete">完成</string>
+    <string name="detail">收支明细</string>
+    <string name="edition_code">版本号：</string>
+    <string name="technical_support">技术支持：成都树莓科技有限公司</string>
+    <string name="android_patient_download">用户端下载</string>
+    <string name="android_doctor_download">医生端下载</string>
+    <string name="recommend">推荐给好友扫一扫</string>
+    <string name="old_password">请输入密码</string>
+    <string name="new_password">请输入新密码</string>
+    <string name="different_password">请输入不同的密码</string>
+    <string name="see_details">查看详情</string>
+    <string name="balance">当前余额（元）</string>
+    <string name="add_alipay_account">添加支付宝账户</string>
+    <string name="add_homegroup_member">添加家庭组成员</string>
+    <string name="see_homegroup_member">查看家庭组成员</string>
+    <string name="frequently_asked_questions">常见问题</string>
+    <string name="recharge">充值</string>
+    <string name="recharge_title">在线充值</string>
+    <string name="recharge_btn">确认充值</string>
+    <string name="recharge_succeed">充值成功!</string>
+    <string name="recharge_succeed_hint">充值金额会在2小时内到账，请及时查看</string>
+    <string name="recharge_failed">充值失败</string>
+    <string name="setting_pay_password">设置支付密码</string>
+    <string name="setting_security_question">设置密保问题</string>
+    <string name="continue_recharge">继续充值</string>
+    <string name="video_consultation">视频会诊</string>
+    <string name="search_doctor_isempty_hint">请输入医生、科室等</string>
+    <string name="search_doctor_result_isempty_hint">未找到医生，请再试一次~</string>
+    <string name="data_error">数据异常</string>
+    <string name="get_help_msg_fail_text">获取帮助信息失败，请重试</string>
+    <string name="hospital_text">医院</string>
+    <string name="department_text">科室</string>
+    <string name="more_department_text">更多科室</string>
+    <string name="excel_text">擅长</string>
+    <string name="introduce_text">简介</string>
+    <string name="get_userinfo_fail_text">获取用户信息失败</string>
+    <string name="modify_userinfo_fail_text">修改用户信息失败，请稍后重试</string>
+    <string name="user_account_number">账号</string>
+    <string name="user_height">身高</string>
+    <string name="user_weight">体重</string>
+    <string name="user_blood">血型</string>
+    <string name="user_age_unit">岁</string>
+    <string name="user_height_unit">cm</string>
+    <string name="user_weight_unit">kg</string>
+    <string name="not_camera">没有相机</string>
+    <string name="upload_file_failed">上传文件失败</string>
+    <string name="order_number">订单编号:</string>
+    <string name="order_price">订单金额:</string>
+    <string name="get_order_failed">获取订单失败</string>
+    <string name="order_status">订单状态</string>
+    <string name="order_doctor">预约医生</string>
+    <string name="order_time">预约时间</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_info">订单信息</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="order_create_time">订单时间:</string>
+    <string name="no_order_text">您还没有订单哦~</string>
+    <string name="sure_pat">确认支付</string>
+    <string name="apply_for_refund">申请退款</string>
+    <string name="get_account_detail_failed">获取账户信息失败</string>
+    <string name="qrcode_hint_text">扫描上面的二维码图案，关注我</string>
+    <string name="mine_home_group">我的家庭组</string>
+    <string name="mine_home_group_master">我的户主</string>
+    <string name="home_group_check">家庭组验证</string>
+    <string name="home_group_member">家庭组成员</string>
+    <string name="add_home_group_member">添加家庭组成员</string>
+    <string name="balance_detail">收支明细</string>
+    <string name="get_balance_detail_failed">获取收支明细失败</string>
+    <string name="get_home_group_failed">获取家庭组失败</string>
+    <string name="add_home_group_member_failed">添加家庭组成员失败</string>
+    <string name="no_balance_detail">暂无记录~</string>
+    <string name="agree">同意</string>
+    <string name="disagree">拒绝</string>
+    <string name="network_anomaly">网络异常，请检查网络或重试!</string>
+    <string name="add">添加</string>
+    <string name="upload_health_physical">上传体检报告</string>
+    <string name="upload_health_history">上传病历报告</string>
+    <string name="health_report_detail">详情</string>
+    <string name="write_ask_questins">填写问诊表</string>
+    <string name="retrieve_pay_password">找回支付密码</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="start_audio_recorder">开始录音</string>
+    <string name="again_input_password">请再次输入新密码</string>
+    <string name="input_old_password">请输入旧密码</string>
+    <string name="delete">删除</string>
+
+    <string name="department_1_text">呼吸内科</string>
+    <string name="department_2_text">神经内科</string>
+    <string name="department_3_text">骨科</string>
+    <string name="department_4_text">耳鼻喉科</string>
+    <string name="department_5_text">本地医生</string>
+    <string name="department_6_text">消化内科</string>
+    <string name="department_7_text">外科</string>
+    <string name="department_8_text">心内科</string>
+    <string name="department_9_text">全部科室</string>
+
+    <string name="message_detail">消息详情</string>
+
+    <string name="notifiaction_recharge_success">尊敬的用户，您于%1$s已成功充值%2$s元。</string>
+    <string name="notifiaction_pay_success">尊敬的用户，您于%1$s在医星汇上预约了“%2$s”服务，已成功支付%3$s元。</string>
+    <string name="notifiaction_household_head_pay_success">%1$s于%2$s在医星汇上预约了“%3$s”服务，已用家庭组余额成功支付%4$s元。</string>
+    <string name="notifiaction_household_pay_success">您于%1$s使用了家庭组支付“%2$s”服务，支付金额为%3$s元。</string>
+    <string name="notifiaction_add_member_success">尊敬的用户，您好，%1$s于%2$s将您添加至他的家庭组账户。</string>
+    <string name="notifiaction_quit_household_success">尊敬的用户，您好，%1$s于%2$s退出了您的家庭组账户。</string>
+    <string name="notifiaction_delete_member_success">尊敬的用户，您好，%1$s于%2$s将您移出了他的家庭组账户。</string>
+    <string name="notifiaction_cancel_order_success">
+        尊敬的用户，您好，%1$s医生于%2$s取消了您在%3$s时间段的“%4$s”的订单，您可以申请退款或者重新预约，给您带来的不便敬请谅解。
+    </string>
+    <string name="notifiaction_expire_order_success">
+        尊敬的用户，您好，您预约的%1$s的“%2$s”服务因医生业务繁忙等原因暂未处理，您可以申请退款或者重新预约，因此给您带来的不便敬请谅解。
+    </string>
+    <string name="notifiaction_group_sitdiagnose_order_success">
+        尊敬的用户，您好，%1$s医生为您邀请了%2$s医生参与视频会诊，请到“我的订单”确认并尽快完成支付。
+    </string>
+
+    <string name="update_apk">有新版本啦！</string>
+
+</resources>

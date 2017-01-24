@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bar_select_style"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_size_10_dp"
+        android:textSize="@dimen/text_size_12_sp"/>
+
+    <ImageView
+        android:id="@+id/content_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@color/green_d2d2d2"/>
+
+</LinearLayout>

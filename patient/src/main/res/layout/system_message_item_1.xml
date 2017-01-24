@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/system_message_item_ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/system_message_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_size_10_dp"
+        android:layout_marginTop="@dimen/margin_size_10_dp"
+        android:background="@drawable/shape_green_d2d2d2"
+        android:padding="@dimen/margin_size_10_dp"
+        android:text="2016-11-03 16:26"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_10_sp"
+        android:visibility="visible"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <cn.bingoogolapple.badgeview.BGABadgeImageView
+            android:id="@+id/system_message_icon_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_size_14_dp"
+            android:layout_marginRight="@dimen/margin_size_10_dp"
+            android:src="@drawable/personalcenter_message_headportrait"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size_14_dp"
+            android:layout_toRightOf="@+id/system_message_icon_iv"
+            android:layout_weight="1"
+            android:background="@drawable/shape_white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/system_message_description_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_size_10_dp"
+                    android:layout_weight="1"
+                    android:clickable="false"
+                    android:lines="1"
+                    android:text="bbb"
+                    android:textColor="@color/black_231815"
+                    android:textSize="@dimen/text_size_16_sp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:src="@color/green_d2d2d2"/>
+
+                <TextView
+                    android:id="@+id/system_message_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_size_10_dp"
+                    android:text="aaa\n2\n3\n4"
+                    android:textColor="@color/gray_888888"
+                    android:textSize="@dimen/text_size_14_sp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

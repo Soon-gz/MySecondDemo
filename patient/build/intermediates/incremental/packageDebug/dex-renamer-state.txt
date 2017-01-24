@@ -1,0 +1,7 @@
+#Fri Dec 30 10:55:45 CST 2016
+base.0=D\:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+base.1=D\:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+file.0=D\:\\chengduzhishu\\Android\\trunk\\SHKJS\\patient\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes2.dex

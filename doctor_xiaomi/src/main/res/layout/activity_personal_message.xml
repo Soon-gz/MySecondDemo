@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.shkjs.doctor.activity.PersonalMessageActivity">
+
+    <include layout="@layout/top_title_rv_layout"/>
+
+    <TextView
+        android:id="@+id/personal_msg_certificating_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black_20p"
+        android:text="您提交的资料正在审核中,请耐心等待！"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_13_sp"
+        android:paddingLeft="@dimen/margin_size_14_dp"
+        android:paddingTop="@dimen/margin_size_4_dp"
+        android:paddingBottom="@dimen/margin_size_4_dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        />
+
+    <RelativeLayout
+        android:id="@+id/personal_msg_headview_rl"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="@dimen/margin_size_60_dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_size_20_dp"
+            android:textSize="@dimen/text_size_16_sp"
+            android:text="头像"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/personal_msg_headview_iv"
+            android:layout_width="@dimen/margin_size_50_dp"
+            android:layout_height="@dimen/margin_size_50_dp"
+            app:civ_fill_color="@color/black"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/margin_size_20_dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/main_message_headportrait"/>
+    </RelativeLayout>
+
+    <include layout="@layout/personal_sharexml_layout"/>
+
+    <RelativeLayout
+        android:id="@+id/personal_msg_renzheng_rl"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/margin_size_16_dp"
+        android:layout_height="@dimen/margin_size_43_dp"
+        >
+        <TextView
+            android:id="@+id/personal_msg_doctor_certification_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_size_16_sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/margin_size_12_dp"
+            android:text="医生认证"/>
+        <TextView
+            android:id="@+id/personal_msg_renzheng_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/red"
+            android:layout_marginRight="@dimen/margin_size_20_dp"
+            android:text="已认证"/>
+        </RelativeLayout>
+    <Button
+        android:id="@+id/personal_msg_next_tv"
+        android:textColor="@color/white"
+        android:text="下一步"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_size_20_dp"
+        android:padding="@dimen/margin_size_10_dp"
+        android:background="@drawable/shap_personal_next"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        />
+
+</LinearLayout>

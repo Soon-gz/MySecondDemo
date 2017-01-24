@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutAll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shkjs.doctor.activity.CreateAVActivity">
+
+    <include layout="@layout/top_title_rv_layout" />
+
+    <LinearLayout
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_55_dp"
+        android:gravity="center_vertical"
+        android:padding="@dimen/margin_size_10_dp">
+
+        <Button
+            android:id="@+id/create_avchart_addpatient_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shape_sure"
+            android:gravity="center"
+            android:padding="@dimen/margin_size_6_dp"
+            android:text="添加患者"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_40_dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/groupconsultation_arrow" />
+
+        <Button
+            android:id="@+id/create_avchart_adddoctor_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="@drawable/shap_personal_next"
+            android:gravity="center"
+            android:text="邀请专家" />
+
+        <ImageView
+            android:layout_width="@dimen/margin_size_40_dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/groupconsultation_arrow" />
+
+        <Button
+            android:id="@+id/create_avchart_settime_tv"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/shap_personal_next"
+            android:gravity="center"
+            android:text="设定时间" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/create_avchart_addpatient_allfl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white">
+        <!-- 添加患者 -->
+        <include layout="@layout/create_avchart_addpatient_layout" />
+        <!-- 添加患者的最终结果 -->
+        <include layout="@layout/item_create_avchart_result" />
+        <!-- 添加医生-->
+        <include
+            layout="@layout/create_avchart_adddoctor_layout"
+            android:visibility="gone" />
+        <!-- 设定时间-->
+        <include
+            layout="@layout/item_create_avchart_settime"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/white"
+        android:id="@+id/create_avchart_up_next_fl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_size_40_dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/create_avchart_addpatient_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color_blue_0888ff"
+            android:gravity="center"
+            android:padding="@dimen/margin_size_10_dp"
+            android:text="@string/next_step_text"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/create_avchart_adddoctor_ll"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_40_dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/create_avchart_adddoctor_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_blue_0888ff"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_10_dp"
+                android:text="@string/up_step_text"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/create_avchart_adddoctor_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/green_4DC0A4"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_10_dp"
+                android:text="@string/next_step_text"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_size_40_dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/create_avchart_adddoctor_finish_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/color_blue_0888ff"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_10_dp"
+                android:text="@string/up_step_text"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/create_avchart_addpatient_finish"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/green_4DC0A4"
+                android:gravity="center"
+                android:padding="@dimen/margin_size_10_dp"
+                android:text="@string/finish_step_text"
+                android:textColor="@color/white"
+                android:visibility="visible" />
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
